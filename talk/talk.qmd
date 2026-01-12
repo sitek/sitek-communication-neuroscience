@@ -1118,14 +1118,14 @@ Speech as a biomarker for basal ganglia learning capacity
 :::
 
 
-## Hearing out own speech: *Where* are motor signals integrated in auditory cortex?
+## Hearing our own speech: *Where* are motor signals integrated in auditory cortex?
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 ::: {.incremental}
-- Previous literature implicates auditory cortex as a hub for auditory–motor integration
-- But fMRI has shown *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG responses
+- Auditory cortex is a hub for motor integration
+- But fMRI has shown *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
 - Are different **laminar** responses the explanation? 
 
 #### We can look at intra-cortical circuits with ultra-high field **7T fMRI** {.fragment}
@@ -1135,7 +1135,9 @@ Speech as a biomarker for basal ganglia learning capacity
 
 ::: {.column width="50%"}
 
-![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="250"}
+![Okada, Matchin, & Hickok (2018)](images/Matchin_artic-gt-imag_right.png){fig-align="center" height="150"}
+
+![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
 
 :::
 ::::
@@ -1148,13 +1150,13 @@ Speaker notes go here.
 :::
 
 
-## Hearing out own speech: *Where* are motor signals integrated in auditory cortex? {visibility="uncounted"}
+## Hearing our own speech: *Where* are motor signals integrated in auditory cortex? {visibility="uncounted"}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-- Previous literature implicates auditory cortex as a hub for auditory–motor integration
-- But fMRI has shown *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG responses
+- Auditory cortex is a hub for motor integration
+- But fMRI has shown *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
 - Are different **laminar** responses the explanation? 
 
 #### We can look at intra-cortical circuits with ultra-high field **7T fMRI**
@@ -1169,7 +1171,9 @@ Speaker notes go here.
 
 ::: {.column width="50%"}
 
-![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="250"}
+![Okada, Matchin, & Hickok (2018)](images/Matchin_artic-gt-imag_right.png){fig-align="center" height="150"}
+
+![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
 
 ![Sitek et al. (OHBM 2025)](images/selfgen.png){height="250"}
 :::
@@ -1208,14 +1212,14 @@ Speaker notes go here.
 :::
 
 ::: {.column}
-![Chandana Kodiweera, Ph.D. - Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center" .fragment}
+![Chandana Kodiweera, Ph.D. - Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
 :::
 
 ::::
 
 
 ::: aside
-Medina et al. (submitted preprint; Medina, ..., Sitek, in prep.)
+Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
 
 :::
 
@@ -1260,7 +1264,7 @@ so that we can reliably identify auditory midbrain and thalamus.
 ::::
 
 ::: aside
-Medina et al. (submitted preprint; Medina, ..., Sitek, in prep.)
+Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
 
 :::
 
@@ -1291,7 +1295,7 @@ Medina et al. (submitted preprint; Medina, ..., Sitek, in prep.)
 ::::
 
 ::: aside
-Medina et al. (submitted preprint; Medina, ..., Sitek, in prep.)
+Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
 
 :::
 
@@ -1318,7 +1322,7 @@ Medina et al. (submitted preprint; Medina, ..., Sitek, in prep.)
 ::::
 
 ::: aside
-Medina et al. (submitted preprint; Medina, ..., Sitek, in prep.)
+Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
 
 :::
 
@@ -1443,6 +1447,10 @@ Xu et al. (ISMRM 2025); Xu, ..., S. Bollmann*, Sitek* (in prep.)
 Video: 1920x1088
 :::
 
+## How is the brainstem supplied oxygen? {visibility="uncounted"}
+{{< video images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4  width="1920" height="1088" >}}
+
+
 
 ## Finger motor representation in the human brain {visibility="uncounted"}
 
@@ -1558,7 +1566,7 @@ SSP
 ![](images/Medina2025/Medina_Figure1.png){.fragment fig-align="center" height=900}
 
 ::: aside
-Medina et al. (submitted preprint)
+Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
 :::
 
 ::: {.notes}
