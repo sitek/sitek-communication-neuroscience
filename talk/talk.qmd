@@ -387,7 +387,7 @@ Participants listened to 168 natural sounds (1 s long) coming from seven categor
 ## *Where* are the auditory structures: Three public atlases 
 
 ::: {.r-stack}
-{{< video images/SitekGulban2019/elife-48932-fig9-video1.mp4 >}}
+{{< video images/SitekGulban2019/elife-48932-fig9-video1.mp4 width="1278" height="568">}}
 
 ![](images/SitekGulban2019/fig_MNI-videos_bigbrain_postmortem_invivo_statmap_invivo_overlap.png){.fragment fig-align="center"}
 :::
@@ -430,18 +430,19 @@ Speaker notes go here.
 
 ## How are the auditory structures connected **anatomically**?
 
-::: {.incremental}
-
-::: {layout-ncol=2}
-
-::: {.r-stack}
-{{< video images/SitekGulban2019/elife-48932-fig3-video1.mp4 width="600%" height="600%" >}}
-
-![Post mortem](images/SitekGulban2019/fig_postmortem_streamlines_kevin_v2_faruk_v1_May31.png){fig-align="center" height=777 .fragment} 
+:::: {columns}
+::: {.column .fragment}
+#### Post mortem
+{{< video images/SitekGulban2019/elife-48932-fig3-video1.mp4 width="922" height="720" >}}
 :::
 
+::: {.column .fragment}
+#### In vivo
+{{< video images/SitekGulban2019/elife-48932-fig6-video1.mp4 width="922" height="720" >}}
+
 :::
-:::
+::::
+
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
@@ -450,31 +451,8 @@ Sitek et al. (2022 *Frontiers Neuro*)
 :::
 
 ::: {.notes}
-Speaker notes go here.
-:::
-
-## How are the auditory structures connected **anatomically**?
-
-
-::: {layout-ncol=2}
-
 ![Post mortem](images/SitekGulban2019/fig_postmortem_streamlines_kevin_v2_faruk_v1_May31.png){fig-align="center" height=777} 
-
-::: {.r-stack}
-{{< video images/SitekGulban2019/elife-48932-fig6-video1.mp4 width="600%" height="600%" >}}
-
 ![In vivo](images/SitekGulban2019/fig_invivo_diffusion_schematic_heatmap+schematic_16May.png){fig-align="center" height=777 .fragment}
-:::
-:::
-![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-
-::: aside
-Sitek and Gulban et al. (2019 *eLife*); 
-Sitek et al. (2022 *Frontiers Neuro*)
-:::
-
-::: {.notes}
-Speaker notes go here.
 :::
 
 ## How are the auditory structures connected **functionally**?{.smaller}
@@ -1450,9 +1428,9 @@ Speaker notes go here.
 ::: {layout="[40,20,40]"  layout-valign="center" }
 ![Vessel ink staining (Duvernoy 1978)](images/Xu2025/vasculature_Duvernoy.png){height="750"}
 
-![T2*-w MRI maximum intensity projection](images/Xu2025/vasculature_MIP.png){height="750"}
+![T2*-w MRI max. intensity projection](images/Xu2025/vasculature_MIP.png){height="750"}
 
-{{< video images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4  >}}
+{{< video images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4  width="800%" height="500%" >}}
 :::
 
 ![](images/people/MarshallXu.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
@@ -1462,7 +1440,7 @@ Xu et al. (ISMRM 2025); Xu, ..., S. Bollmann*, Sitek* (in prep.)
 :::
 
 ::: {.notes}
-Speaker notes go here.
+Video: 1920x1088
 :::
 
 

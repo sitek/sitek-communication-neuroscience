@@ -60,7 +60,7 @@
     "href": "talk.html#in-vivo-functional-mri-mapping",
     "title": "Imaging the neural systems underlying human communication",
     "section": "In vivo functional MRI mapping",
-    "text": "In vivo functional MRI mapping\n\n\n7 Tesla functional MRI (1.1 mm voxels)\n\n168 natural sounds (1 s each): speech, voice, nature, tools, music, animals and monkey calls\nSound &gt; baseline contrast\n10 healthy participants\n2 hours per session\nCollected over 2 sessions\n\n\n\n\n\n\n\n\n\n\n\nParticipants listened to 168 natural sounds (1 s long) coming from seven categories (speech, voice, nature, tools, music, animals and monkey calls) presented in silent gaps in between the acquisition of functional volumes and were asked to press a button every time the same sound was repeated. The experimental paradigm followed a rapid-eventrelated design in which sounds were presented with a mean inter stimulus interval of four volumes (minimum three maximum five volumes). The two sessions were identical and each session consisted of twelve functional runs and across the 12 runs each sound was presented three times (i.e. each sounds was presented six times across the two sessions). The 168 sounds were divided in four sets of 42 sounds, each set was presented in three (non consecutive) runs. As a result, the 12 functional runs of each session formed four cross validation sets each one consisting of nine training runs and three testing runs (i.e. 126 training and 42 testing sounds). Note that the testing runs were non overlapping across the cross validations. Catch trials (i.e. sound repetitions) were added to each run, and were excluded from all analyses.\n\n\nSitek* and Gulban* et al. (2019 eLife)"
+    "text": "In vivo functional MRI mapping\n\n\n7 Tesla functional MRI (1.1 mm voxels)\n\n168 natural sounds (1 s each): speech, voice, nature, tools, music, animals and monkey calls\nSound &gt; baseline contrast\n10 healthy participants\n2 hours per session\nCollected over 2 sessions\n\n\n\n\n\n\n\n\n\n\n\nParticipants listened to 168 natural sounds (1 s long) coming from seven categories (speech, voice, nature, tools, music, animals and monkey calls) presented in silent gaps in between the acquisition of functional volumes and were asked to press a button every time the same sound was repeated. The experimental paradigm followed a rapid-eventrelated design in which sounds were presented with a mean inter stimulus interval of four volumes (minimum three maximum five volumes). The two sessions were identical and each session consisted of twelve functional runs and across the 12 runs each sound was presented three times (i.e. each sounds was presented six times across the two sessions). The 168 sounds were divided in four sets of 42 sounds, each set was presented in three (non consecutive) runs. As a result, the 12 functional runs of each session formed four cross validation sets each one consisting of nine training runs and three testing runs (i.e. 126 training and 42 testing sounds). Note that the testing runs were non overlapping across the cross validations. Catch trials (i.e. sound repetitions) were added to each run, and were excluded from all analyses.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
   {
     "objectID": "talk.html#where-are-the-auditory-structures-public-atlases-from-three-sources",
@@ -81,14 +81,14 @@
     "href": "talk.html#how-are-the-auditory-structures-connected-anatomically",
     "title": "Imaging the neural systems underlying human communication",
     "section": "How are the auditory structures connected anatomically?",
-    "text": "How are the auditory structures connected anatomically?\n\n\n\n\n\n\n\n\nPost mortem\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek* and Gulban* et al. (2019 eLife); Sitek et al. (2022 Frontiers Neuro)"
+    "text": "How are the auditory structures connected anatomically?\n\n\nPost mortem\n\n\nIn vivo\n\n\n\n\n\n \n\n\nSitek and Gulban et al. (2019 eLife); Sitek et al. (2022 Frontiers Neuro)"
   },
   {
     "objectID": "talk.html#how-are-the-auditory-structures-connected-anatomically-1",
     "href": "talk.html#how-are-the-auditory-structures-connected-anatomically-1",
     "title": "Imaging the neural systems underlying human communication",
     "section": "How are the auditory structures connected anatomically?",
-    "text": "How are the auditory structures connected anatomically?\n\n\n\n\n\n\nPost mortem\n\n\n\n\n\n\n\n\n\nIn vivo\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek* and Gulban* et al. (2019 eLife); Sitek et al. (2022 Frontiers Neuro)"
+    "text": "How are the auditory structures connected anatomically?\n\n\nPost mortem\n\n\nIn vivo\n\n\n\n\n\n \n\n\nSitek and Gulban et al. (2019 eLife); Sitek et al. (2022 Frontiers Neuro)"
   },
   {
     "objectID": "talk.html#how-are-the-auditory-structures-connected-functionally",
@@ -109,7 +109,7 @@
     "href": "talk.html#how-is-the-brainstem-supplied-oxygen",
     "title": "Imaging the neural systems underlying human communication",
     "section": "How is the brainstem supplied oxygen?",
-    "text": "How is the brainstem supplied oxygen?\n\n\n\n\n\n\n\nVessel ink staining (Duvernoy 1978)\n\n\n\n\n\n\n\nT2*-w MRI maximum intensity projection\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nXu et al. (ISMRM 2025); Xu, …, S. Bollmann, Sitek (in prep.)"
+    "text": "How is the brainstem supplied oxygen?\n\n\n\n\n\n\n\nVessel ink staining (Duvernoy 1978)\n\n\n\n\n\n\n\nT2*-w MRI max. intensity projection\n\n\n\n\n\n\n\n\n\n\n\nVideo: 1920x1088\n\n\nXu et al. (ISMRM 2025); Xu, …, S. Bollmann, Sitek (in prep.)"
   },
   {
     "objectID": "talk.html#how-is-the-brainstem-supplied-oxygen-1",
@@ -487,7 +487,7 @@
     "href": "talk.html#where-are-the-auditory-structures-three-public-atlases",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Where are the auditory structures: Three public atlases",
-    "text": "Where are the auditory structures: Three public atlases\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek* and Gulban* et al. (2019 eLife)"
+    "text": "Where are the auditory structures: Three public atlases\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
   {
     "objectID": "talk.html#anatomical-connectivity-mapping",
@@ -550,14 +550,14 @@
     "href": "talk.html#post-mortem-anatomical-localization",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Post mortem anatomical localization",
-    "text": "Post mortem anatomical localization\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek* and Gulban* et al. (2019 eLife)"
+    "text": "Post mortem anatomical localization\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
   {
     "objectID": "talk.html#d-subcortical-atlases",
     "href": "talk.html#d-subcortical-atlases",
     "title": "Imaging the neural systems underlying human communication",
     "section": "3D subcortical atlases",
-    "text": "3D subcortical atlases\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek* and Gulban* et al. (2019 eLife)"
+    "text": "3D subcortical atlases\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
   {
     "objectID": "talk.html#first-steps-linguistics-and-cognitive-science-at-uc-berkeley",
@@ -921,6 +921,6 @@
     "href": "talk.html#research-contributions-to-communication-neuroscience",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Research contributions to communication neuroscience",
-    "text": "Research contributions to communication neuroscience\n\n\nMapping the human subcortical auditory system\n\nAnatomy (Sitek & Gulban et al., 2019)\nFunction (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)\nStructural and functional connectivity (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra* & Sitek* et al., 2024)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann, Sitek, in prep.)\n\n\nBehavior of the human auditory system\n\nAuditory categorization in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)\nAuditory–motor interactions across the auditory pathway (Butler, …, Sitek, in prep.)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906."
+    "text": "Research contributions to communication neuroscience\n\n\nMapping the human subcortical auditory system\n\nAnatomy (Sitek & Gulban et al., 2019)\nFunction (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)\nStructural and functional connectivity (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra* & Sitek* et al., 2024)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann, Sitek, in prep.)\n\n\nBehavior of the human auditory system\n\nAuditory categorization in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)\nAuditory–motor interactions across the auditory pathway (Butler, …, Sitek, in prep.)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906 and was previously supported by F31-DC015695."
   }
 ]
