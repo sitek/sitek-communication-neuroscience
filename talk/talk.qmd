@@ -2,7 +2,7 @@
 title: "Imaging the neural systems underlying human communication" 
 author: "Kevin R. Sitek, Ph.D."
 institute: Northwestern University
-date: January 13, 2025
+date: January 14, 2025
 
 title-slide-attributes:
     data-background-image: /images/KevinSitek_postmortem-human-brainstem_auditory-tractography.png
@@ -20,8 +20,6 @@ format:
     height: 1080
     width: 1920
 ---
-
-# A systems-level approach to human speech neuroscience
 
 ## A systems-level approach to human speech neuroscience {visibility="uncounted" .unlisted}
 ![](images/Sitek_overview/Slide1.png){fig-align="center" height='900' .fragment}
@@ -42,52 +40,51 @@ Established collaborations:
 
 # My path to speech, hearing, and the brain 
 
-## First steps: Linguistics and Cognitive Science Undergraduate at UC Berkeley
-![](images/Sitek_academic-bio/Slide1.png){fig-align="center" height='900'}
-
 ## First steps: Linguistics and Cognitive Science Undergraduate at UC Berkeley {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide2.png){fig-align="center" height='900'}
 
 ::: aside
-Sitek  & Johnson(2012 Chicago Linguistic Society). "Ipsilateral and contralateral phonetic context effects". 
+Sitek  & Johnson (2012 Chicago Linguistic Society). "Ipsilateral and contralateral phonetic context effects". 
 :::
 
 ## Brain imaging research assistant at UCSF/San Francisco VA Medical Center {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide3.png){fig-align="center" height='900'}
 
 ::: aside
-Sitek et al. (2016). "Auditory cortex processes variation in our own speech". 
+Sitek et al. (2013). "Auditory cortex processes variation in our own speech". 
 :::
 
 ## PhD in Speech and Hearing Bioscience and Technology at Harvard/MIT {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide4.png){fig-align="center" height='900'}
 
 ::: aside
-Sitek* and Gulban* et al. (2019). "Mapping the human subcortical auditory system". 
+**NRSA F31** (2016–2018); Sitek et al. (2016), Connectivity and **stuttering** severity; Sitek and Gulban et al. (2019), "Mapping the human **subcortical auditory system**". 
 :::
 
 ## Postdoctoral research in Neuroscience at Baylor College of Medicine {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide5.png){fig-align="center" height='900'}
 
 ::: aside
-Ultra-high field functional MRI of the human midbrain 
+Ultra-high field 9.4 Tesla functional MRI of the human midbrain 
 :::
 
 ## Research Scientist in Communication Science and Disorders at the University of Pittsburgh {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide6.png){fig-align="center" height='900'}
 
 ::: aside
-K01 (2022–2027); Sitek et al. (2022) "Structural connectivity of human inferior colliculus subdivisions..." 
+**NIH K01** (2022–2027); Sitek et al. (2022) "Structural connectivity of human inferior colliculus subdivisions..." 
 :::
 
 ## Now: Research Assistant Professor at Northwestern University {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide7.png){fig-align="center" height='900'}
 
 ::: aside
-R21 (2025–2028); Sitek et al. (in re-review); Butler, ..., Sitek (in prep.) 
+**NIH R21** (2025–2028); auditory learning and auditory–motor interactions 
 :::
 
 ## Widening perspectives and expanding opportunities through teaching and mentorship
+
+## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="uncounted"}
 
 ![](images/Sitek_teaching/Slide1.png){fig-align="center"}
 
@@ -113,7 +110,7 @@ R21 (2025–2028); Sitek et al. (in re-review); Butler, ..., Sitek (in prep.)
 As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
 :::
 
-## Widening perspectives and expanding opportunities through teaching and mentorship
+## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="uncounted"}
 
 ![](images/Sitek_teaching/Slide2.png){fig-align="center"}
 
@@ -139,7 +136,7 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
 :::
 
-## Widening perspectives and expanding opportunities through teaching and mentorship
+## Widening perspectives and expanding opportunities through teaching and mentorship  {visibility="uncounted"}
 
 ![](images/Sitek_teaching/Slide3.png){fig-align="center"}
 
@@ -165,7 +162,7 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
 :::
 
-## Widening perspectives and expanding opportunities through teaching and mentorship
+## Widening perspectives and expanding opportunities through teaching and mentorship  {visibility="uncounted"}
 
 ![](images/Sitek_teaching/Slide4.png){fig-align="center"}
 
@@ -191,12 +188,7 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
 :::
 
-# Research contributions: Auditory circuits throughout the human brain
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Auditory circuits throughout the human brain
+## Research contributions to communication neuroscience
 
 :::: {.columns}
 
@@ -205,7 +197,7 @@ Speaker notes go here.
 - **Anatomy** (Sitek & Gulban et al., 2019)
 - **Function** (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)
 - **Structural and functional connectivity** (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra* & Sitek* et al., 2024)
-- **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., Sitek, in prep.)
+- **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann*, Sitek*, in prep.)
 :::
 ::: {.column .fragment}
 ### Behavior of the human auditory system
@@ -217,13 +209,18 @@ Speaker notes go here.
 ::::
 
 ::: aside
-This work is actively supported by K01-DC019421 and R21-DC022906.
+This work is actively supported by K01-DC019421 and R21-DC022906 and was previously supported by F31-DC015695.
 :::
 
 ::: {.notes}
 Speaker notes go here.
 :::
 
+
+# Research contributions: Auditory circuits throughout the human brain
+::: {.notes}
+Speaker notes go here.
+:::
 
 ## What's special about the auditory system?
 
@@ -335,7 +332,7 @@ Speaker notes go here.
 :::
 
 ::: aside
-Sitek* and Gulban* et al. (2019 *eLife*)
+Sitek and Gulban et al. (2019 *eLife*)
 :::
 
 ::: {.notes}
@@ -355,7 +352,7 @@ Speaker notes go here.
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
-Sitek* and Gulban* et al. (2019 *eLife*)
+Sitek and Gulban et al. (2019 *eLife*)
 :::
 
 ::: {.notes}
@@ -380,7 +377,7 @@ Speaker notes go here.
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
-Sitek* and Gulban* et al. (2019 *eLife*)
+Sitek and Gulban et al. (2019 *eLife*)
 :::
 
 ::: {.notes}
@@ -398,7 +395,7 @@ Participants listened to 168 natural sounds (1 s long) coming from seven categor
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
-Sitek* and Gulban* et al. (2019 *eLife*)
+Sitek and Gulban et al. (2019 *eLife*)
 :::
 
 ::: {.notes}
@@ -448,7 +445,7 @@ Speaker notes go here.
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
-Sitek* and Gulban* et al. (2019 *eLife*); 
+Sitek and Gulban et al. (2019 *eLife*); 
 Sitek et al. (2022 *Frontiers Neuro*)
 :::
 
@@ -472,7 +469,7 @@ Speaker notes go here.
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
-Sitek* and Gulban* et al. (2019 *eLife*); 
+Sitek and Gulban et al. (2019 *eLife*); 
 Sitek et al. (2022 *Frontiers Neuro*)
 :::
 
@@ -482,7 +479,7 @@ Speaker notes go here.
 
 ## How are the auditory structures connected **functionally**?{.smaller}
 
-#### Extracting the *pathway* (partial correlations) from the *network* (simple correlations)
+#### Extracting the *pathway* (partial correlations) from the *network* (simple correlations) {.fragment}
 
 
 :::: {columns}
@@ -510,7 +507,7 @@ Chandra* and Sitek* et al. (2024 *Imaging Neuro*)
 Speaker notes go here.
 :::
 
-## How are the auditory structures connected **functionally**?{.smaller}
+## How are the auditory structures connected **functionally**?{.smaller visibility="uncounted"}
 
 #### Extracting the *pathway* (partial correlations) from the *network* (simple correlations)
 
@@ -592,6 +589,7 @@ Speaker notes go here.
 ![Sitek et al. (in revision)](images/Sitek2025_categorization/Sitek_tractography_streamlines.png){fig-align="center" height="800" .fragment}
 
 ::: aside
+Human Connectome Project 7T diffusion-weighted MRI dataset (n = 100)
 :::
 
 ::: {.notes}
@@ -770,18 +768,20 @@ Sound responses: everything significant except for ParsTri
 
 ## Auditory categorization in the human brain
 
-::: {.incremental}
-#### We identified putative cortico–striatal pathways for auditory decision-making {.fragment}
+:::  {.fragment}
+#### We identified putative cortico–striatal pathways for auditory decision-making
 - Primary/secondary auditory cortex connects more strongly with *posterior* dorsal striatum
 - Non-invasive human connectivity is similar to post mortem tracer patterns in non-human primates (Yeterian & Pandya 1998)
-
-#### Dynamics of learning and categorization in dorsal striatum {.fragment}
-#### When presented with **feedback**: {.fragment}
+:::
+::: {.fragment}
+#### Dynamics of learning and categorization in dorsal striatum
+#### When presented with **feedback**:
 - **Anterior caudate** responds highest early on
 - **Anterior putamen** responds across learning stages
+:::
 
 ### Putamen and caudate *subdivisions* have unique functional and connectivity profiles {.fragment}
-:::
+
 ::: aside
 Sitek et al. (in revision)
 :::
@@ -805,7 +805,7 @@ Ultimately, we want to *use* these approaches to learn more about the *function*
 :::: {.columns}
 
 ::: {.column .fragment}
-#### Suppressed cortical response to own voice during speaking vs. playback (Houde & Jordan 2002)
+#### Suppressed cortical response to own voice while speaking (Houde & Jordan 2002)
 
 ![](images/HoudeJordan2002.png){fig-align="center" height="700"}
 
@@ -1458,7 +1458,7 @@ Speaker notes go here.
 ![](images/people/MarshallXu.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
-OHBM 2023, 2024, 2025
+Xu et al. (ISMRM 2025); Xu, ..., S. Bollmann*, Sitek* (in prep.)
 :::
 
 ::: {.notes}
@@ -1469,7 +1469,7 @@ Speaker notes go here.
 ## Finger motor representation in the human brain {visibility="uncounted"}
 
 
-::: {layout-ncol=3 .fragment}
+::: {layout-ncol=3}
 ![](images/Moya_etal_2025/dmncADL.png)
 
 ![](images/Moya_etal_2025/dmncADR.png)
@@ -1552,10 +1552,10 @@ SSP
 
 ::: {layout="[40,60]"   layout-valign="bottom"}
 ::: {.incremental}
-- Children more strongly activate broad canonical auditory and language regions in clear speech compared to noisy stimuli
+- Children activate broad canonical auditory and language regions more strongly in clear speech compared to noisy stimuli
 - No evidence that they utilize compensatory motor and prefrontal regions seen in adults
 - Investigating task-relevant *representations* in development
-- Currently collecting data in children with speech and language disorders
+- Currently collecting data in **children who stutter**
 :::
 
 ![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
