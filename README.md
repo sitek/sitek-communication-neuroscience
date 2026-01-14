@@ -2,6 +2,6 @@
 
 This talk repository is based on the [talk template](https://github.com/poldrack/talks-template).  
 
-The latest version of the talk is available at [TO BE UPDATED]
+The latest version of the talk is available at http://sitek.github.io/sitek-communication-neuroscience/talk/talk.html
 
     
