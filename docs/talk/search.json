@@ -4,7 +4,7 @@
     "href": "talk.html#whats-special-about-the-auditory-system",
     "title": "Imaging the neural systems underlying human communication",
     "section": "What’s special about the auditory system?",
-    "text": "What’s special about the auditory system?\n\n\n\n\n\n\n\nKaas & Hackett (2000)\n\n\n\n\n\n\n\n\n\nVan Essen et al. (1992)\n\n\n\n\n\n\n\nSo why should we focus on the subcortical parts of the auditory system? I said that those are the harder parts to investigate with MRI, right? Well, there’s actually a lot going on in the brainstem and thalamus, especially in the auditory system. Two examples from primates show differences between the wiring of the auditory and visual systems. In the auditory system, the first 5 layers of the system are subcortical, and with some cross-talk between them, so some processing can pass through even more structures. Meanwhile, in the visual system, there’s just one or two stages before hitting primary sensory cortex. Indeed, a lot of processing is already done by the retina itself. With other features extracted later in successively higher levels of visual cortex. Whereas in the auditory system, there’s some basic frequency and sound level information pulled out by the cochlea, but some other features like location of sound sources are extracted in the brainstem.\nBUT THE VAST MAJORITY OF OUR KNOWLEDGE COMES FROM ANIMAL STUDIES"
+    "text": "What’s special about the auditory system?\n\n\n\n\n\n\n\nKaas & Hackett (2000)\n\n\n\n\n\n\n\n\n\nVan Essen et al. (1992)"
   },
   {
     "objectID": "talk.html#the-human-subcortical-auditory-system",
@@ -158,14 +158,14 @@
     "href": "talk.html#where-are-motor-signals-integrated-subcortically",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Where are motor signals integrated? Subcortically?",
-    "text": "Where are motor signals integrated? Subcortically?\n\n\n\n\n\nIf integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound\nRecorded FFRs to /da/ stimulus (alternating polarity)\n\nActive condition: press a button to generate a sound\nPassive condion: passive presentation of the sound\n\nCollected data from 33 normal-hearing adults while they watched a silent captioned TV show\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nButler, …, Sitek (in prep; SNL 2025)"
+    "text": "Where are motor signals integrated? Subcortically?\n\n\n\n\n\nIf integration is subcortical:\n\nExpect to see FFR differences between self-generated and passive sound\n\nRecorded FFRs to /da/ stimulus\n\nActive condition: press a button to generate a sound\nPassive condion: passive presentation of the sound\n\nCollected data from 33 normal-hearing adults\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nButler, …, Sitek (in prep; SNL 2025)"
   },
   {
     "objectID": "talk.html#where-are-motor-signals-integrated-subcortically-1",
     "href": "talk.html#where-are-motor-signals-integrated-subcortically-1",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Where are motor signals integrated? Subcortically?",
-    "text": "Where are motor signals integrated? Subcortically?\n\nBrainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented\n\nNo brainstem FFR differences, despite cortical evoked response differences\nMotor signals unlikely to attenuate earliest central auditory signals\nNext steps:\n\nSource localization of FFR generators (ECR R21 project)\nLayer-specific cortical feedback localization (planned R01)\n\n\n\n\nIf integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound\n\n\nButler, …, Sitek (in prep; SNL 2025)"
+    "text": "Where are motor signals integrated? Subcortically?\n\nBrainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented\n\nNo brainstem FFR differences, despite cortical evoked response differences\nMotor signals unlikely to attenuate earliest central auditory signals\nNext steps:\n\nSource localization of FFR generators (ECR R21 project)\nCortical layer-specific feedback localization with 7T fMRI (planned R01)\n\n\n\n\nIf integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound\n\n\nButler, …, Sitek (in prep; SNL 2025)"
   },
   {
     "objectID": "talk.html#where-are-motor-signals-integrated-subcortically-2",
@@ -235,7 +235,7 @@
     "href": "talk.html#auditory-categorization-in-the-human-brain-1",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Auditory categorization in the human brain",
-    "text": "Auditory categorization in the human brain\n\nWe identified putative cortico–striatal pathways for auditory decision-making\n\nPrimary/secondary auditory cortex connects more strongly with posterior dorsal striatum\nNon-invasive human connectivity is similar to post mortem tracer patterns in non-human primates (Yeterian & Pandya 1998)\n\n\n\nDynamics of learning and categorization in dorsal striatum\nWhen presented with feedback:\n\nAnterior caudate responds highest early on\nAnterior putamen responds across learning stages\n\n\nPutamen and caudate subdivisions have unique functional and connectivity profiles\n\n\nSpeaker notes go here.\n\n\nSitek et al. (in revision)"
+    "text": "Auditory categorization in the human brain\n\nWe identified putative cortico–striatal pathways for auditory decision-making\n\nPrimary/secondary auditory cortex connects more strongly with posterior dorsal striatum\nNon-invasive human connectivity is similar to invasive tracing in non-human primates (Yeterian & Pandya 1998)\n\n\n\nDynamics of learning and categorization in dorsal striatum\nWhen presented with feedback:\n\nAnterior caudate responds highest early on\nAnterior putamen responds across learning stages\n\n\nPutamen and caudate subdivisions have unique functional and connectivity profiles\n\n\nSpeaker notes go here.\n\n\nSitek et al. (in revision)"
   },
   {
     "objectID": "talk.html#finger-motor-representation-in-the-human-brain",
@@ -291,7 +291,7 @@
     "href": "talk.html#acknowledgments",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\n\n\nSoundBrain Lab\n\nBharath Chandrasekaran, Jacie McHaney, Kailyn McFarlane\nNike Gnanateja (now UW Madison CSD)\nCasey Roark (now U New Hampshire Psychology)\n\n\n\nNorthwestern: Molly Bright, Michelle Medina (BME PhD student), Gabby Butler (Cog Sci UG honors student)\nUT Austin collaborators: Abhra Sarkar, Noirrit Chandra (UT Dallas), Blake Moya (industry)\nPitt: Jay Bohland, Mandy Hampton Wray, Tamer Ibrahim (K01 co-mentor)\nHarvard/MIT: Satra Ghosh (PhD advisor)\nActive funding and support\n\nK01 DC019421 (2023–2027)\nR21 DC022906 (2025–2028)\nR01 DC020963 (2024–2027; PI: Bohland)\n\n\n\nSpeaker notes go here."
+    "text": "Acknowledgments\n\n\nSoundBrain Lab\n\nBharath Chandrasekaran, Jacie McHaney, Kailyn McFarlane\nNike Gnanateja (now UW Madison CSD)\nCasey Roark (now U New Hampshire Psychology)\n\n\n\nNorthwestern: Molly Bright, Michelle Medina (BME PhD student), Gabby Butler (Cog Sci UG honors student), Max Chen (Cog Sci/Comp Sci undergrad)\nUT Austin collaborators: Abhra Sarkar, Noirrit Chandra (UT Dallas), Blake Moya (industry)\nPitt: Jay Bohland, Mandy Hampton Wray\nHarvard/MIT: Satra Ghosh (PhD advisor)\nActive funding and support\n\nK01 DC019421 (2023–2027)\nR21 DC022906 (2025–2028)\nR01 DC020963 (2024–2027; PI: Bohland)\n\n\n\nSpeaker notes go here."
   },
   {
     "objectID": "talk.html#future-directions-hearing-loss",
@@ -417,7 +417,7 @@
     "href": "talk.html#fmri-responses-to-feedback-correct-vs.-wrong",
     "title": "Imaging the neural systems underlying human communication",
     "section": "fMRI responses to feedback (“correct” vs. “wrong”)",
-    "text": "fMRI responses to feedback (“correct” vs. “wrong”)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStriatum feedback responses\n\nStronger responses overall in early vs. final learning stages (runs)\nAll regions showed positive responses in early learning stage\nOnly anterior putamen maintained positive responses across all runs\nOnly anterior caudate significantly decreased responses from early to final learning stages\n\n\n\n\nSound responses: everything significant except for ParsTri\n\n\nSitek et al. (in revision)"
+    "text": "fMRI responses to feedback (“correct” vs. “wrong”)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStriatum feedback responses\n\nAll regions showed positive responses in early learning stage\nBut only anterior putamen maintained positive responses across all runs\nOnly anterior caudate significantly decreased responses from early to final learning stages\n\n\n\n\n\nSound responses: everything significant except for ParsTri\nStronger responses overall in early vs. final learning stages (runs)\n\n\n\nSitek et al. (in revision)"
   },
   {
     "objectID": "talk.html#auditory-striatal-pathways-for-learning-and-categorization",
@@ -459,7 +459,7 @@
     "href": "talk.html#active-and-passive-evoked-responses",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Active and passive evoked responses",
-    "text": "Active and passive evoked responses\n\n\n\nBrainstem frequency-following response\n\n\nCortical evoked response\n\n\n\n\n\n\n\nButler, …, Sitek (in prep; SNL 2025)"
+    "text": "Active and passive evoked responses\n\n\n\nBrainstem frequency-following response\n\n\nCortical evoked response\n\n\n\n\nFFR spectrograms don’t vary between conditions; neither do power or latency-to-first-peak\nAll of which do vary in cortical responses\n\n\nButler, …, Sitek (in prep; SNL 2025)"
   },
   {
     "objectID": "talk.html#active-and-passive-spectrograms",
@@ -620,7 +620,7 @@
     "href": "talk.html#postdoctoral-research-in-neuroscience-at-baylor-college-of-medicine",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Postdoctoral research in Neuroscience at Baylor College of Medicine",
-    "text": "Postdoctoral research in Neuroscience at Baylor College of Medicine\n\n\n\n\n\n\n\nUltra-high field 9.4 Tesla functional MRI of the human midbrain"
+    "text": "Postdoctoral research in Neuroscience at Baylor College of Medicine\n\n\n\n\n\n\n\nUltra-high field 9.4 Tesla functional MRI of the human midbrain (collaborative CRCNS with Tübingen)"
   },
   {
     "objectID": "talk.html#research-scientist-in-communication-science-and-disorders-at-pitt",
@@ -641,7 +641,7 @@
     "href": "talk.html#research-scientist-in-communication-science-and-disorders-at-the-university-of-pittsburgh",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Research Scientist in Communication Science and Disorders at the University of Pittsburgh",
-    "text": "Research Scientist in Communication Science and Disorders at the University of Pittsburgh\n\n\n\n\n\n\n\nNIH K01 (2022–2027); Sitek et al. (2022) “Structural connectivity of human inferior colliculus subdivisions…”"
+    "text": "Research Scientist in Communication Science and Disorders at the University of Pittsburgh\n\n\n\n\n\n\n\nNIH K01 (2022–2027); Sitek et al. (2022), Structural connectivity of human inferior colliculus"
   },
   {
     "objectID": "talk.html#first-steps-linguistics-and-cognitive-science-undergraduate-at-uc-berkeley",
@@ -676,14 +676,14 @@
     "href": "talk.html#a-systems-level-approach-to-human-speech-neuroscience-1",
     "title": "Imaging the neural systems underlying human communication",
     "section": "A systems-level approach to human speech neuroscience",
-    "text": "A systems-level approach to human speech neuroscience"
+    "text": "A systems-level approach to human speech neuroscience\n\n\n\n\n\n\nSensory behavior - how we use auditory information to learn about and act in the world"
   },
   {
     "objectID": "talk.html#a-systems-level-approach-to-human-speech-neuroscience-2",
     "href": "talk.html#a-systems-level-approach-to-human-speech-neuroscience-2",
     "title": "Imaging the neural systems underlying human communication",
     "section": "A systems-level approach to human speech neuroscience",
-    "text": "A systems-level approach to human speech neuroscience\n\n\n\n\n\n\nEstablished collaborations: - Functional and structural connectivity in persistent developmental stuttering (Sitek et al., 2016; ongoing Pitt collaboration) - Speech feedback control in individuals with cerebellar stroke (R01 Co-Investigator; PI: Bohland) - White matter pathways in autism spectrum disorder (Boets et al., 2018) - White matter integrity in sensorineural hearing loss (Tarabichi et al., 2018)"
+    "text": "A systems-level approach to human speech neuroscience\n\n\n\n\n\n\nIdentifying brain structure and function in atypical communication, and learning new questions to ask neuroscience\n(not necessarily to diagnose, but rather to identify neural characteristics associated with a disorder, and perhaps to optimize treatment)\nEstablished collaborations: - Functional and structural connectivity in persistent developmental stuttering (Sitek et al., 2016; ongoing Pitt collaboration) - Speech feedback control in individuals with cerebellar stroke (R01 Co-Investigator; PI: Bohland) - White matter pathways in autism spectrum disorder (Boets et al., 2018) - White matter integrity in sensorineural hearing loss (Tarabichi et al., 2018)"
   },
   {
     "objectID": "talk.html#a-systems-level-approach-to-human-speech-neuroscience-3",
@@ -746,7 +746,7 @@
     "href": "talk.html#improving-clinical-translation-at-3t-with-multi-echo-fmri",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Improving clinical translation at 3T with multi-echo fMRI",
-    "text": "Improving clinical translation at 3T with multi-echo fMRI\n\n\n\n\nMulti-echo fMRI improves subcortical (and cortical!) fMRI sensitivity\n\nTypical fMRI uses one readout (“echo”)\nBut optimal echo time (TE) isn’t consistent across the brain\nMulti-echo fMRI allows optimal combination of different TEs across the brain\n\n\n\nListening task in 3T fMRI\n\n14 participants\n10 minutes of pop-song listening\n3 participants returned for precision-mapping session\nMulti-echo fMRI acquisition from UMinn CMRR\n\n\n\n\n\n\nChandana Kodiweera, Ph.D. - Dartmouth BIC\n\n\n\n\n\nSo far, each of the results I’ve shown have used 7 Tesla MRI. These are becoming more prevalent, especially now that the Siemens Terra is approved by the FDA. But they’re still much less common than 3 Tesla MRIs. Fortunately, data acquisition protocols have improved sensitivty even at 3T, so that we can reliably identify auditory midbrain and thalamus.\n\nMulti-echo fMRI acquisition\n\nEcho times = 13.40/39.5/65.6 ms\nRepetition time = 2.2 s\nMultiband factor = 2\nVoxel size = 1.731×1.731×4 mm3\nWhole-brain coverage (44 slices, FOV=180mm)\n\nMulti-echo optimal combination + ICA noise removal (tedana)\n\n\n\nMedina et al. (submitted preprint); Medina, …, Sitek (in prep.)"
+    "text": "Improving clinical translation at 3T with multi-echo fMRI\n\n\n\n\nMulti-echo fMRI improves subcortical (and cortical!) fMRI sensitivity\n\nTypical fMRI uses one readout (“echo”)\nBut optimal echo time (TE) isn’t consistent across the brain\nMulti-echo fMRI allows optimal combination of different TEs across the brain\n\n\n\nListening task in 3T fMRI\n\n14 participants\n10 minutes of pop-song listening\n3 participants returned for precision-mapping session\nMulti-echo fMRI acquisition from UMinn CMRR\n\n\n\n\n\n\nDartmouth BIC\n\n\n\n\n\nSo far, each of the results I’ve shown have used 7 Tesla MRI. These are becoming more prevalent, especially now that the Siemens Terra is approved by the FDA. But they’re still much less common than 3 Tesla MRIs. Fortunately, data acquisition protocols have improved sensitivty even at 3T, so that we can reliably identify auditory midbrain and thalamus.\n\nMulti-echo fMRI acquisition\n\nEcho times = 13.40/39.5/65.6 ms\nRepetition time = 2.2 s\nMultiband factor = 2\nVoxel size = 1.731×1.731×4 mm3\nWhole-brain coverage (44 slices, FOV=180mm)\n\nMulti-echo optimal combination + ICA noise removal (tedana)\n\n\n\nMedina et al. (submitted preprint); Medina, …, Sitek (in prep.)"
   },
   {
     "objectID": "talk.html#widening-viewpoints-and-expanding-opportunities-through-teaching-and-mentorship",
@@ -921,7 +921,7 @@
     "href": "talk.html#research-contributions-to-communication-neuroscience",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Research contributions to communication neuroscience",
-    "text": "Research contributions to communication neuroscience\n\n\nMapping the human subcortical auditory system\n\nAnatomy (Sitek & Gulban et al., 2019)\nFunction (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)\nStructural and functional connectivity (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra* & Sitek* et al., 2024)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann, Sitek, in prep.)\n\n\nBehavior of the human auditory system\n\nAuditory categorization in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)\nAuditory–motor interactions across the auditory pathway (Butler, …, Sitek, in prep.)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906 and was previously supported by F31-DC015695."
+    "text": "Research contributions to communication neuroscience\n\n\nMapping the human subcortical auditory system\n\nAnatomy (Sitek & Gulban et al., 2019)\nFunction (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)\nStructural and functional connectivity (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra & Sitek et al., 2024)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann, Sitek, in prep.)\n\n\nBehavior of the human auditory system\n\nAuditory categorization in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)\nAuditory–motor interactions across the auditory pathway (Butler, …, Sitek, in prep.)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906 and was previously supported by F31-DC015695."
   },
   {
     "objectID": "talk.html#hearing-our-own-speech-where-are-motor-signals-integrated-in-auditory-cortex",
@@ -936,5 +936,12 @@
     "title": "Imaging the neural systems underlying human communication",
     "section": "Hearing our own speech: Where are motor signals integrated in auditory cortex?",
     "text": "Hearing our own speech: Where are motor signals integrated in auditory cortex?\n\n\n\nAuditory cortex is a hub for motor integration\nBut fMRI has shown increased BOLD to self-generated sounds, vs. suppressed M/EEG\nAre different laminar responses the explanation?\n\nWe can look at intra-cortical circuits with ultra-high field 7T fMRI\n\nCortical depth profile differences during self-generated vs. passive sound listening\nHigher increases at superficial cortical depths, suggesting increased corticocortical feedback\nFuture work: Pinpointing feedback dysfunction in stuttering, schizophrenia, and other feedback processing disorders\n\n\n\n\n\nOkada, Matchin, & Hickok (2018)\n\n\n\n\n\nReznik et al. (2015)\n\n\n\n\n\nSitek et al. (OHBM 2025)\n\n\n\n\n\n\nReproducible—same cortical depth effects in two acquisitions in the same participant"
+  },
+  {
+    "objectID": "talk.html#whats-special-about-the-auditory-system-1",
+    "href": "talk.html#whats-special-about-the-auditory-system-1",
+    "title": "Imaging the neural systems underlying human communication",
+    "section": "What’s special about the auditory system?",
+    "text": "What’s special about the auditory system?\n\n\n\n\n\n\nKaas & Hackett (2000)\n\n\n\n\n\n\n\nVan Essen et al. (1992)\n\n\n\n\n\n\nSo why should we focus on the subcortical parts of the auditory system? I said that those are the harder parts to investigate with MRI, right? Well, there’s actually a lot going on in the brainstem and thalamus, especially in the auditory system. Two examples from primates show differences between the wiring of the auditory and visual systems. In the auditory system, the first 5 layers of the system are subcortical, and with some cross-talk between them, so some processing can pass through even more structures. Meanwhile, in the visual system, there’s just one or two stages before hitting primary sensory cortex. Indeed, a lot of processing is already done by the retina itself. With other features extracted later in successively higher levels of visual cortex. Whereas in the auditory system, there’s some basic frequency and sound level information pulled out by the cochlea, but some other features like location of sound sources are extracted in the brainstem.\nBUT THE VAST MAJORITY OF OUR KNOWLEDGE COMES FROM ANIMAL STUDIES"
   }
 ]

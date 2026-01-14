@@ -1,7 +1,7 @@
 ---
 title: "Imaging the neural systems underlying human communication" 
 author: "Kevin R. Sitek, Ph.D."
-institute: Northwestern University
+institute: Northwestern University Communication Sciences and Disorders
 date: January 14, 2025
 
 title-slide-attributes:
@@ -12,7 +12,7 @@ title-slide-attributes:
 format:
   revealjs: 
     footer: "https://sitek.github.io/"
-    slide-number: True
+    slide-number: False
     chalkboard: 
       buttons: false
     preview-links: auto
@@ -27,10 +27,18 @@ format:
 ## A systems-level approach to human speech neuroscience {visibility="uncounted" .unlisted}
 ![](images/Sitek_overview/Slide2.png){fig-align="center" height='900'}
 
+::: {.notes}
+Sensory behavior - how we use auditory information to learn about and act in the world
+:::
+
 ## A systems-level approach to human speech neuroscience {visibility="uncounted" .unlisted}
 ![](images/Sitek_overview/Slide3.png){fig-align="center" height='900'}
 
 ::: {.notes}
+Identifying brain structure and function in *atypical communication*, and learning new questions to ask neuroscience
+
+(not necessarily to diagnose, but rather to identify neural characteristics associated with a disorder, and perhaps to optimize treatment)
+
 Established collaborations:
 - Functional and structural connectivity in **persistent developmental stuttering** (Sitek et al., 2016; ongoing Pitt collaboration)
 - Speech feedback control in individuals with **cerebellar stroke** (R01 Co-Investigator; PI: Bohland)
@@ -65,14 +73,14 @@ Sitek et al. (2013). "Auditory cortex processes variation in our own speech".
 ![](images/Sitek_academic-bio/Slide5.png){fig-align="center" height='900'}
 
 ::: aside
-Ultra-high field 9.4 Tesla functional MRI of the human midbrain 
+Ultra-high field 9.4 Tesla functional MRI of the human midbrain (collaborative CRCNS with Tübingen)
 :::
 
 ## Research Scientist in Communication Science and Disorders at the University of Pittsburgh {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide6.png){fig-align="center" height='900'}
 
 ::: aside
-**NIH K01** (2022–2027); Sitek et al. (2022) "Structural connectivity of human inferior colliculus subdivisions..." 
+**NIH K01** (2022–2027); Sitek et al. (2022), Structural connectivity of human inferior colliculus 
 :::
 
 ## Now: Research Assistant Professor at Northwestern University {visibility="uncounted"}
@@ -196,7 +204,7 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 ### Mapping the human subcortical auditory system
 - **Anatomy** (Sitek & Gulban et al., 2019)
 - **Function** (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)
-- **Structural and functional connectivity** (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra* & Sitek* et al., 2024)
+- **Structural and functional connectivity** (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra & Sitek et al., 2024)
 - **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann*, Sitek*, in prep.)
 :::
 ::: {.column .fragment}
@@ -232,6 +240,16 @@ Speaker notes go here.
 
 :::
 
+
+## What's special about the auditory system? {visibility="uncounted"}
+
+::: {layout="[60,40]"}
+
+![Kaas & Hackett (2000)](images/schematic-auditorysystem_box-subcort.png){fig-align="center" height='800'}
+
+![Van Essen et al. (1992)](images/schematic-visualsystem_box-subcort.png){fig-align="center" height='800'}
+
+:::
 
 ::: {.notes}
 So why should we focus on the subcortical parts of the auditory system? I said that those are the harder parts to investigate with MRI, right? Well, there’s actually a lot going on in the brainstem and thalamus, especially in the auditory system.
@@ -730,9 +748,8 @@ Sound responses: everything significant except for ParsTri
 
 :::: {.fragment}
 #### Striatum feedback responses 
-  - Stronger responses *overall* in early vs. final learning stages (runs)
   - All regions showed positive responses in *early* learning stage
-  - Only **anterior putamen** *maintained* positive responses across all runs
+  - But only **anterior putamen** *maintained* positive responses across all runs
   - Only **anterior caudate** *significantly decreased* responses from early to final learning stages
 :::
 
@@ -741,7 +758,9 @@ Sitek et al. (in revision)
 :::
 
 ::: {.notes}
-Sound responses: everything significant except for ParsTri
+ - Sound responses: everything significant except for ParsTri
+ - Stronger responses *overall* in early vs. final learning stages (runs)
+
 :::
 
 ## Auditory categorization in the human brain
@@ -749,7 +768,7 @@ Sound responses: everything significant except for ParsTri
 :::  {.fragment}
 #### We identified putative cortico–striatal pathways for auditory decision-making
 - Primary/secondary auditory cortex connects more strongly with *posterior* dorsal striatum
-- Non-invasive human connectivity is similar to post mortem tracer patterns in non-human primates (Yeterian & Pandya 1998)
+- Non-invasive human connectivity is similar to invasive tracing in non-human primates (Yeterian & Pandya 1998)
 :::
 ::: {.fragment}
 #### Dynamics of learning and categorization in dorsal striatum
@@ -845,18 +864,19 @@ Coffey et al. (2018)
 :::: {layout="[60,40]"}
 
 ::: {.column .fragment}
-- If integration is **subcortical**, would expect to see **FFR** differences between self-generated vs. passive sound
-- Recorded FFRs to /da/ stimulus (alternating polarity)
+- If integration is **subcortical**:
+  - Expect to see **FFR** differences between *self-generated* and *passive* sound
+- Recorded FFRs to /da/ stimulus
   - *Active* condition: press a button to generate a sound
   - *Passive* condion: passive presentation of the sound
-- Collected data from 33 normal-hearing adults while they watched a silent captioned TV show
+- Collected data from 33 normal-hearing adults
 :::
 
 ::: {.column .fragment}
 
 ![](images/Butler_etal_2025/Butler_EEG.png){fig-align="left" height="300"}
 
-![](images/Butler_etal_2025/Butler_stimulus.png){fig-align="left" height="250"}
+![](images/Butler_etal_2025/Butler_stimulus.png){fig-align="center" height="250"}
 
 :::
 ::::
@@ -891,6 +911,9 @@ Butler, ..., Sitek (in prep; SNL 2025)
 :::
 
 ::: {.notes}
+FFR spectrograms don't vary between conditions; neither do power or latency-to-first-peak
+
+All of which *do* vary in cortical responses
 :::
 
 ## Active and passive spectrograms {visibility="hidden"}
@@ -941,9 +964,9 @@ Butler, ..., Sitek (in prep; SNL 2025)
 ::: {.incremental}
 - No **brainstem FFR** differences, despite **cortical** evoked response differences
 - *Motor signals unlikely to attenuate earliest central auditory signals*
-- *Next steps*: 
-  - Source localization of FFR generators (ECR R21 project)
-  - Layer-specific cortical feedback localization (planned R01)
+- Next steps: 
+  - **Source localization** of FFR generators (ECR R21 project)
+  - **Cortical layer-specific** feedback localization with 7T fMRI (planned R01)
 :::
 
 ::: aside
@@ -1212,7 +1235,7 @@ Speaker notes go here.
 :::
 
 ::: {.column}
-![Chandana Kodiweera, Ph.D. - Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
+![Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
 :::
 
 ::::
@@ -1393,11 +1416,11 @@ Moser et al. (2025): https://doi.org/10.1162/imag_a_00426
 :::
 
 ::: {.column width=50%"}
-**Northwestern**: Molly Bright, **Michelle Medina** (*BME PhD student*), **Gabby Butler** (*Cog Sci UG honors student*)
+**Northwestern**: Molly Bright, **Michelle Medina** (*BME PhD student*), **Gabby Butler** (*Cog Sci UG honors student*), Max Chen (*Cog Sci/Comp Sci undergrad*)
 
 **UT Austin collaborators**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*industry*)
 
-**Pitt**: Jay Bohland, Mandy Hampton Wray, Tamer Ibrahim (*K01 co-mentor*)
+**Pitt**: Jay Bohland, Mandy Hampton Wray
 
 **Harvard/MIT**: Satra Ghosh (*PhD advisor*)
 
