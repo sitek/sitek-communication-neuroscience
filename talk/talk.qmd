@@ -2,7 +2,7 @@
 title: "Imaging the neural systems underlying human communication" 
 author: "Kevin R. Sitek, Ph.D."
 institute: Northwestern University Communication Sciences and Disorders
-date: January 14, 2025
+date: January 22, 2025
 
 title-slide-attributes:
     data-background-image: /images/KevinSitek_postmortem-human-brainstem_auditory-tractography.png
