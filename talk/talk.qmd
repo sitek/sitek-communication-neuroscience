@@ -1158,7 +1158,7 @@ Speech as a biomarker for basal ganglia learning capacity
 
 ::: {.column width="50%"}
 
-![Okada, Matchin, & Hickok (2018)](images/Matchin_artic-gt-imag_right.png){fig-align="center" height="150"}
+![Behroozmand et al. (2015)](images/Behroozmand%202015_sp-gt-play_no-shift.png){fig-align="center" height="150"}
 
 ![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
 
@@ -1169,7 +1169,9 @@ Speech as a biomarker for basal ganglia learning capacity
 :::
 
 ::: {.notes}
-Speaker notes go here.
+Behroozmand (2015) discussion para 2:
+> When compared to rest, we found that during both speaking and playback conditions, the strongest activation in response to normal (no shift) and pitch-shifted vowel sound was observed within temporal lobe auditory cortices. This temporal lobe activation did not differ significantly for the speaking versus playback conditions. However, during speaking, we found significant BOLD activation increases in other sensory–motor areas including bilateral precentral gyrus, postcentral gyrus, anterior insula, SMA and IFG compared with playback. The speaking-induced BOLD response enhancement in these sensory–motor areas was not significantly modulated by the presence or absence of pitch-shift stimulus in the auditory feedback.
+
 :::
 
 
@@ -1194,7 +1196,7 @@ Speaker notes go here.
 
 ::: {.column width="50%"}
 
-![Okada, Matchin, & Hickok (2018)](images/Matchin_artic-gt-imag_right.png){fig-align="center" height="150"}
+![Behroozmand et al. (2015)](images/Behroozmand%202015_sp-gt-play_no-shift.png){fig-align="center" height="150"}
 
 ![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
 
