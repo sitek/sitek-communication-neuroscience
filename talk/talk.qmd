@@ -1106,7 +1106,7 @@ Translational insights
 ::: {.incremental}
 - Dorsal striatum (caudate and putamen) is critical to auditory learning (Sitek et al., in revision) *and* motor learning
 - Are the neural implementations shared across perceptual and motor learning **in the context of speech and language**?
-- How are shared mechanisms affected in *stuttering*, *dyslexia*, or *Parkinson's*, and can they **inform therapeutic opportunities**?
+- How are shared mechanisms affected in *stuttering* or *Parkinson's*, and can they **inform therapeutic opportunities**?
 
 :::
 :::
@@ -1148,7 +1148,7 @@ Speech as a biomarker for basal ganglia learning capacity
 ::: {.column width="50%"}
 ::: {.incremental}
 - Auditory cortex is a hub for motor integration
-- But fMRI has shown *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
+- But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
 - Are different **laminar** responses the explanation? 
 
 #### We can look at intra-cortical circuits with ultra-high field **7T fMRI** {.fragment}
