@@ -1181,7 +1181,7 @@ Behroozmand (2015) discussion para 2:
 
 ::: {.column width="50%"}
 - Auditory cortex is a hub for motor integration
-- But fMRI has shown *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
+- But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
 - Are different **laminar** responses the explanation? 
 
 #### We can look at intra-cortical circuits with ultra-high field **7T fMRI**
