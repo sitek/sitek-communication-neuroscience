@@ -2,7 +2,7 @@
 title: "Imaging the neural systems underlying human communication" 
 author: "Kevin R. Sitek, Ph.D."
 institute: Northwestern University Communication Sciences and Disorders
-date: February 3, 2025
+date: February 4, 2025
 
 title-slide-attributes:
     data-background-image: /images/KevinSitek_postmortem-human-brainstem_auditory-tractography.png
@@ -534,6 +534,198 @@ Speaker notes go here.
 
 # 
 
+
+
+# Auditory–motor interactions across the auditory pathway
+
+::: {.notes}
+So far I've focused on the basics: where are human auditory structures, and how are they connected. 
+Ultimately, we want to *use* these approaches to learn more about the *function* of the human brain 
+*in action*. 
+:::
+
+## Human speech and auditory feedback processing
+
+:::: {.columns}
+
+::: {.column .fragment}
+#### Suppressed cortical response to own voice while speaking (Houde & Jordan 2002)
+
+![](images/HoudeJordan2002.png){fig-align="center" height="700"}
+
+:::
+
+::: {.column .fragment}
+#### Less suppression when our own speech is *variable* (Sitek et al. 2013)
+
+![](images/Sitek2013_Fig1.png){fig-align="center" height="700"}
+
+:::
+::::
+
+
+::: aside
+This work is actively supported by R21-DC022906 (PI: Sitek).
+:::
+
+::: {.notes}
+:::
+
+## Auditory feedback processing in animals
+
+:::: {.columns}
+
+::: {.column .fragment}
+#### Overall suppression (but some excitation) in marmoset auditory cortex^[Eliades & Wang (2005)]
+
+![](images/EliadesWang2005.png){height="500" fig-align="center"}
+:::
+
+::: {.column .fragment}
+#### Decreased auditory brainstem response to own licking sound in mouse^[Singla et al. (2017)]
+![](images/Singla2017.png){height="800" fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Studying the human subcortical auditory system with EEG
+
+#### The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding
+![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
+
+::: aside
+Coffey et al. (2018)
+:::
+
+::: {.notes}
+:::
+
+## *Where* are motor signals integrated? Subcortically? 
+
+![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {layout="[60,40]"}
+
+::: {.column .fragment}
+- If integration is **subcortical**:
+  - Expect to see **FFR** differences between *self-generated* and *passive* sound
+- Recorded FFRs to /da/ stimulus
+  - *Active* condition: press a button to generate a sound
+  - *Passive* condion: passive presentation of the sound
+- Collected data from 33 normal-hearing adults
+:::
+
+::: {.column .fragment}
+
+![](images/Butler_etal_2025/Butler_EEG.png){fig-align="left" height="300"}
+
+![](images/Butler_etal_2025/Butler_stimulus.png){fig-align="center" height="250"}
+
+:::
+::::
+
+::: aside
+Butler, ..., Sitek (in prep; SNL 2025)
+:::
+
+::: {.notes}
+:::
+
+## Active and passive evoked responses
+
+![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column .fragment}
+#### Brainstem frequency-following response
+![](images/Butler_etal_2025/Butler_FFR_waveform.png){height=700}
+:::
+
+::: {.column .fragment}
+#### Cortical evoked response
+![](images/Butler_etal_2025/Butler_cortical_waveform.png){height=700}
+
+:::
+::::
+
+::: aside
+Butler, ..., Sitek (in prep; SNL 2025)
+:::
+
+::: {.notes}
+FFR spectrograms don't vary between conditions; neither do power or latency-to-first-peak
+
+All of which *do* vary in cortical responses
+:::
+
+## Active and passive spectrograms {visibility="hidden"}
+
+![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+
+:::: {.columns}
+
+::: {.column .fragment}
+#### Brainstem frequency-following response
+![](images/Butler_etal_2025/Butler_FFR_spectro.png){fig-align="center" height=450}
+:::
+
+::: {.column .fragment}
+#### Cortical evoked response
+![](images/Butler_etal_2025/Butler_cortical_spectro.png){fig-align="center" height=450}
+
+:::
+::::
+
+::: aside
+Butler, ..., Sitek (in prep; SNL 2025)
+:::
+
+::: {.notes}
+:::
+
+## Active and passive pitch tracking {visibility="hidden"}
+
+![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+![](images/Butler_etal_2025/Butler_FFR_pitchtracking.png){.fragment height="750" fig-align="center"}
+
+::: aside
+Butler, ..., Sitek (in prep; SNL 2025)
+:::
+
+::: {.notes}
+:::
+
+## *Where* are motor signals integrated? Subcortically?
+
+![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+#### Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented
+
+::: {.incremental}
+- No **brainstem FFR** differences, despite **cortical** evoked response differences
+- *Motor signals unlikely to attenuate earliest central auditory signals*
+- Next steps: 
+  - **Source localization** of FFR generators (ECR R21 project)
+  - **Cortical layer-specific** feedback localization with 7T fMRI (planned R01)
+:::
+
+::: aside
+Butler, ..., Sitek (in prep; SNL 2025)
+:::
+
+::: {.notes}
+If integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound
+:::
+
+# 
+
 # Auditory categorization in the human brain
 
 ::: {.notes}
@@ -788,194 +980,6 @@ Speaker notes go here.
 :::
 
 #
-
-# Auditory–motor interactions across the auditory pathway
-
-::: {.notes}
-So far I've focused on the basics: where are human auditory structures, and how are they connected. 
-Ultimately, we want to *use* these approaches to learn more about the *function* of the human brain 
-*in action*. 
-:::
-
-## Human speech and auditory feedback processing
-
-:::: {.columns}
-
-::: {.column .fragment}
-#### Suppressed cortical response to own voice while speaking (Houde & Jordan 2002)
-
-![](images/HoudeJordan2002.png){fig-align="center" height="700"}
-
-:::
-
-::: {.column .fragment}
-#### Less suppression when our own speech is *variable* (Sitek et al. 2013)
-
-![](images/Sitek2013_Fig1.png){fig-align="center" height="700"}
-
-:::
-::::
-
-
-::: aside
-This work is actively supported by R21-DC022906 (PI: Sitek).
-:::
-
-::: {.notes}
-:::
-
-## Auditory feedback processing in animals  {visibility="hidden"}
-
-:::: {.columns}
-
-::: {.column .fragment}
-#### Overall suppression (but some excitation) in marmoset auditory cortex^[Eliades & Wang (2005)]
-
-![](images/EliadesWang2005.png){height="500" fig-align="center"}
-:::
-
-::: {.column .fragment}
-#### Decreased auditory brainstem response to own licking sound in mouse^[Singla et al. (2017)]
-![](images/Singla2017.png){height="800" fig-align="center"}
-:::
-
-::::
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Studying the human subcortical auditory system with EEG
-
-#### The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding
-![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
-
-::: aside
-Coffey et al. (2018)
-:::
-
-::: {.notes}
-:::
-
-## *Where* are motor signals integrated? Subcortically? 
-
-![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-:::: {layout="[60,40]"}
-
-::: {.column .fragment}
-- If integration is **subcortical**:
-  - Expect to see **FFR** differences between *self-generated* and *passive* sound
-- Recorded FFRs to /da/ stimulus
-  - *Active* condition: press a button to generate a sound
-  - *Passive* condion: passive presentation of the sound
-- Collected data from 33 normal-hearing adults
-:::
-
-::: {.column .fragment}
-
-![](images/Butler_etal_2025/Butler_EEG.png){fig-align="left" height="300"}
-
-![](images/Butler_etal_2025/Butler_stimulus.png){fig-align="center" height="250"}
-
-:::
-::::
-
-::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
-:::
-
-::: {.notes}
-:::
-
-## Active and passive evoked responses
-
-![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-:::: {.columns}
-
-::: {.column .fragment}
-#### Brainstem frequency-following response
-![](images/Butler_etal_2025/Butler_FFR_waveform.png){height=700}
-:::
-
-::: {.column .fragment}
-#### Cortical evoked response
-![](images/Butler_etal_2025/Butler_cortical_waveform.png){height=700}
-
-:::
-::::
-
-::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
-:::
-
-::: {.notes}
-FFR spectrograms don't vary between conditions; neither do power or latency-to-first-peak
-
-All of which *do* vary in cortical responses
-:::
-
-## Active and passive spectrograms {visibility="hidden"}
-
-![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column .fragment}
-#### Brainstem frequency-following response
-![](images/Butler_etal_2025/Butler_FFR_spectro.png){fig-align="center" height=450}
-:::
-
-::: {.column .fragment}
-#### Cortical evoked response
-![](images/Butler_etal_2025/Butler_cortical_spectro.png){fig-align="center" height=450}
-
-:::
-::::
-
-::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
-:::
-
-::: {.notes}
-:::
-
-## Active and passive pitch tracking {visibility="hidden"}
-
-![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-![](images/Butler_etal_2025/Butler_FFR_pitchtracking.png){.fragment height="750" fig-align="center"}
-
-::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
-:::
-
-::: {.notes}
-:::
-
-## *Where* are motor signals integrated? Subcortically?
-
-![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-#### Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented
-
-::: {.incremental}
-- No **brainstem FFR** differences, despite **cortical** evoked response differences
-- *Motor signals unlikely to attenuate earliest central auditory signals*
-- Next steps: 
-  - **Source localization** of FFR generators (ECR R21 project)
-  - **Cortical layer-specific** feedback localization with 7T fMRI (planned R01)
-:::
-
-::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
-:::
-
-::: {.notes}
-If integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound
-:::
 
 # Where we're going next
 

@@ -333,7 +333,7 @@
     "href": "talk.html#hearing-our-own-speech-where-are-motor-signals-integrated-in-auditory-cortex-1",
     "title": "Imaging the neural systems underlying human communication",
     "section": "Hearing our own speech: Where are motor signals integrated in auditory cortex?",
-    "text": "Hearing our own speech: Where are motor signals integrated in auditory cortex?\n\n\n\nAuditory cortex is a hub for motor integration\nBut fMRI has shown increased BOLD to self-generated sounds, vs. suppressed M/EEG\nAre different laminar responses the explanation?\n\nWe can look at intra-cortical circuits with ultra-high field 7T fMRI\n\nCortical depth profile differences during self-generated vs. passive sound listening\nHigher increases at superficial cortical depths, suggesting increased corticocortical feedback\nFuture work: Pinpointing feedback dysfunction in stuttering, schizophrenia, and other feedback processing disorders\n\n\n\n\n\nBehroozmand et al. (2015)\n\n\n\n\n\nReznik et al. (2015)\n\n\n\n\n\nSitek et al. (OHBM 2025)\n\n\n\n\n\n\nReproducible—same cortical depth effects in two acquisitions in the same participant"
+    "text": "Hearing our own speech: Where are motor signals integrated in auditory cortex?\n\n\n\nAuditory cortex is a hub for motor integration\nBut fMRI often shows increased BOLD to self-generated sounds, vs. suppressed M/EEG\nAre different laminar responses the explanation?\n\nWe can look at intra-cortical circuits with ultra-high field 7T fMRI\n\nCortical depth profile differences during self-generated vs. passive sound listening\nHigher increases at superficial cortical depths, suggesting increased corticocortical feedback\nFuture work: Pinpointing feedback dysfunction in stuttering, schizophrenia, and other feedback processing disorders\n\n\n\n\n\nBehroozmand et al. (2015)\n\n\n\n\n\nReznik et al. (2015)\n\n\n\n\n\nSitek et al. (OHBM 2025)\n\n\n\n\n\n\nReproducible—same cortical depth effects in two acquisitions in the same participant"
   },
   {
     "objectID": "talk.html#improving-clinical-translation-at-3t-with-multi-echo-fmri",
@@ -439,5 +439,12 @@
     "title": "Imaging the neural systems underlying human communication",
     "section": "Stronger self-generated (vs. passive) sound responses in superficial auditory cortex",
     "text": "Stronger self-generated (vs. passive) sound responses in superficial auditory cortex\n\n\n\nSpeaker notes go here.\n\n\n\n\nSitek et al. (OHBM 2025)"
+  },
+  {
+    "objectID": "talk.html#auditory-feedback-processing-in-animals",
+    "href": "talk.html#auditory-feedback-processing-in-animals",
+    "title": "Imaging the neural systems underlying human communication",
+    "section": "Auditory feedback processing in animals",
+    "text": "Auditory feedback processing in animals\n\n\nOverall suppression (but some excitation) in marmoset auditory cortex1\n\n\n\n\n\n\nDecreased auditory brainstem response to own licking sound in mouse2\n\n\n\n\n\n\n\nSpeaker notes go here.\n\nEliades & Wang (2005)Singla et al. (2017)"
   }
 ]
