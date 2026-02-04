@@ -1402,7 +1402,7 @@ Moser et al. (2025): https://doi.org/10.1162/imag_a_00426
 - *Human neuroscience*: Identify structural, metabolic, and brain network relationships with noise exposure and speech-in-noise challenges (**Kevin Sitek**, imaging center TBD)
 - *Translational neuroscience*: Develop speech-in-noise metrics and clinically applicable EEG to identify early hidden loss and provide therapeutic opportunities (Bharath Chandrasekaran, Northwestern Center for Speech, Hearing, and Language Learning)
 
-## A systems-level approach to human speech neuroscience
+## A systems-level approach to human auditory neuroscience
 ![](images/Sitek_overview/Slide3.png){fig-align="center" height='900'}
 
 
