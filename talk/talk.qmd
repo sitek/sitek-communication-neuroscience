@@ -21,17 +21,17 @@ format:
     width: 1920
 ---
 
-## A systems-level approach to human speech neuroscience {visibility="uncounted" .unlisted}
+## A systems-level approach to human auditory neuroscience {visibility="uncounted" .unlisted}
 ![](images/Sitek_overview/Slide1.png){fig-align="center" height='900' .fragment}
 
-## A systems-level approach to human speech neuroscience {visibility="uncounted" .unlisted}
+## A systems-level approach to human auditory neuroscience {visibility="uncounted" .unlisted}
 ![](images/Sitek_overview/Slide2.png){fig-align="center" height='900'}
 
 ::: {.notes}
 Sensory behavior - how we use auditory information to learn about and act in the world
 :::
 
-## A systems-level approach to human speech neuroscience {visibility="uncounted" .unlisted}
+## A systems-level approach to human auditory neuroscience {visibility="uncounted" .unlisted}
 ![](images/Sitek_overview/Slide3.png){fig-align="center" height='900'}
 
 ::: {.notes}
@@ -46,7 +46,7 @@ Established collaborations:
 - White matter integrity in **sensorineural hearing loss** (Tarabichi et al., 2018)
 :::
 
-# My path to speech, hearing, and the brain 
+# My path to hearing, speech, and the brain 
 
 ## First steps: Linguistics and Cognitive Science Undergraduate at UC Berkeley {visibility="uncounted"}
 ![](images/Sitek_academic-bio/Slide2.png){fig-align="center" height='900'}
