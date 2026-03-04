@@ -760,7 +760,7 @@ Speaker notes go here.
 :::
 
 
-## Auditory-striatal pathways in non-human primates
+## Auditory-striatal pathways in non-human primates  {visibility="hidden"}
 
 ![Macaque (Yeterian & Pandya 1998)](images/YeterianPandya1997.png){fig-align="center" height="800" .fragment}
 
@@ -772,7 +772,7 @@ Speaker notes go here.
 :::
 
 
-## Auditory-striatal pathways in the human brain
+## Auditory-striatal pathways in the human brain  {visibility="hidden"}
 
 ![Sitek et al. (in revision)](images/Sitek2025_categorization/Sitek_tractography_streamlines.png){fig-align="center" height="800" .fragment}
 
@@ -793,7 +793,7 @@ Speaker notes go here.
 
 ![Macaque (Yeterian & Pandya 1998)](images/YeterianPandya1997.png){fig-align="center" height="600" .fragment}
 
-![Human (Sitek et al. 2022 preprint, in revision)](images/Sitek_corticostriatal_endpoints.png){fig-align="center" height="750" .fragment}
+![Human (Sitek et al. 2022 preprint, in revision)](images/Sitek_corticostriatal_endpoints.png){fig-align="center" height="600" .fragment}
 
 :::
 :::
