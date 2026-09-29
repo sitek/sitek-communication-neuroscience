@@ -1243,6 +1243,46 @@ SSP
 
 # 
 
+# Communicating science
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Science is not a silo
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Communicating our science:
+
+- builds community
+- strengthens impact
+- increases resilience
+
+::: {.fragment}
+- **OHBM Communications Committee** (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube
+- Taught *Communicating Science* to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience
+:::
+:::
+
+::: {.column width="50%"}
+*TODO: image (e.g., OHBM Time Machine YouTube page or paper figure)*
+:::
+
+::::
+
+::: aside
+Sitek, Wearn & DuPre (2025 *Aperture Neuro*); Wearn, Sitek, et al. (2025 *Aperture Neuro*)
+:::
+
+::: {.notes}
+Thank the Communicating Science students for their engagement.
+:::
+
+# 
+
 # Next: UT Dallas Speech, Language, and Hearing
 
 ## Future research directions {visibility="hidden"}
@@ -1605,6 +1645,8 @@ TODO: UTD SLH-specific plans
 
 **Harvard/MIT**: Satra Ghosh (*PhD advisor*)
 
+**OHBM Communications Committee** <!-- TODO: names -->
+
 ### Active funding and support
 - K01 DC019421 (2023–2027)
 - R21 DC022906 (2025–2028)
@@ -1626,6 +1668,8 @@ Speaker notes go here.
 - Medina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. *bioRxiv* (2026 preprint; in review).
 - Moya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. *arXiv* (2026 preprint). [doi:10.48550/arXiv.2609.13319](https://doi.org/10.48550/arXiv.2609.13319)
 - Raiff, L.\*, Butler, G.\*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. *bioRxiv* (2026 preprint).
+- Sitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. *Aperture Neuro* (2025).
+- Wearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. *Aperture Neuro* (2025).
 
 \*co-first authors
 
@@ -1703,41 +1747,6 @@ Speaker notes go here.
 :::
 
 ::: {.notes}
-:::
-
-# Communication in practice: Sharing our science {visibility="hidden"}
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Science is not a silo {visibility="hidden"}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-Communicating our science:
-
-- builds community
-- strengthens impact
-- increases resilience
-:::
-
-::: {.column width=50%"}
-*put an image here!*
-:::
-
-::::
-
-::: aside
-Sitek et al. (2025 *Aperture Neuro*); 
-Wearn, Sitek, et al. (2025 *Aperture Neuro*)
-:::
-
-::: {.notes}
-Sitek et al. (2025 *Aperture Neuro*); 
-Wearn, Sitek, et al. (2025 *Aperture Neuro*)
 :::
 
 # Research contributions: Auditory circuits throughout the human brain {visibility="hidden"}
