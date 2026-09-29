@@ -55,15 +55,15 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ::: {.column .fragment}
 ### Mapping the human subcortical auditory system
 - **Structural and functional connectivity** (Chandra & Sitek et al., 2024)
-- **Multi-echo fMRI** improves subcortical sensitivity at 3T (**Michelle Medina**, Molly Bright; Medina et al., YEAR; Medina, ..., Sitek, preprint/in revision)
+- **Multi-echo fMRI** improves subcortical sensitivity at 3T (**Michelle Medina**, Molly Bright; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
 - **FFRPrep**: open, standardized FFR preprocessing (**Max Chen**, Peer Herholz)
 - **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann*, Sitek*, in prep.)
 :::
 ::: {.column .fragment}
 ### Behavior of the human auditory system
-- **Auditory–motor interactions** across the auditory pathway (**Gabby Butler**, **Laura Raiff**; Butler\*, Raiff\*, ..., Sitek, preprint/submitted; EAM2 led by Laura Raiff)
+- **Auditory–motor interactions** across the auditory pathway (**Laura Raiff**, **Gabby Butler**; Raiff & Butler et al., 2026 *bioRxiv*; EAM2 led by Laura Raiff)
 - **Auditory categorization** in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)
-- **Bayesian spatial mapping** of learning-task fMRI (Moya, Sitek, et al., 2026 *arXiv*)
+- **Bayesian spatial mapping** of learning-task fMRI (Moya et al., 2026 *arXiv*)
 - **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
 - **Speech-in-noise processing** in the developing brain (Sitek et al., SNL 2025; in prep.)
 :::
@@ -75,8 +75,6 @@ This work is actively supported by K01-DC019421 and R21-DC022906.
 
 ::: {.notes}
 Bold names = Northwestern mentees.
-
-TODO: update Medina et al. YEAR/journal and confirm EAM1 author order/status.
 :::
 
 # Mapping and connectivity of the human subcortical auditory system
@@ -476,7 +474,7 @@ Coffey et al. (2018)
 ::::
 
 ::: aside
-Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
+Raiff & Butler et al. (2026 *bioRxiv*)
 :::
 
 ::: {.notes}
@@ -504,7 +502,7 @@ Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author ord
 ::::
 
 ::: aside
-Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
+Raiff & Butler et al. (2026 *bioRxiv*)
 :::
 
 ::: {.notes}
@@ -536,7 +534,7 @@ All of which *do* vary in cortical responses
 ::::
 
 ::: aside
-Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
+Raiff & Butler et al. (2026 *bioRxiv*)
 :::
 
 ::: {.notes}
@@ -552,7 +550,7 @@ Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author ord
 ![](images/Butler_etal_2025/Butler_FFR_pitchtracking.png){.fragment height="750" fig-align="center"}
 
 ::: aside
-Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
+Raiff & Butler et al. (2026 *bioRxiv*)
 :::
 
 ::: {.notes}
@@ -576,7 +574,7 @@ Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author ord
 :::
 
 ::: aside
-Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
+Raiff & Butler et al. (2026 *bioRxiv*)
 :::
 
 ::: {.notes}
@@ -604,7 +602,7 @@ If integration is subcortical, would expect to see FFR differences between self-
 ::::
 
 ::: aside
-Raiff, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
+Raiff, ..., Sitek (in prep.)
 :::
 
 ::: {.notes}
@@ -625,7 +623,7 @@ EAM2 is led by Laura Raiff.
 :::
 
 ::: aside
-Raiff, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
+Raiff, ..., Sitek (in prep.)
 :::
 
 ::: {.notes}
@@ -742,7 +740,7 @@ Speaker notes go here.
 
 
 ::: aside
-Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+Medina et al. (2026 *Hearing Research*)
 
 :::
 
@@ -786,7 +784,7 @@ so that we can reliably identify auditory midbrain and thalamus.
 ::::
 
 ::: aside
-Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+Medina et al. (2026 *Hearing Research*)
 
 :::
 
@@ -817,7 +815,7 @@ Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- 
 ::::
 
 ::: aside
-Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+Medina et al. (2026 *Hearing Research*)
 
 :::
 
@@ -844,11 +842,37 @@ Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- 
 ::::
 
 ::: aside
-Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+Medina et al. (2026 *Hearing Research*)
 
 :::
 
 ::: {.notes}
+:::
+
+## Inference testing for densely sampled single-subject fMRI
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column}
+- **TODO**: question — how should we test for effects in densely sampled single-subject task fMRI?
+- **TODO**: approaches compared
+- **TODO**: key finding
+:::
+
+::: {.column}
+*TODO: figure*
+:::
+
+::::
+
+::: aside
+Medina et al. (2026 *bioRxiv*, in review)
+:::
+
+::: {.notes}
+Medina, Reddy, Bright & Sitek: Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data.
 :::
 
 # 
@@ -1120,7 +1144,7 @@ Posterior mean dominance greater than 25% across voxels for the [right index  (r
 ![](images/people/AbhraSarkar.png){.absolute bottom=10 right=220 width="200" height="200"}
 
 ::: aside
-Moya, Sitek, Roy, Chandrasekaran & Sarkar (2026, *arXiv*: [2609.13319](https://doi.org/10.48550/arXiv.2609.13319))
+Moya et al. (2026 *arXiv*: [2609.13319](https://doi.org/10.48550/arXiv.2609.13319))
 :::
 
 ::: {.notes}
@@ -1239,7 +1263,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1269,7 +1293,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1299,7 +1323,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1328,7 +1352,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1561,7 +1585,7 @@ TODO: UTD SLH-specific plans
 
 #### Northwestern mentees and collaborators
 - **Michelle Medina** (*BME PhD student*) and Molly Bright: multi-echo fMRI
-- **Gabby Butler** (*Cog Sci UG honors student*) and **Laura Raiff**: auditory–motor EEG (EAM1, EAM2) <!-- TODO: Laura's role -->
+- **Laura Raiff** (*BME PhD student*) and **Gabby Butler** (*Cog Sci UG honors student*): auditory–motor EEG (EAM1, EAM2)
 - **Max Chen** (*Cog Sci/Comp Sci undergrad*) and Peer Herholz: FFRPrep
 - **Thank you, Northwestern Communication Sciences and Disorders!**
 
@@ -1595,6 +1619,15 @@ Speaker notes go here.
 :::
 
 # Thank you! {background-image="/images/KevinSitek_postmortem-human-brainstem_auditory-tractography.png" background-opacity=0.25 background-size='contain'}
+
+## References {.smaller visibility="uncounted"}
+
+- Medina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. *Hearing Research* (2026).
+- Medina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. *bioRxiv* (2026 preprint; in review).
+- Moya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. *arXiv* (2026 preprint). [doi:10.48550/arXiv.2609.13319](https://doi.org/10.48550/arXiv.2609.13319)
+- Raiff, L.\*, Butler, G.\*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. *bioRxiv* (2026 preprint).
+
+\*co-first authors
 
 # Extra slides {visibility="uncounted"}
 
@@ -1637,7 +1670,7 @@ Video: 1920x1088
 ![](images/Medina2025/Medina_Figure1.png){.fragment fig-align="center" height=900}
 
 ::: aside
-Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+Medina et al. (2026 *Hearing Research*)
 :::
 
 ::: {.notes}
@@ -1775,9 +1808,9 @@ Ultra-high field 9.4 Tesla functional MRI of the human midbrain (collaborative C
 
  - Northwestern PhD committee/co-mentorship
    - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+   - Michelle Medina (BME; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
  - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Gabby Butler (Cognitive Science; Raiff & Butler et al., 2026 *bioRxiv*)
    - Max Chen (Cognitive Science/Computer Science)
  - Pitt AuD/undergraduate co-mentorship
 
@@ -1801,9 +1834,9 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 
  - Northwestern PhD committee/co-mentorship
    - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+   - Michelle Medina (BME; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
  - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Gabby Butler (Cognitive Science; Raiff & Butler et al., 2026 *bioRxiv*)
    - Max Chen (Cognitive Science/Computer Science)
  - Pitt AuD/undergraduate co-mentorship
 
@@ -1827,9 +1860,9 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 
  - Northwestern PhD committee/co-mentorship
    - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+   - Michelle Medina (BME; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
  - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Gabby Butler (Cognitive Science; Raiff & Butler et al., 2026 *bioRxiv*)
    - Max Chen (Cognitive Science/Computer Science)
  - Pitt AuD/undergraduate co-mentorship
 
@@ -1853,9 +1886,9 @@ As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, includin
 
  - Northwestern PhD committee/co-mentorship
    - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+   - Michelle Medina (BME; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
  - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Gabby Butler (Cognitive Science; Raiff & Butler et al., 2026 *bioRxiv*)
    - Max Chen (Cognitive Science/Computer Science)
  - Pitt AuD/undergraduate co-mentorship
 
