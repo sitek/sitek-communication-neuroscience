@@ -1,8 +1,9 @@
 ---
 title: "Imaging the neural systems underlying human communication" 
 author: "Kevin R. Sitek, Ph.D."
-institute: Northwestern University Communication Sciences and Disorders
-date: March 5, 2026
+# TODO: revise title for the NU CSD audience?
+institute: "Northwestern University Communication Sciences and Disorders (joining UT Dallas Speech, Language, and Hearing, January 2027)"
+date: TBD
 
 title-slide-attributes:
     data-background-image: /images/KevinSitek_postmortem-human-brainstem_auditory-tractography.png
@@ -21,17 +22,7 @@ format:
     width: 1920
 ---
 
-## A systems-level approach to human auditory neuroscience {visibility="uncounted" .unlisted}
-![](images/Sitek_overview/Slide1.png){fig-align="center" height='900' .fragment}
-
-## A systems-level approach to human auditory neuroscience {visibility="uncounted" .unlisted}
-![](images/Sitek_overview/Slide2.png){fig-align="center" height='900'}
-
-::: {.notes}
-Sensory behavior - how we use auditory information to learn about and act in the world
-:::
-
-## A systems-level approach to human auditory neuroscience {visibility="uncounted" .unlisted}
+## A systems-level approach to human auditory neuroscience
 ![](images/Sitek_overview/Slide3.png){fig-align="center" height='900'}
 
 ::: {.notes}
@@ -46,191 +37,53 @@ Established collaborations:
 - White matter integrity in **sensorineural hearing loss** (Tarabichi et al., 2018)
 :::
 
-# My path to hearing, speech, and the brain 
+## A systems-level approach to human auditory neuroscience {.unlisted visibility="hidden"}
+![](images/Sitek_overview/Slide1.png){fig-align="center" height='900' .fragment}
 
-## First steps: Linguistics and Cognitive Science Undergraduate at UC Berkeley {visibility="uncounted"}
-![](images/Sitek_academic-bio/Slide2.png){fig-align="center" height='900'}
-
-::: aside
-Sitek  & Johnson (2012 Chicago Linguistic Society). "Ipsilateral and contralateral phonetic context effects". 
-:::
-
-## Brain imaging research assistant at UCSF/San Francisco VA Medical Center {visibility="uncounted"}
-![](images/Sitek_academic-bio/Slide3.png){fig-align="center" height='900'}
-
-::: aside
-Sitek et al. (2013). "Auditory cortex processes variation in our own speech". 
-:::
-
-## PhD in Speech and Hearing Bioscience and Technology at Harvard/MIT {visibility="uncounted"}
-![](images/Sitek_academic-bio/Slide4.png){fig-align="center" height='900'}
-
-::: aside
-**NRSA F31** (2016–2018); Sitek et al. (2016), Connectivity and **stuttering** severity; Sitek and Gulban et al. (2019), "Mapping the human **subcortical auditory system**". 
-:::
-
-## Postdoctoral research in Neuroscience at Baylor College of Medicine {visibility="uncounted"}
-![](images/Sitek_academic-bio/Slide5.png){fig-align="center" height='900'}
-
-::: aside
-Ultra-high field 9.4 Tesla functional MRI of the human midbrain (collaborative CRCNS with Tübingen)
-:::
-
-## Research Scientist in Communication Science and Disorders at the University of Pittsburgh {visibility="uncounted"}
-![](images/Sitek_academic-bio/Slide6.png){fig-align="center" height='900'}
-
-::: aside
-**NIH K01** (2022–2027); Sitek et al. (2022), Structural connectivity of human inferior colliculus 
-:::
-
-## Now: Research Assistant Professor at Northwestern University {visibility="uncounted"}
-![](images/Sitek_academic-bio/Slide7.png){fig-align="center" height='900'}
-
-::: aside
-**NIH R21** (2025–2028); auditory learning and auditory–motor interactions 
-:::
-
-## Widening perspectives and expanding opportunities through teaching and mentorship
-
-## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="uncounted"}
-
-![](images/Sitek_teaching/Slide1.png){fig-align="center"}
+## A systems-level approach to human auditory neuroscience {.unlisted visibility="hidden"}
+![](images/Sitek_overview/Slide2.png){fig-align="center" height='900'}
 
 ::: {.notes}
-- Speech Production (MIT/Harvard Teaching Assistant)
-  - Lecture on articulatory phonetics
-  - Bok Teaching Center Award for Teaching Excellence
-- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
-- Subcortical contributions to language (UT Dallas guest lecture)
-- Communicating Science (Northwestern CSD PhD program)
-  - Tailoring your written/oral/visual presentations to your specific audience
-  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
-  - 73% of students rated the course at the highest possible level
-
- - Northwestern PhD committee/co-mentorship
-   - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
- - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
-   - Max Chen (Cognitive Science/Computer Science)
- - Pitt AuD/undergraduate co-mentorship
-
-As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
+Sensory behavior - how we use auditory information to learn about and act in the world
 :::
 
-## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="uncounted"}
-
-![](images/Sitek_teaching/Slide2.png){fig-align="center"}
-
-::: {.notes}
-- Speech Production (MIT/Harvard Teaching Assistant)
-  - Lecture on articulatory phonetics
-  - Bok Teaching Center Award for Teaching Excellence
-- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
-- Subcortical contributions to language (UT Dallas guest lecture)
-- Communicating Science (Northwestern CSD PhD program)
-  - Tailoring your written/oral/visual presentations to your specific audience
-  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
-  - 73% of students rated the course at the highest possible level
-
- - Northwestern PhD committee/co-mentorship
-   - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
- - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
-   - Max Chen (Cognitive Science/Computer Science)
- - Pitt AuD/undergraduate co-mentorship
-
-As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
-:::
-
-## Widening perspectives and expanding opportunities through teaching and mentorship  {visibility="uncounted"}
-
-![](images/Sitek_teaching/Slide3.png){fig-align="center"}
-
-::: {.notes}
-- Speech Production (MIT/Harvard Teaching Assistant)
-  - Lecture on articulatory phonetics
-  - Bok Teaching Center Award for Teaching Excellence
-- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
-- Subcortical contributions to language (UT Dallas guest lecture)
-- Communicating Science (Northwestern CSD PhD program)
-  - Tailoring your written/oral/visual presentations to your specific audience
-  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
-  - 73% of students rated the course at the highest possible level
-
- - Northwestern PhD committee/co-mentorship
-   - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
- - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
-   - Max Chen (Cognitive Science/Computer Science)
- - Pitt AuD/undergraduate co-mentorship
-
-As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
-:::
-
-## Widening perspectives and expanding opportunities through teaching and mentorship  {visibility="uncounted"}
-
-![](images/Sitek_teaching/Slide4.png){fig-align="center"}
-
-::: {.notes}
-- Speech Production (MIT/Harvard Teaching Assistant)
-  - Lecture on articulatory phonetics
-  - Bok Teaching Center Award for Teaching Excellence
-- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
-- Subcortical contributions to language (UT Dallas guest lecture)
-- Communicating Science (Northwestern CSD PhD program)
-  - Tailoring your written/oral/visual presentations to your specific audience
-  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
-  - 73% of students rated the course at the highest possible level
-
- - Northwestern PhD committee/co-mentorship
-   - Serena Mon (CSD)
-   - Michelle Medina (BME; Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
- - Northwestern undergraduate mentorship
-   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
-   - Max Chen (Cognitive Science/Computer Science)
- - Pitt AuD/undergraduate co-mentorship
-
-As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
-:::
-
-## Research contributions to communication neuroscience
+## Communication neuroscience at Northwestern (2023–now)
 
 :::: {.columns}
 
 ::: {.column .fragment}
 ### Mapping the human subcortical auditory system
-- **Anatomy** (Sitek & Gulban et al., 2019)
-- **Function** (Sitek & Gulban et al., 2019; Medina, Sitek, et al., submitted preprint)
-- **Structural and functional connectivity** (Sitek & Gulban et al., 2019; Sitek et al., 2022; Chandra & Sitek et al., 2024)
+- **Structural and functional connectivity** (Chandra & Sitek et al., 2024)
+- **Multi-echo fMRI** improves subcortical sensitivity at 3T (**Michelle Medina**, Molly Bright; Medina et al., YEAR; Medina, ..., Sitek, preprint/in revision)
+- **FFRPrep**: open, standardized FFR preprocessing (**Max Chen**, Peer Herholz)
 - **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann*, Sitek*, in prep.)
 :::
 ::: {.column .fragment}
 ### Behavior of the human auditory system
+- **Auditory–motor interactions** across the auditory pathway (**Gabby Butler**, **Laura Raiff**; Butler\*, Raiff\*, ..., Sitek, preprint/submitted; EAM2 led by Laura Raiff)
 - **Auditory categorization** in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)
-- **Auditory–motor interactions** across the auditory pathway (Butler, ..., Sitek, in prep.)
 - **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
 - **Speech-in-noise processing** in the developing brain (Sitek et al., SNL 2025; in prep.)
 :::
 ::::
 
 ::: aside
-This work is actively supported by K01-DC019421 and R21-DC022906 and was previously supported by F31-DC015695.
+This work is actively supported by K01-DC019421 and R21-DC022906.
 :::
+
+::: {.notes}
+Bold names = Northwestern mentees.
+
+TODO: update Medina et al. YEAR/journal and confirm EAM1 author order/status.
+:::
+
+# Mapping and connectivity of the human subcortical auditory system
 
 ::: {.notes}
 Speaker notes go here.
 :::
 
-
-# Research contributions: Auditory circuits throughout the human brain
-::: {.notes}
-Speaker notes go here.
-:::
-
-## What's special about the auditory system?
+## What's special about the auditory system? {visibility="hidden"}
 
 ::: {layout="[60,40]"}
 
@@ -240,8 +93,7 @@ Speaker notes go here.
 
 :::
 
-
-## What's special about the auditory system? {visibility="uncounted"}
+## What's special about the auditory system? {visibility="hidden"}
 
 ::: {layout="[60,40]"}
 
@@ -259,7 +111,6 @@ Whereas in the auditory system, there’s some basic frequency and sound level i
 
 BUT THE VAST MAJORITY OF OUR KNOWLEDGE COMES FROM ANIMAL STUDIES
 :::
-
 
 ## The human subcortical auditory system
 
@@ -309,12 +160,6 @@ Across human behaviors, studying the brainstem is challenging.
 Speaker notes go here.
 :::
 
-# Mapping the human subcortical auditory system
-
-::: {.notes}
-Speaker notes go here.
-:::
-
 ## Brainstem anatomy: Gold standard vs. standard practice {visibility="hidden"}
 
 ::: {layout-ncol=2}
@@ -340,7 +185,7 @@ Speaker notes go here.
   - Collected over 2 sessions
 :::
 
-## Post mortem anatomical localization
+## Post mortem anatomical localization {visibility="hidden"}
 
 ::: {layout-ncol=2}
 ![](images/SitekGulban2019_postmortem-1_labeled.png){height="420" .fragment}
@@ -357,8 +202,7 @@ Sitek and Gulban et al. (2019 *eLife*)
 Speaker notes go here.
 :::
 
-
-## 3D subcortical atlases
+## 3D subcortical atlases {visibility="hidden"}
 
 ::: {layout-ncol=2}
 ![](images/SitekGulban2019/fig_literature_and_bigbrain.png){height="420" .fragment}
@@ -377,7 +221,7 @@ Sitek and Gulban et al. (2019 *eLife*)
 Speaker notes go here.
 :::
 
-## In vivo functional MRI mapping
+## In vivo functional MRI mapping {visibility="hidden"}
 :::: {.columns}
 ::: {.column width="27%" .fragment}
 ### 7 Tesla functional MRI (1.1 mm voxels)
@@ -420,7 +264,7 @@ Sitek and Gulban et al. (2019 *eLife*)
 Speaker notes go here.
 :::
 
-# Connectivity of the human subcortical auditory system
+# Connectivity of the human subcortical auditory system {visibility="hidden"}
 
 ::: {.notes}
 Speaker notes go here.
@@ -446,7 +290,7 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
-## How are the auditory structures connected **anatomically**?
+## How are the auditory structures connected **anatomically**? {visibility="hidden"}
 
 :::: {columns}
 ::: {.column .fragment}
@@ -534,8 +378,6 @@ Speaker notes go here.
 
 # 
 
-
-
 # Auditory–motor interactions across the auditory pathway
 
 ::: {.notes}
@@ -607,6 +449,9 @@ Coffey et al. (2018)
 ## *Where* are motor signals integrated? Subcortically? 
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
 
 :::: {layout="[60,40]"}
 
@@ -629,7 +474,7 @@ Coffey et al. (2018)
 ::::
 
 ::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
+Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
 :::
 
 ::: {.notes}
@@ -638,6 +483,9 @@ Butler, ..., Sitek (in prep; SNL 2025)
 ## Active and passive evoked responses
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
 
 :::: {.columns}
 
@@ -654,7 +502,7 @@ Butler, ..., Sitek (in prep; SNL 2025)
 ::::
 
 ::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
+Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
 :::
 
 ::: {.notes}
@@ -666,6 +514,9 @@ All of which *do* vary in cortical responses
 ## Active and passive spectrograms {visibility="hidden"}
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
 
 
 :::: {.columns}
@@ -683,7 +534,7 @@ All of which *do* vary in cortical responses
 ::::
 
 ::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
+Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
 :::
 
 ::: {.notes}
@@ -692,11 +543,14 @@ Butler, ..., Sitek (in prep; SNL 2025)
 ## Active and passive pitch tracking {visibility="hidden"}
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
 
 ![](images/Butler_etal_2025/Butler_FFR_pitchtracking.png){.fragment height="750" fig-align="center"}
 
 ::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
+Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
 :::
 
 ::: {.notes}
@@ -705,6 +559,9 @@ Butler, ..., Sitek (in prep; SNL 2025)
 ## *Where* are motor signals integrated? Subcortically?
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
 
 #### Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented
 
@@ -717,11 +574,369 @@ Butler, ..., Sitek (in prep; SNL 2025)
 :::
 
 ::: aside
-Butler, ..., Sitek (in prep; SNL 2025)
+Butler\*, Raiff\*, ..., Sitek (preprint/submitted) <!-- TODO: confirm author order and status -->
 :::
 
 ::: {.notes}
 If integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound
+:::
+
+## Auditory–motor interactions, part 2 (EAM2)
+
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
+
+:::: {.columns}
+
+::: {.column}
+- **TODO**: research question — how EAM2 extends EAM1
+- **TODO**: design (task, conditions, EEG/FFR measures)
+- **TODO**: participants (N, data collection status)
+:::
+
+::: {.column}
+*TODO: task schematic / stimulus figure*
+:::
+
+::::
+
+::: aside
+Raiff, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
+:::
+
+::: {.notes}
+EAM2 is led by Laura Raiff.
+:::
+
+## EAM2: Preliminary results
+
+<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
+
+*TODO: results figure*
+
+::: {.incremental}
+- **TODO**: main finding
+- **TODO**: how it relates to EAM1 (no FFR differences between self-generated and passive sounds)
+:::
+
+::: aside
+Raiff, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
+:::
+
+::: {.notes}
+:::
+
+## Hearing our own speech: *Where* are motor signals integrated in auditory cortex?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.incremental}
+- Auditory cortex is a hub for motor integration
+- But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
+- Are different **laminar** responses the explanation? 
+
+#### We can look at intra-cortical circuits with ultra-high field **7T fMRI** {.fragment}
+
+:::
+:::
+
+::: {.column width="50%"}
+
+![Behroozmand et al. (2015)](images/Behroozmand%202015_sp-gt-play_no-shift.png){fig-align="center" height="150"}
+
+![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
+
+:::
+::::
+
+::: aside
+:::
+
+::: {.notes}
+Behroozmand (2015) discussion para 2:
+> When compared to rest, we found that during both speaking and playback conditions, the strongest activation in response to normal (no shift) and pitch-shifted vowel sound was observed within temporal lobe auditory cortices. This temporal lobe activation did not differ significantly for the speaking versus playback conditions. However, during speaking, we found significant BOLD activation increases in other sensory–motor areas including bilateral precentral gyrus, postcentral gyrus, anterior insula, SMA and IFG compared with playback. The speaking-induced BOLD response enhancement in these sensory–motor areas was not significantly modulated by the presence or absence of pitch-shift stimulus in the auditory feedback.
+
+:::
+
+## Hearing our own speech: *Where* are motor signals integrated in auditory cortex? {visibility="uncounted"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Auditory cortex is a hub for motor integration
+- But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
+- Are different **laminar** responses the explanation? 
+
+#### We can look at intra-cortical circuits with ultra-high field **7T fMRI**
+
+::: {.incremental}
+
+- **Cortical depth profile** differences during self-generated vs. passive sound listening
+- Higher increases at **superficial** cortical depths, suggesting increased **corticocortical** feedback
+- Future work: Pinpointing feedback dysfunction in *stuttering*, *schizophrenia*, and other feedback processing disorders
+:::
+:::
+
+::: {.column width="50%"}
+
+![Behroozmand et al. (2015)](images/Behroozmand%202015_sp-gt-play_no-shift.png){fig-align="center" height="150"}
+
+![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
+
+![Sitek et al. (OHBM 2025)](images/selfgen.png){height="250"}
+:::
+::::
+
+::: aside
+:::
+
+::: {.notes}
+- Reproducible---same cortical depth effects in two acquisitions in the same participant
+:::
+
+## Greater self-generated vs. passive fMRI responses in a single participant across replications
+
+:::: {.columns}
+::: {.column .fragment}
+![](images/Sitek_MIS_slices_contrast-listen.png)
+:::
+
+::: {.column .fragment}
+![](images/Sitek_MIS_slices_contrast-selfgen-vs-listen.png)
+:::
+::::
+
+::: aside
+Sitek et al. (OHBM 2025)
+:::
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Stronger self-generated (vs. passive) sound responses in superficial auditory cortex
+
+
+![](images/7T_replication.png)
+
+::: aside
+Sitek et al. (OHBM 2025)
+:::
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+# 
+
+# Improving subcortical sensitivity at 3T with multi-echo fMRI
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Improving clinical translation at 3T with multi-echo fMRI 
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+
+:::: {.columns}
+
+::: {.column}
+
+::: {.fragment}
+#### Multi-echo fMRI improves subcortical (and cortical!) fMRI sensitivity
+- Typical fMRI uses one readout ("echo")
+- But optimal echo time (TE) isn't consistent across the brain
+- Multi-echo fMRI allows *optimal combination* of different TEs across the brain
+:::
+
+::: {.fragment}
+#### Listening task in 3T fMRI
+- 14 participants
+- 10 minutes of pop-song listening
+- 3 participants returned for precision-mapping session
+- Multi-echo fMRI acquisition from UMinn CMRR
+:::
+:::
+
+::: {.column}
+![Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
+:::
+
+::::
+
+
+::: aside
+Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+
+:::
+
+::: {.notes}
+So far, each of the results I've shown have used 7 Tesla MRI. 
+These are becoming more prevalent, especially now that the Siemens Terra is approved by the FDA. 
+But they're still much less common than 3 Tesla MRIs. 
+Fortunately, data acquisition protocols have improved sensitivty even at 3T, 
+so that we can reliably identify auditory midbrain and thalamus.
+
+- Multi-echo fMRI acquisition
+  - Echo times = 13.40/39.5/65.6 ms
+  - Repetition time = 2.2 s
+  - Multiband factor = 2
+  - Voxel size = 1.731×1.731×4 mm^3^
+  - Whole-brain coverage (44 slices, FOV=180mm)
+- Multi-echo optimal combination + ICA noise removal (`tedana`)
+:::
+
+## Improving brainstem sensitivity at 3T with multi-echo fMRI
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+
+:::: {.columns}
+
+::: {.column}
+### Listening task in 3T fMRI
+::: {.fragment}
+- 14 participants
+- 10 minutes of pop-song listening
+- 3 participants returned for precision-mapping session
+- Multi-echo fMRI acquisition from UMinn CMRR
+:::
+:::
+
+::: {.column  .fragment}
+![](images/Medina2025/Medina_task.png){fig-align="center" height=700}
+:::
+
+::::
+
+::: aside
+Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+
+:::
+
+::: {.notes}
+- Multi-echo fMRI acquisition
+  - Echo times = 13.40/39.5/65.6 ms
+  - Repetition time = 2.2 s
+  - Multiband factor = 2
+  - Voxel size = 1.731×1.731×4 mm^3^
+  - Whole-brain coverage (44 slices, FOV=180mm)
+- Multi-echo optimal combination + ICA noise removal (`tedana`)
+:::
+
+## Multi-echo fMRI improves group-level sensitivity at 3T
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column}
+![](images/Medina2025/Medina_cortex.png){.fragment fig-align="center"}
+:::
+
+::: {.column}
+![](images/Medina2025/Medina_overview.png){.fragment fig-align="center"}
+:::
+
+::::
+
+::: aside
+Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+
+:::
+
+::: {.notes}
+:::
+
+## Improved precision mapping with multi-echo fMRI
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+
+:::: {.columns}
+
+::: {.column width="55%" .fragment}
+#### Multi-echo requires less scan time to identify auditory brainstem
+![](images/Medina2025/Medina_Figure4b_bstem.png){fig-align="center"  height="750"}
+:::
+
+::: {.column width="45%" .fragment}
+#### Subcortical activations are stronger with multi-echo than single-echo fMRI
+![](images/Medina2025/Medina_Figure4a.png){fig-align="center"}
+:::
+
+::::
+
+::: aside
+Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
+
+:::
+
+::: {.notes}
+:::
+
+# 
+
+# Open tools for the frequency-following response: FFRPrep
+
+::: {.notes}
+TODO: open-science framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).
+:::
+
+## FFRPrep: Standardized, reproducible FFR preprocessing
+
+<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
+![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
+
+:::: {.columns}
+
+::: {.column}
+- FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing -->
+- **FFRPrep**: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm -->
+- **TODO**: inputs, outputs, and quality-control reports
+:::
+
+::: {.column}
+*TODO: pipeline diagram*
+:::
+
+::::
+
+::: aside
+Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation and add GitHub link -->
+:::
+
+::: {.notes}
+Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
+:::
+
+## FFRPrep: Example outputs
+
+<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
+![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
+
+*TODO: example QC report / FFR waveforms from FFRPrep*
+
+::: {.incremental}
+- **TODO**: validation (e.g., reproduces EAM1 FFR results?)
+- **TODO**: current status and next steps
+:::
+
+::: aside
+Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
+:::
+
+::: {.notes}
 :::
 
 # 
@@ -759,7 +974,6 @@ This work is actively supported by K01-DC019421 (PI: Sitek)
 Speaker notes go here.
 :::
 
-
 ## Auditory-striatal pathways in non-human primates  {visibility="hidden"}
 
 ![Macaque (Yeterian & Pandya 1998)](images/YeterianPandya1997.png){fig-align="center" height="800" .fragment}
@@ -770,7 +984,6 @@ Speaker notes go here.
 ::: {.notes}
 Speaker notes go here.
 :::
-
 
 ## Auditory-striatal pathways in the human brain  {visibility="hidden"}
 
@@ -783,7 +996,6 @@ Human Connectome Project 7T diffusion-weighted MRI dataset (n = 100)
 ::: {.notes}
 Speaker notes go here.
 :::
-
 
 ## Similar connectivity patterns in humans and macaques
 
@@ -804,7 +1016,6 @@ Speaker notes go here.
 ::: {.notes}
 Speaker notes go here.
 :::
-
 
 ## How do humans learn new sensory categories? {.smaller}
 
@@ -829,7 +1040,6 @@ Speaker notes go here.
 ::: {.notes}
 Speaker notes go here.
 :::
-
 
 ## Successful learning of new auditory categories in MRI
 
@@ -876,7 +1086,6 @@ Sitek et al. (in revision)
 ::: {.notes}
 Sound responses: everything significant except for ParsTri
 :::
-
 
 ## Auditory fMRI responses to sound presentation {visibility="hidden"}
 
@@ -925,7 +1134,6 @@ Sitek et al. (in revision)
 ::: {.notes}
 Sound responses: everything significant except for ParsTri
 :::
-
 
 ## fMRI responses to feedback ("correct" vs. "wrong")
 
@@ -979,11 +1187,97 @@ Sitek et al. (in revision)
 Speaker notes go here.
 :::
 
-#
+# 
 
-# Where we're going next
+# Speech-in-noise processing in the developing brain
 
-## Future research directions
+::: {.notes}
+Speaker notes go here.
+:::
+
+## The developing auditory system
+
+
+#### How do we learn to hear in noisy environments?
+
+::: {layout-ncol=2  layout-valign="bottom"}
+
+::: {.incremental}
+
+- Adults: maturation of speech network^[Du et al. (2014)] + compensatory networks^[Vaden et al. (2013); Eckert et al. (2016)]
+- Children: fine-tuning speech network + undeveloped frontal networks
+- Collected syllable-in-noise task fMRI at 3T in 35 typically developing kids 
+  - 5 speech-shaped noise contexts: Quiet and SNR = +8, 0, -2, and -6
+  - Task: identify which of 4 syllables were presented
+:::
+
+![via The Telegraph](images/Cocktail-party.jpg){fig-align="center"}
+
+:::
+
+::: aside
+Sitek et al. (in prep.; SNL 2025)
+:::
+
+::: {.notes}
+SSP
+:::
+
+## The developing auditory system: Speech-in-quiet vs. baseline fMRI contrast {visibility="uncounted"}
+
+
+![](images/Sitek_SSP_quiet-gt-baseline.png){fig-align="center" .fragment}
+
+::: aside
+Sitek et al. (in prep.; SNL 2025)
+:::
+
+::: {.notes}
+SSP
+:::
+
+## The developing auditory system: Speech-in-quiet vs. -6 dB SNR
+
+
+![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
+
+::: aside
+Sitek et al. (in prep.; SNL 2025)
+:::
+
+::: {.notes}
+SSP
+:::
+
+## Systems for speech-in-noise processing are actively developing in adolescents
+
+
+::: {layout="[40,60]"   layout-valign="bottom"}
+::: {.incremental}
+- Children activate broad canonical auditory and language regions more strongly in clear speech compared to noisy stimuli
+- No evidence that they utilize compensatory motor and prefrontal regions seen in adults
+- Investigating task-relevant *representations* in development
+- Currently collecting data in **children who stutter**
+:::
+
+![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
+:::
+
+::: aside
+Sitek et al. (in prep.; SNL 2025); 
+
+Hampton-Wray R01DC019904
+:::
+
+::: {.notes}
+SSP
+:::
+
+# 
+
+# Next: UT Dallas Speech, Language, and Hearing
+
+## Future research directions {visibility="hidden"}
 
 ![](images/Sitek_future-overview/Slide1.png){fig-align="center" height='900' .fragment}
 
@@ -1001,7 +1295,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1013,7 +1307,7 @@ Translational insights
 
 :::
 
-## Future research directions {visibility="uncounted"}
+## Future research directions {visibility="hidden"}
 
 ![](images/Sitek_future-overview/Slide2.png){fig-align="center" height='900'}
 
@@ -1031,7 +1325,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1043,7 +1337,7 @@ Translational insights
 
 :::
 
-## Future research directions {visibility="uncounted"}
+## Future research directions {visibility="hidden"}
 
 ![](images/Sitek_future-overview/Slide3.png){fig-align="center" height='900'}
 
@@ -1061,7 +1355,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1073,7 +1367,7 @@ Translational insights
 
 :::
 
-## Future research directions {visibility="uncounted"}
+## Future research directions {visibility="hidden"}
 
 ![](images/Sitek_future-overview/Slide4.png){fig-align="center" height='900'}
 
@@ -1090,7 +1384,7 @@ Hearing our own speech
 - R01 follow-up to R21
 
 Translational insights
-- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina, Sitek, et al., *submitted*; Medina, ..., Sitek, *in prep*)
+- Adapting multi-echo fMRI to better understand **hearing loss in middle age** (Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
 - Auditory cortical mechanisms supporting compensation in **children who stutter** (Sitek et al., SNL 2025, *in prep.*)
 - Network connectivity supporting **aphasia** recovery
 
@@ -1144,222 +1438,7 @@ Speech as a biomarker for basal ganglia learning capacity
 
 :::
 
-
-## Hearing our own speech: *Where* are motor signals integrated in auditory cortex?
-
-:::: {.columns}
-
-::: {.column width="50%"}
-::: {.incremental}
-- Auditory cortex is a hub for motor integration
-- But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
-- Are different **laminar** responses the explanation? 
-
-#### We can look at intra-cortical circuits with ultra-high field **7T fMRI** {.fragment}
-
-:::
-:::
-
-::: {.column width="50%"}
-
-![Behroozmand et al. (2015)](images/Behroozmand%202015_sp-gt-play_no-shift.png){fig-align="center" height="150"}
-
-![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
-
-:::
-::::
-
-::: aside
-:::
-
-::: {.notes}
-Behroozmand (2015) discussion para 2:
-> When compared to rest, we found that during both speaking and playback conditions, the strongest activation in response to normal (no shift) and pitch-shifted vowel sound was observed within temporal lobe auditory cortices. This temporal lobe activation did not differ significantly for the speaking versus playback conditions. However, during speaking, we found significant BOLD activation increases in other sensory–motor areas including bilateral precentral gyrus, postcentral gyrus, anterior insula, SMA and IFG compared with playback. The speaking-induced BOLD response enhancement in these sensory–motor areas was not significantly modulated by the presence or absence of pitch-shift stimulus in the auditory feedback.
-
-:::
-
-
-## Hearing our own speech: *Where* are motor signals integrated in auditory cortex? {visibility="uncounted"}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-- Auditory cortex is a hub for motor integration
-- But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
-- Are different **laminar** responses the explanation? 
-
-#### We can look at intra-cortical circuits with ultra-high field **7T fMRI**
-
-::: {.incremental}
-
-- **Cortical depth profile** differences during self-generated vs. passive sound listening
-- Higher increases at **superficial** cortical depths, suggesting increased **corticocortical** feedback
-- Future work: Pinpointing feedback dysfunction in *stuttering*, *schizophrenia*, and other feedback processing disorders
-:::
-:::
-
-::: {.column width="50%"}
-
-![Behroozmand et al. (2015)](images/Behroozmand%202015_sp-gt-play_no-shift.png){fig-align="center" height="150"}
-
-![Reznik et al. (2015)](images/Reznik2014_Figure1a.png){fig-align="center" height="150"}
-
-![Sitek et al. (OHBM 2025)](images/selfgen.png){height="250"}
-:::
-::::
-
-::: aside
-:::
-
-::: {.notes}
-- Reproducible---same cortical depth effects in two acquisitions in the same participant
-:::
-
-## Improving clinical translation at 3T with multi-echo fMRI 
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column}
-
-::: {.fragment}
-#### Multi-echo fMRI improves subcortical (and cortical!) fMRI sensitivity
-- Typical fMRI uses one readout ("echo")
-- But optimal echo time (TE) isn't consistent across the brain
-- Multi-echo fMRI allows *optimal combination* of different TEs across the brain
-:::
-
-::: {.fragment}
-#### Listening task in 3T fMRI
-- 14 participants
-- 10 minutes of pop-song listening
-- 3 participants returned for precision-mapping session
-- Multi-echo fMRI acquisition from UMinn CMRR
-:::
-:::
-
-::: {.column}
-![Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
-:::
-
-::::
-
-
-::: aside
-Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
-
-:::
-
-::: {.notes}
-So far, each of the results I've shown have used 7 Tesla MRI. 
-These are becoming more prevalent, especially now that the Siemens Terra is approved by the FDA. 
-But they're still much less common than 3 Tesla MRIs. 
-Fortunately, data acquisition protocols have improved sensitivty even at 3T, 
-so that we can reliably identify auditory midbrain and thalamus.
-
-- Multi-echo fMRI acquisition
-  - Echo times = 13.40/39.5/65.6 ms
-  - Repetition time = 2.2 s
-  - Multiband factor = 2
-  - Voxel size = 1.731×1.731×4 mm^3^
-  - Whole-brain coverage (44 slices, FOV=180mm)
-- Multi-echo optimal combination + ICA noise removal (`tedana`)
-:::
-
-
-## Improving brainstem sensitivity at 3T with multi-echo fMRI {visibility="hidden"}
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column}
-### Listening task in 3T fMRI
-::: {.fragment}
-- 14 participants
-- 10 minutes of pop-song listening
-- 3 participants returned for precision-mapping session
-- Multi-echo fMRI acquisition from UMinn CMRR
-:::
-:::
-
-::: {.column  .fragment}
-![](images/Medina2025/Medina_task.png){fig-align="center" height=700}
-:::
-
-::::
-
-::: aside
-Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
-
-:::
-
-::: {.notes}
-- Multi-echo fMRI acquisition
-  - Echo times = 13.40/39.5/65.6 ms
-  - Repetition time = 2.2 s
-  - Multiband factor = 2
-  - Voxel size = 1.731×1.731×4 mm^3^
-  - Whole-brain coverage (44 slices, FOV=180mm)
-- Multi-echo optimal combination + ICA noise removal (`tedana`)
-:::
-
-## Multi-echo fMRI improves group-level sensitivity at 3T {visibility="hidden"}
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-:::: {.columns}
-
-::: {.column}
-![](images/Medina2025/Medina_cortex.png){.fragment fig-align="center"}
-:::
-
-::: {.column}
-![](images/Medina2025/Medina_overview.png){.fragment fig-align="center"}
-:::
-
-::::
-
-::: aside
-Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
-
-:::
-
-::: {.notes}
-:::
-
-## Improved precision mapping with multi-echo fMRI
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column width="55%" .fragment}
-#### Multi-echo requires less scan time to identify auditory brainstem
-![](images/Medina2025/Medina_Figure4b_bstem.png){fig-align="center"  height="750"}
-:::
-
-::: {.column width="45%" .fragment}
-#### Subcortical activations are stronger with multi-echo than single-echo fMRI
-![](images/Medina2025/Medina_Figure4a.png){fig-align="center"}
-:::
-
-::::
-
-::: aside
-Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
-
-:::
-
-::: {.notes}
-:::
-
-
-## Improving brainstem sensitivity at 3T with multi-echo fMRI 
+## Future directions: Auditory processing across the lifespan
 
 ### Future applications: Auditory processing across the lifespan
 
@@ -1389,6 +1468,29 @@ Moser et al. (2025): https://doi.org/10.1162/imag_a_00426
 "The sample consists of one adult (PA001) and two children (PC001 and PC002; age 10) enrolled at the University of Minnesota (UMN), and one adult (PA002) and three healthy neonates enrolled at Washington University in St. Louis (WashU), ages 28 days (43 weeks postmenstrual age (wPMA); PB004), 12 days (41 wPMA; PB005), and 13 days (41 wPMA; PB001)"
 :::
 
+## Next: Communication neuroscience at UT Dallas
+
+:::: {.columns}
+
+::: {.column width="55%"}
+::: {.incremental}
+- **Sensory and motor speech learning**: striatal mechanisms across speech perception and production (K01 → R01)
+- **Hearing our own speech**: layer-specific auditory–motor processing (R21 → R01)
+- **Clinical translation**: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter)
+- **TODO**: Callier Center collaborations and UTD-specific directions
+:::
+:::
+
+::: {.column width="45%"}
+![](images/calliercenter-768x513.jpg){fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+TODO: UTD SLH-specific plans
+:::
+
 ## Enhancing clinical precision with stronger human neuroscience {visibility="hidden"}
 
 ### Established collaborations
@@ -1405,25 +1507,28 @@ Moser et al. (2025): https://doi.org/10.1162/imag_a_00426
 ## A systems-level approach to human auditory neuroscience
 ![](images/Sitek_overview/Slide3.png){fig-align="center" height='900'}
 
-
 ## Acknowledgments {.smaller}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 
+#### Northwestern mentees and collaborators
+- **Michelle Medina** (*BME PhD student*) and Molly Bright: multi-echo fMRI
+- **Gabby Butler** (*Cog Sci UG honors student*) and **Laura Raiff**: auditory–motor EEG (EAM1, EAM2) <!-- TODO: Laura's role -->
+- **Max Chen** (*Cog Sci/Comp Sci undergrad*) and Peer Herholz: FFRPrep
+- **Thank you, Northwestern Communication Sciences and Disorders!**
+
 #### SoundBrain Lab
 - **Bharath Chandrasekaran**, Jacie McHaney, Kailyn McFarlane
 - Nike Gnanateja (now UW Madison CSD)
 - Casey Roark (now U New Hampshire Psychology)
 
-![](images/people/SoundBrain-lab-current-members-and-alum_FFR-workshop-2024-550x310.jpg){height="500"}
+![](images/people/SoundBrain-lab-current-members-and-alum_FFR-workshop-2024-550x310.jpg){height="300"}
 
 :::
 
 ::: {.column width=50%"}
-**Northwestern**: Molly Bright, **Michelle Medina** (*BME PhD student*), **Gabby Butler** (*Cog Sci UG honors student*), Max Chen (*Cog Sci/Comp Sci undergrad*)
-
 **UT Austin collaborators**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*industry*)
 
 **Pitt**: Jay Bohland, Mandy Hampton Wray
@@ -1452,7 +1557,6 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
-
 ## How is the brainstem supplied oxygen? {visibility="uncounted"}
 
 
@@ -1478,8 +1582,6 @@ Video: 1920x1088
 
 ## How is the brainstem supplied oxygen? {visibility="uncounted"}
 {{< video images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4  width="1920" height="1088" >}}
-
-
 
 ## Finger motor representation in the human brain {visibility="uncounted"}
 
@@ -1507,86 +1609,6 @@ Fingertip dominance across the investigated regions. Posterior mean dominance gr
 Colors blend when two or more fingers exhibit greater than $25\%$ dominance probabilities at the same location,     showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).
 :::
 
-
-## The developing auditory system {visibility="uncounted"}
-
-
-#### How do we learn to hear in noisy environments?
-
-::: {layout-ncol=2  layout-valign="bottom"}
-
-::: {.incremental}
-
-- Adults: maturation of speech network^[Du et al. (2014)] + compensatory networks^[Vaden et al. (2013); Eckert et al. (2016)]
-- Children: fine-tuning speech network + undeveloped frontal networks
-- Collected syllable-in-noise task fMRI at 3T in 35 typically developing kids 
-  - 5 speech-shaped noise contexts: Quiet and SNR = +8, 0, -2, and -6
-  - Task: identify which of 4 syllables were presented
-:::
-
-![via The Telegraph](images/Cocktail-party.jpg){fig-align="center"}
-
-:::
-
-::: aside
-Sitek et al. (in prep.; SNL 2025)
-:::
-
-::: {.notes}
-SSP
-:::
-
-## The developing auditory system: Speech-in-quiet vs. baseline fMRI contrast {visibility="uncounted"}
-
-
-![](images/Sitek_SSP_quiet-gt-baseline.png){fig-align="center" .fragment}
-
-::: aside
-Sitek et al. (in prep.; SNL 2025)
-:::
-
-::: {.notes}
-SSP
-:::
-
-## The developing auditory system: Speech-in-quiet vs. -6 dB SNR {visibility="uncounted"}
-
-
-![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
-
-::: aside
-Sitek et al. (in prep.; SNL 2025)
-:::
-
-::: {.notes}
-SSP
-:::
-
-## Systems for speech-in-noise processing are actively developing in adolescents {visibility="uncounted"}
-
-
-::: {layout="[40,60]"   layout-valign="bottom"}
-::: {.incremental}
-- Children activate broad canonical auditory and language regions more strongly in clear speech compared to noisy stimuli
-- No evidence that they utilize compensatory motor and prefrontal regions seen in adults
-- Investigating task-relevant *representations* in development
-- Currently collecting data in **children who stutter**
-:::
-
-![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
-:::
-
-::: aside
-Sitek et al. (in prep.; SNL 2025); 
-
-Hampton-Wray R01DC019904
-:::
-
-::: {.notes}
-SSP
-:::
-
-
 ## Multi-echo fMRI improves group-level sensitivity at 3T {visibility="uncounted"}
 
 
@@ -1595,7 +1617,7 @@ SSP
 ![](images/Medina2025/Medina_Figure1.png){.fragment fig-align="center" height=900}
 
 ::: aside
-Medina et al. (submitted preprint); Medina, ..., Sitek (in prep.)
+Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- TODO: full reference; which paper is each figure from? -->
 :::
 
 ::: {.notes}
@@ -1629,31 +1651,6 @@ Speaker notes go here.
 
 ::: {.notes}
 :::
-
-## Future directions: Analysis methods {visibility="hidden"}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-### `ffrprep`
-*put an image here!*
-
-:::
-
-::: {.column width=50%"}
-### Ex 2
-*put an image here!*
-:::
-
-::::
-
-::: aside
-:::
-
-::: {.notes}
-:::
-
 
 # Communication in practice: Sharing our science {visibility="hidden"}
 
@@ -1690,36 +1687,157 @@ Sitek et al. (2025 *Aperture Neuro*);
 Wearn, Sitek, et al. (2025 *Aperture Neuro*)
 :::
 
-
-## Greater self-generated vs. passive fMRI responses in a single participant across replications {visibility="uncounted"}
-
-:::: {.columns}
-::: {.column .fragment}
-![](images/Sitek_MIS_slices_contrast-listen.png)
-:::
-
-::: {.column .fragment}
-![](images/Sitek_MIS_slices_contrast-selfgen-vs-listen.png)
-:::
-::::
-
-::: aside
-Sitek et al. (OHBM 2025)
-:::
-
+# Research contributions: Auditory circuits throughout the human brain {visibility="hidden"}
 ::: {.notes}
 Speaker notes go here.
 :::
 
-## Stronger self-generated (vs. passive) sound responses in superficial auditory cortex {visibility="uncounted"}
+# My path to hearing, speech, and the brain {visibility="hidden"}
 
-
-![](images/7T_replication.png)
+## First steps: Linguistics and Cognitive Science Undergraduate at UC Berkeley {visibility="hidden"}
+![](images/Sitek_academic-bio/Slide2.png){fig-align="center" height='900'}
 
 ::: aside
-Sitek et al. (OHBM 2025)
+Sitek  & Johnson (2012 Chicago Linguistic Society). "Ipsilateral and contralateral phonetic context effects". 
 :::
 
+## Brain imaging research assistant at UCSF/San Francisco VA Medical Center {visibility="hidden"}
+![](images/Sitek_academic-bio/Slide3.png){fig-align="center" height='900'}
+
+::: aside
+Sitek et al. (2013). "Auditory cortex processes variation in our own speech". 
+:::
+
+## PhD in Speech and Hearing Bioscience and Technology at Harvard/MIT {visibility="hidden"}
+![](images/Sitek_academic-bio/Slide4.png){fig-align="center" height='900'}
+
+::: aside
+**NRSA F31** (2016–2018); Sitek et al. (2016), Connectivity and **stuttering** severity; Sitek and Gulban et al. (2019), "Mapping the human **subcortical auditory system**". 
+:::
+
+## Postdoctoral research in Neuroscience at Baylor College of Medicine {visibility="hidden"}
+![](images/Sitek_academic-bio/Slide5.png){fig-align="center" height='900'}
+
+::: aside
+Ultra-high field 9.4 Tesla functional MRI of the human midbrain (collaborative CRCNS with Tübingen)
+:::
+
+## Research Scientist in Communication Science and Disorders at the University of Pittsburgh {visibility="hidden"}
+![](images/Sitek_academic-bio/Slide6.png){fig-align="center" height='900'}
+
+::: aside
+**NIH K01** (2022–2027); Sitek et al. (2022), Structural connectivity of human inferior colliculus 
+:::
+
+## Now: Research Assistant Professor at Northwestern University {visibility="hidden"}
+![](images/Sitek_academic-bio/Slide7.png){fig-align="center" height='900'}
+
+::: aside
+**NIH R21** (2025–2028); auditory learning and auditory–motor interactions 
+:::
+
+## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="hidden"}
+
+## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="hidden"}
+
+![](images/Sitek_teaching/Slide1.png){fig-align="center"}
+
 ::: {.notes}
-Speaker notes go here.
+- Speech Production (MIT/Harvard Teaching Assistant)
+  - Lecture on articulatory phonetics
+  - Bok Teaching Center Award for Teaching Excellence
+- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
+- Subcortical contributions to language (UT Dallas guest lecture)
+- Communicating Science (Northwestern CSD PhD program)
+  - Tailoring your written/oral/visual presentations to your specific audience
+  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
+  - 73% of students rated the course at the highest possible level
+
+ - Northwestern PhD committee/co-mentorship
+   - Serena Mon (CSD)
+   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+ - Northwestern undergraduate mentorship
+   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Max Chen (Cognitive Science/Computer Science)
+ - Pitt AuD/undergraduate co-mentorship
+
+As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
+:::
+
+## Widening perspectives and expanding opportunities through teaching and mentorship {visibility="hidden"}
+
+![](images/Sitek_teaching/Slide2.png){fig-align="center"}
+
+::: {.notes}
+- Speech Production (MIT/Harvard Teaching Assistant)
+  - Lecture on articulatory phonetics
+  - Bok Teaching Center Award for Teaching Excellence
+- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
+- Subcortical contributions to language (UT Dallas guest lecture)
+- Communicating Science (Northwestern CSD PhD program)
+  - Tailoring your written/oral/visual presentations to your specific audience
+  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
+  - 73% of students rated the course at the highest possible level
+
+ - Northwestern PhD committee/co-mentorship
+   - Serena Mon (CSD)
+   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+ - Northwestern undergraduate mentorship
+   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Max Chen (Cognitive Science/Computer Science)
+ - Pitt AuD/undergraduate co-mentorship
+
+As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
+:::
+
+## Widening perspectives and expanding opportunities through teaching and mentorship  {visibility="hidden"}
+
+![](images/Sitek_teaching/Slide3.png){fig-align="center"}
+
+::: {.notes}
+- Speech Production (MIT/Harvard Teaching Assistant)
+  - Lecture on articulatory phonetics
+  - Bok Teaching Center Award for Teaching Excellence
+- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
+- Subcortical contributions to language (UT Dallas guest lecture)
+- Communicating Science (Northwestern CSD PhD program)
+  - Tailoring your written/oral/visual presentations to your specific audience
+  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
+  - 73% of students rated the course at the highest possible level
+
+ - Northwestern PhD committee/co-mentorship
+   - Serena Mon (CSD)
+   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+ - Northwestern undergraduate mentorship
+   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Max Chen (Cognitive Science/Computer Science)
+ - Pitt AuD/undergraduate co-mentorship
+
+As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
+:::
+
+## Widening perspectives and expanding opportunities through teaching and mentorship  {visibility="hidden"}
+
+![](images/Sitek_teaching/Slide4.png){fig-align="center"}
+
+::: {.notes}
+- Speech Production (MIT/Harvard Teaching Assistant)
+  - Lecture on articulatory phonetics
+  - Bok Teaching Center Award for Teaching Excellence
+- The human subcortical auditory system (Pitt AuD program; Pitt CSD undergrad program guest lectures)
+- Subcortical contributions to language (UT Dallas guest lecture)
+- Communicating Science (Northwestern CSD PhD program)
+  - Tailoring your written/oral/visual presentations to your specific audience
+  - Builds on my own work expanding access to high quality science (Wearn, Sitek, et al., 2025; Sitek et al., 2025)
+  - 73% of students rated the course at the highest possible level
+
+ - Northwestern PhD committee/co-mentorship
+   - Serena Mon (CSD)
+   - Michelle Medina (BME; Medina et al., YEAR; Medina, ..., Sitek, *preprint/in revision*)
+ - Northwestern undergraduate mentorship
+   - Gabby Butler (Cognitive Science; Butler, ..., Sitek, *in prep*)
+   - Max Chen (Cognitive Science/Computer Science)
+ - Pitt AuD/undergraduate co-mentorship
+
+As well as informal PhD/PD mentorship as faculty in the SoundBrain Lab, including writing group leadership and technical mentorship
 :::
