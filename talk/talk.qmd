@@ -1,9 +1,10 @@
 ---
-title: "Imaging the neural systems underlying human communication" 
+title: "Neural systems underlying human speech communication" 
 author: "Kevin R. Sitek, Ph.D."
-# TODO: revise title for the NU CSD audience?
-institute: "Northwestern University Communication Sciences and Disorders (joining UT Dallas Speech, Language, and Hearing, January 2027)"
-date: TBD
+institute: 
+  - Northwestern University Communication Sciences and Disorders
+  - "UT Dallas Speech, Language, and Hearing (starting January 2027)"
+date: November 16, 2026
 
 title-slide-attributes:
     data-background-image: /images/KevinSitek_postmortem-human-brainstem_auditory-tractography.png
@@ -62,6 +63,7 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ### Behavior of the human auditory system
 - **Auditory–motor interactions** across the auditory pathway (**Gabby Butler**, **Laura Raiff**; Butler\*, Raiff\*, ..., Sitek, preprint/submitted; EAM2 led by Laura Raiff)
 - **Auditory categorization** in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)
+- **Bayesian spatial mapping** of learning-task fMRI (Moya, Sitek, et al., 2026 *arXiv*)
 - **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
 - **Speech-in-noise processing** in the developing brain (Sitek et al., SNL 2025; in prep.)
 :::
@@ -629,6 +631,82 @@ Raiff, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
 ::: {.notes}
 :::
 
+# Open tools for the frequency-following response: FFRPrep
+
+::: {.notes}
+Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.
+
+TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).
+:::
+
+## FFRPrep: Standardized, reproducible FFR preprocessing
+
+<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
+![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
+
+:::: {.columns}
+
+::: {.column}
+- FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing -->
+- **FFRPrep**: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm -->
+- **TODO**: inputs, outputs, and quality-control reports
+:::
+
+::: {.column}
+*TODO: pipeline diagram*
+:::
+
+::::
+
+::: aside
+Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation and add GitHub link -->
+:::
+
+::: {.notes}
+Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
+:::
+
+## FFRPrep: Group validation on a large multi-site FFR dataset
+
+<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
+![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
+-->
+
+:::: {.columns}
+
+::: {.column}
+::: {.incremental}
+- **Musicianship EEG Dataset**: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)
+- Converted to **BIDS** and shared openly ([Zenodo](https://doi.org/10.5281/zenodo.22967621))
+- **TODO**: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)
+:::
+:::
+
+::: {.column}
+*TODO: group FFR waveform / spectrum figure from FFRPrep*
+:::
+
+::::
+
+::: aside
+Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al. (2025) *Nature Communications* 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)
+:::
+
+::: {.notes}
+Same /da/ syllable as EAM1, so FFRPrep applies directly to our own data.
+
+Dataset license: CC BY-NC 4.0.
+:::
+
+# Hearing our own speech in auditory cortex
+
+::: {.notes}
+Speaker notes go here.
+:::
+
 ## Hearing our own speech: *Where* are motor signals integrated in auditory cortex?
 
 :::: {.columns}
@@ -883,64 +961,6 @@ Medina et al. (YEAR, *Journal*); Medina, ..., Sitek (preprint/in revision) <!-- 
 
 # 
 
-# Open tools for the frequency-following response: FFRPrep
-
-::: {.notes}
-TODO: open-science framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).
-:::
-
-## FFRPrep: Standardized, reproducible FFR preprocessing
-
-<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
-![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
-
-:::: {.columns}
-
-::: {.column}
-- FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing -->
-- **FFRPrep**: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm -->
-- **TODO**: inputs, outputs, and quality-control reports
-:::
-
-::: {.column}
-*TODO: pipeline diagram*
-:::
-
-::::
-
-::: aside
-Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation and add GitHub link -->
-:::
-
-::: {.notes}
-Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
-:::
-
-## FFRPrep: Example outputs
-
-<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
-![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
-
-*TODO: example QC report / FFR waveforms from FFRPrep*
-
-::: {.incremental}
-- **TODO**: validation (e.g., reproduces EAM1 FFR results?)
-- **TODO**: current status and next steps
-:::
-
-::: aside
-Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->
-:::
-
-::: {.notes}
-:::
-
-# 
-
 # Auditory categorization in the human brain
 
 ::: {.notes}
@@ -1185,6 +1205,38 @@ Sitek et al. (in revision)
 
 ::: {.notes}
 Speaker notes go here.
+:::
+
+## Same data, new statistics: Mapping finger representations with Bayesian random partition models
+
+- New Bayesian hidden Markov random partition model maps how an effect's pattern *and* size vary locally across the brain
+- Applied to button presses during the 7T auditory category-learning task (1 participant, 6 runs)
+- Finger-specific representations across sensorimotor cortex, cerebellum, and dorsal striatum
+
+
+::: {layout-ncol=3}
+![](images/Moya_etal_2025/dmncADL.png)
+
+![](images/Moya_etal_2025/dmncADR.png)
+
+![](images/Moya_etal_2025/dmncPVR.png)
+:::
+
+Posterior mean dominance greater than 25% across voxels for the [right index  (red)]{style="color:red;"}, [left index (blue)]{style="color:blue;"}, and [middle fingers (green)]{style="color:green;"}. 
+
+![](images/people/BlakeMoya.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/AbhraSarkar.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+::: aside
+Moya, Sitek, Roy, Chandrasekaran & Sarkar (2026, *arXiv*: [2609.13319](https://doi.org/10.48550/arXiv.2609.13319))
+:::
+
+::: {.notes}
+Collaboration with Abhra Sarkar (UT Austin) and Blake Moya (former UT Austin PhD student), using the striatal learning dataset to develop a new statistical technique.
+
+Results for the fingertip mapping study:     
+Fingertip dominance across the investigated regions. Posterior mean dominance greater than $25\%$ is shown across voxels for the right index finger (red), left index (blue), and middle fingers (green) based on the estimated partition structures and the estimated effect intensities.     
+Colors blend when two or more fingers exhibit greater than $25\%$ dominance probabilities at the same location,     showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).
 :::
 
 # 
@@ -1529,7 +1581,7 @@ TODO: UTD SLH-specific plans
 :::
 
 ::: {.column width=50%"}
-**UT Austin collaborators**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*industry*)
+**UT Austin collaborators**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*former UT Austin PhD student*)
 
 **Pitt**: Jay Bohland, Mandy Hampton Wray
 
@@ -1582,32 +1634,6 @@ Video: 1920x1088
 
 ## How is the brainstem supplied oxygen? {visibility="uncounted"}
 {{< video images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4  width="1920" height="1088" >}}
-
-## Finger motor representation in the human brain {visibility="uncounted"}
-
-
-::: {layout-ncol=3}
-![](images/Moya_etal_2025/dmncADL.png)
-
-![](images/Moya_etal_2025/dmncADR.png)
-
-![](images/Moya_etal_2025/dmncPVR.png)
-:::
-
-Posterior mean dominance greater than 25% across voxels for the [right index  (red)]{style="color:red;"}, [left index (blue)]{style="color:blue;"}, and [middle fingers (green)]{style="color:green;"}. 
-
-![](images/people/BlakeMoya.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-::: aside
-Moya et al. (in prep.)
-:::
-
-::: {.notes}
-Moya et al.
-Results for the fingertip mapping study:     
-Fingertip dominance across the investigated regions. Posterior mean dominance greater than $25\%$ is shown across voxels for the right index finger (red), left index (blue), and middle fingers (green) based on the estimated partition structures and the estimated effect intensities.     
-Colors blend when two or more fingers exhibit greater than $25\%$ dominance probabilities at the same location,     showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).
-:::
 
 ## Multi-echo fMRI improves group-level sensitivity at 3T {visibility="uncounted"}
 
