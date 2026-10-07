@@ -14,7 +14,7 @@ title-slide-attributes:
 format:
   revealjs: 
     footer: "https://sitek.github.io/"
-    slide-number: False
+    slide-number: True
     chalkboard: 
       buttons: false
     preview-links: auto
@@ -1586,7 +1586,7 @@ Moser et al. (2025): https://doi.org/10.1162/imag_a_00426
 ::: {.incremental}
 - **Sensory and motor speech learning**: striatal mechanisms across speech perception and production (K01 → R01)
 - **Hearing our own speech**: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)
-- **Clinical translation**: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter)
+- **Clinical translation**: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss
 - **TODO**: Callier Center collaborations and UTD-specific directions
 :::
 :::
@@ -1624,9 +1624,9 @@ TODO: UTD SLH-specific plans
 ::: {.column width="50%"}
 
 #### Northwestern mentees and collaborators
-- **Michelle Medina** (*BME PhD student*) and Molly Bright: multi-echo fMRI
-- **Laura Raiff** (*BME PhD student*) and **Gabby Butler** (*Cog Sci UG honors student*): auditory–motor EEG (EAM1, EAM2)
-- **Max Chen** (*Cog Sci/Comp Sci undergrad*) and Peer Herholz: FFRPrep
+- Multi-echo fMRI: **Michelle Medina** (*BME PhD*) and Molly Bright
+- Auditory–motor EEG: **Laura Raiff** (*BME PhD*), **Gabby Butler** (*Cog Sci UG honors student*), **Joshua Shen** (*Neuroscience UG*), and **Vidyuth Sridhar** (*Neuroscience UG*)
+- FFRPrep: **Max Chen** (*Cog Sci/Comp Sci UG*) and Peer Herholz
 - **Thank you, Northwestern Communication Sciences and Disorders!**
 
 #### SoundBrain Lab
@@ -1634,23 +1634,26 @@ TODO: UTD SLH-specific plans
 - Nike Gnanateja (now UW Madison CSD)
 - Casey Roark (now U New Hampshire Psychology)
 
-![](images/people/SoundBrain-lab-current-members-and-alum_FFR-workshop-2024-550x310.jpg){height="300"}
-
 :::
 
 ::: {.column width=50%"}
-**UT Austin collaborators**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*former UT Austin PhD student*)
+**UT Austin**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*former UT Austin PhD student*)
 
 **Pitt**: Jay Bohland, Mandy Hampton Wray
 
 **Harvard/MIT**: Satra Ghosh (*PhD advisor*)
 
-**OHBM Communications Committee** <!-- TODO: names -->
+**Maastricht University**: O. Faruk Gulban, Federico De Martino
+
+**OHBM Communications Committee**
 
 ### Active funding and support
 - K01 DC019421 (2023–2027)
 - R21 DC022906 (2025–2028)
-- R01 DC020963 (2024–2027; PI: Bohland)
+- R01 DC020963 (2024–2028; PI: Bohland)
+
+
+![](images/people/SoundBrain-lab-current-members-and-alum_FFR-workshop-2024-550x310.jpg){height="300" fig-align="center"}
 
 :::
 
