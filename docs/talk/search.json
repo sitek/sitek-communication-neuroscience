@@ -179,7 +179,7 @@
     "href": "talk.html#how-do-we-learn-new-sensory-categories",
     "title": "Neural systems underlying human speech communication",
     "section": "How do we learn new sensory categories?",
-    "text": "How do we learn new sensory categories?\n\n\n\n\nDorsal striatum contribute to learning new categories thanks to its many-to-one projections from distributed cortical networks that subserve:\n\nmotor planning\ntask-relevant sensory processing\nfeedback processing\ndecision-making\n\nDorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)\n\nWhat anatomical pathways that connect the human auditory system to the striatum?\nHow do subdivisions of dorsal striatum functionally contribute to category learning?\n\n\n\n\n\n\n\nLim et al., 2014\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 (PI: Sitek)"
+    "text": "How do we learn new sensory categories?\n\n\n\n\nDorsal striatum contributes to learning new categories thanks to its projections from distributed cortical networks that perform:\n\nmotor planning\ntask-relevant sensory processing\nfeedback processing\ndecision-making\n\nDorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)\n\nWhat anatomical pathways connect the human auditory system to the striatum?\nHow do subdivisions of dorsal striatum functionally contribute to category learning?\n\n\n\n\n\n\n\nLim et al., 2014\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 (PI: Sitek)"
   },
   {
     "objectID": "talk.html#auditory-striatal-pathways-in-non-human-primates",
@@ -200,14 +200,14 @@
     "href": "talk.html#similar-connectivity-patterns-in-humans-and-macaques",
     "title": "Neural systems underlying human speech communication",
     "section": "Similar connectivity patterns in humans and macaques",
-    "text": "Similar connectivity patterns in humans and macaques\n\n\n\n\n\n\n\nMacaque (Yeterian & Pandya 1998)\n\n\n\n\n\n\n\n\n\nHuman (Sitek et al. 2022 preprint, in revision)\n\n\n\n\n\n\n\n\nSpeaker notes go here."
+    "text": "Similar connectivity patterns in humans and macaques\n\n\n\n\n\n\n\nMacaque (Yeterian & Pandya 1998)\n\n\n\n\n\n\n\n\n\nHuman (Sitek et al., in revision)\n\n\n\n\n\n\n\n\nSpeaker notes go here."
   },
   {
     "objectID": "talk.html#how-do-humans-learn-new-sensory-categories",
     "href": "talk.html#how-do-humans-learn-new-sensory-categories",
     "title": "Neural systems underlying human speech communication",
     "section": "How do humans learn new sensory categories?",
-    "text": "How do humans learn new sensory categories?\n\n\n\n\nAuditory category learning task with Mandarin tone stimuli1\n12 non-Mandarin-speaking participants (18–30 years old)\n7 Tesla high resolution functional MRI (1.5 mm isotropic vixels)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\n\nYi 2016; Reetzke 2018; Feng 2019; …"
+    "text": "How do humans learn new sensory categories?\n\n\n\n\nAuditory category learning task with Mandarin tone stimuli1\n12 non-Mandarin-speaking participants (18–30 years old)\n7 Tesla high resolution functional MRI (1.5 mm isotropic voxels)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\n\nYi 2016; Reetzke 2018; Feng 2019; …"
   },
   {
     "objectID": "talk.html#successful-learning-of-new-auditory-categories-in-mri",
@@ -270,7 +270,7 @@
     "href": "talk.html#where-are-motor-signals-integrated-subcortically",
     "title": "Neural systems underlying human speech communication",
     "section": "Where are motor signals integrated? Subcortically?",
-    "text": "Where are motor signals integrated? Subcortically?\n \n\n\n\n\nIf integration is subcortical:\n\nExpect to see FFR differences between self-generated and passive sound\n\nRecorded FFRs to /da/ stimulus\n\nActive condition: press a button to generate a sound\nPassive condion: passive presentation of the sound\n\nCollected data from 33 normal-hearing adults\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaiff & Butler et al. (2026 bioRxiv)"
+    "text": "Where are motor signals integrated? Subcortically?\n \n\n\n\n\nIf integration is subcortical:\n\nExpect to see FFR differences between self-generated and passive sound\n\nRecorded FFRs to /da/ stimulus\n\nActive condition: press a button to generate a sound\nPassive condition: passive presentation of the sound\n\nCollected data from 33 normal-hearing adults\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaiff & Butler et al. (2026 bioRxiv)"
   },
   {
     "objectID": "talk.html#active-and-passive-evoked-responses",
@@ -368,7 +368,7 @@
     "href": "talk.html#acknowledgments",
     "title": "Neural systems underlying human speech communication",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\n\n\nNorthwestern mentees and collaborators\n\nMulti-echo fMRI: Michelle Medina (BME PhD) and Molly Bright\nAuditory–motor EEG: Laura Raiff (BME PhD), Gabby Butler (Cog Sci UG honors student), Joshua Shen (Neuroscience UG), and Vidyuth Sridhar (Neuroscience UG)\nFFRPrep: Max Chen (Cog Sci/Comp Sci UG) and Peer Herholz\nThank you, Northwestern Communication Sciences and Disorders!\n\nSoundBrain Lab\n\nBharath Chandrasekaran, Jacie McHaney, Kailyn McFarlane\nNike Gnanateja (now UW Madison CSD)\nCasey Roark (now U New Hampshire Psychology)\n\n\nUT Austin: Abhra Sarkar, Noirrit Chandra (UT Dallas), Blake Moya (former UT Austin PhD student)\nPitt: Jay Bohland, Mandy Hampton Wray\nHarvard/MIT: Satra Ghosh (PhD advisor)\nMaastricht University: O. Faruk Gulban, Federico De Martino\nOHBM Communications Committee\nActive funding and support\n\nK01 DC019421 (2023–2027)\nR21 DC022906 (2025–2028)\nR01 DC020963 (2024–2028; PI: Bohland)\n\n\n\n\n\n\n\n\nSpeaker notes go here."
+    "text": "Acknowledgments\n\n\nNorthwestern mentees and collaborators\n\nMulti-echo fMRI: Michelle Medina (BME PhD) and Molly Bright\nAuditory–motor EEG: Laura Raiff (BME PhD), Gabby Butler (Cog Sci UG honors student), Joshua Shen (Neuroscience UG), and Vidyuth Sridhar (Neuroscience UG)\nFFRPrep: Max Chen (Cog Sci/Comp Sci UG) and Peer Herholz\nThank you, Northwestern Communication Sciences and Disorders!\n\nSoundBrain Lab\n\nBharath Chandrasekaran, Jacie McHaney (UT Austin), Kailyn McFarlane\nNike Gnanateja (UW Madison CSD)\nCasey Roark (U New Hampshire Psychology)\n\n\nUT Austin: Abhra Sarkar, Noirrit Chandra (UT Dallas), Blake Moya (statistician/data scientist)\nPitt: Jay Bohland, Mandy Hampton Wray\nHarvard/MIT: Satra Ghosh (PhD advisor)\nMaastricht University: O. Faruk Gulban, Federico De Martino\nOHBM Communications Committee\nActive funding and support\n\nK01 DC019421 (2023–2027)\nR21 DC022906 (2025–2028)\nR01 DC020963 (2024–2028; PI: Bohland)\n\n\n\n\n\n\n\n\nSpeaker notes go here."
   },
   {
     "objectID": "talk.html#how-is-the-brainstem-supplied-oxygen",
@@ -480,7 +480,7 @@
     "href": "talk.html#communication-neuroscience-at-northwestern-2023now",
     "title": "Neural systems underlying human speech communication",
     "section": "Communication neuroscience at Northwestern (2023–now)",
-    "text": "Communication neuroscience at Northwestern (2023–now)\n\n\nMapping the human subcortical auditory system\n\nStructural and functional connectivity (Chandra & Sitek et al., 2024)\nMulti-echo fMRI improves subcortical sensitivity at 3T (Michelle Medina, Molly Bright; Medina et al., 2026 Hearing Research; Medina et al., 2026 bioRxiv)\nFFRPrep: open, standardized FFR preprocessing (Max Chen, Peer Herholz)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann, Sitek, in prep.)\n\n\nBehavior of the human auditory system\n\nAuditory–motor interactions across the auditory pathway (Laura Raiff, Gabby Butler; Raiff & Butler et al., 2026 bioRxiv; EAM2 led by Laura Raiff)\nAuditory categorization in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)\nBayesian spatial mapping of learning-task fMRI (Moya et al., 2026 arXiv)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nBold names = Northwestern mentees.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906."
+    "text": "Communication neuroscience at Northwestern (2023–now)\n\n\nMapping the human subcortical auditory system\n\nStructural and functional connectivity (Chandra & Sitek et al., 2024)\nMulti-echo fMRI improves subcortical sensitivity at 3T (Michelle Medina, Molly Bright; Medina et al., 2026 Hearing Research; Medina et al., 2026 bioRxiv)\nFFRPrep: open, standardized FFR preprocessing (Max Chen, Peer Herholz)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann, Sitek, in prep.)\n\n\nBehavior of the human auditory system\n\nAuditory–motor interactions across the auditory pathway (Laura Raiff, Gabby Butler; Raiff & Butler et al., 2026 bioRxiv; EAM2 led by Laura Raiff)\nAuditory categorization in the human brain (Sitek et al., in revision; Deschamps, Sitek, et al., in prep.)\nBayesian spatial mapping of learning-task fMRI (Moya et al., 2026 arXiv)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nBold names = Northwestern mentees.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906."
   },
   {
     "objectID": "talk.html#auditorymotor-interactions-part-2-eam2",
@@ -508,14 +508,14 @@
     "href": "talk.html#multi-echo-fmri-improves-group-level-sensitivity-at-3t",
     "title": "Neural systems underlying human speech communication",
     "section": "Multi-echo fMRI improves group-level sensitivity at 3T",
-    "text": "Multi-echo fMRI improves group-level sensitivity at 3T\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMedina et al. (2026 Hearing Research)"
+    "text": "Multi-echo fMRI improves group-level sensitivity at 3T\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nMedina et al. (2026 Hearing Research)"
   },
   {
     "objectID": "talk.html#ffrprep-standardized-reproducible-ffr-preprocessing",
     "href": "talk.html#ffrprep-standardized-reproducible-ffr-preprocessing",
     "title": "Neural systems underlying human speech communication",
     "section": "FFRPrep: Standardized, reproducible FFR preprocessing",
-    "text": "FFRPrep: Standardized, reproducible FFR preprocessing\n\n\n\n\nFFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs \nFFRPrep: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data \nTODO: inputs, outputs, and quality-control reports\n\n\nTODO: pipeline diagram\n\n\n\nMax Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.\n\n\nChen, Herholz, …, Sitek (in prep.)"
+    "text": "FFRPrep: Standardized, reproducible FFR preprocessing\n \n\n\n\nFFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs \nFFRPrep: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data \nTODO: inputs, outputs, and quality-control reports\n\n\nTODO: pipeline diagram\n\n\n\nMax Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.\n\n\nSitek, Herholz, Chen, … (in prep.)"
   },
   {
     "objectID": "talk.html#ffrprep-example-outputs",
@@ -536,14 +536,14 @@
     "href": "talk.html#next-communication-neuroscience-at-ut-dallas",
     "title": "Neural systems underlying human speech communication",
     "section": "Next: Communication neuroscience at UT Dallas",
-    "text": "Next: Communication neuroscience at UT Dallas\n\n\n\nSensory and motor speech learning: striatal mechanisms across speech perception and production (K01 → R01)\nHearing our own speech: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)\nClinical translation: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter)\nTODO: Callier Center collaborations and UTD-specific directions\n\n\n\n\n\n\n\n\n\nTODO: UTD SLH-specific plans"
+    "text": "Next: Communication neuroscience at UT Dallas\n\n\n\nSensory and motor speech learning: striatal mechanisms across speech perception and production (K01 → R01)\nHearing our own speech: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)\nClinical translation: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss\nTODO: Callier Center collaborations and UTD-specific directions\n\n\n\n\n\n\n\n\n\nTODO: UTD SLH-specific plans"
   },
   {
     "objectID": "talk.html#ffrprep-group-validation-on-a-large-multi-site-ffr-dataset",
     "href": "talk.html#ffrprep-group-validation-on-a-large-multi-site-ffr-dataset",
     "title": "Neural systems underlying human speech communication",
     "section": "FFRPrep: Group validation on a large multi-site FFR dataset",
-    "text": "FFRPrep: Group validation on a large multi-site FFR dataset\n\n\n\n\nMusicianship EEG Dataset: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)\nConverted to BIDS and shared openly (Zenodo)\nTODO: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)\n\n\nTODO: group FFR waveform / spectrum figure from FFRPrep\n\n\n\nSame /da/ syllable as EAM1, so FFRPrep applies directly to our own data.\nDataset license: CC BY-NC 4.0.\n\n\nChen, Herholz, …, Sitek (in prep.) ; Whiteford et al. (2025) Nature Communications 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)"
+    "text": "FFRPrep: Group validation on a large multi-site FFR dataset\n \n\n\n\nMusicianship EEG Dataset: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)\nConverted to BIDS and shared openly (Zenodo)\nTODO: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)\n\n\nTODO: group FFR waveform / spectrum figure from FFRPrep\n\n\n\nSame /da/ syllable we use in the auditory–motor studies coming up next, so FFRPrep applies directly to our own data. (Good transition line.)\nDataset license: CC BY-NC 4.0.\n\n\nChen, Herholz, …, Sitek (in prep.) ; Whiteford et al. (2025) Nature Communications 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)"
   },
   {
     "objectID": "talk.html#same-data-new-statistics-mapping-finger-representations-with-bayesian-random-partition-models",
@@ -564,13 +564,55 @@
     "href": "talk.html#references",
     "title": "Neural systems underlying human speech communication",
     "section": "References",
-    "text": "References\n\nMedina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. Hearing Research (2026).\nMedina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. bioRxiv (2026 preprint; in review).\nMoya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. arXiv (2026 preprint). doi:10.48550/arXiv.2609.13319\nRaiff, L.*, Butler, G.*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. bioRxiv (2026 preprint).\nSitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. Aperture Neuro (2025).\nWearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. Aperture Neuro (2025).\n\n*co-first authors"
+    "text": "References\n\nChandra, N.K.*, Sitek, K.R.*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. Imaging Neuroscience (2024). doi:10.1162/imag_a_00258\nMedina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. Hearing Research (2026).\nMedina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. bioRxiv (2026 preprint; in review).\nMoya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. arXiv (2026 preprint). doi:10.48550/arXiv.2609.13319\nRaiff, L.*, Butler, G.*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. bioRxiv (2026 preprint; in re-review).\nSitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. Aperture Neuro (2025).\nWearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. Aperture Neuro (2025).\n\n*co-first authors; mentees are underlined"
   },
   {
     "objectID": "talk.html#science-is-not-a-silo",
     "href": "talk.html#science-is-not-a-silo",
     "title": "Neural systems underlying human speech communication",
     "section": "Science is not a silo",
-    "text": "Science is not a silo\n\n\nCommunicating our science:\n\nbuilds community\nstrengthens impact\nincreases resilience\n\n\n\nOHBM Communications Committee (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube\nTaught Communicating Science to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience\n\n\n\nTODO: image (e.g., OHBM Time Machine YouTube page or paper figure)\n\n\n\nThank the Communicating Science students for their engagement.\n\n\nSitek, Wearn & DuPre (2025 Aperture Neuro); Wearn, Sitek, et al. (2025 Aperture Neuro)"
+    "text": "Science is not a silo\n\n\n\nCommunicating our science:\n\nbuilds community\nstrengthens impact\nincreases resilience\n\n\n\n\nOHBM Communications Committee (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube\nTaught Communicating Science to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience\n\n\n\n\n\n\n\n\n\n\n\nThank the Communicating Science students for their engagement.\n\n\nSitek, Wearn & DuPre (2025 Aperture Neuro); Wearn, Sitek, et al. (2025 Aperture Neuro)"
+  },
+  {
+    "objectID": "talk.html#seeing-the-auditory-brainstem-on-everyday-mri-scanners",
+    "href": "talk.html#seeing-the-auditory-brainstem-on-everyday-mri-scanners",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Seeing the auditory brainstem on everyday MRI scanners",
+    "text": "Seeing the auditory brainstem on everyday MRI scanners\n\n\n\n\nThe problem\n\nThe auditory brainstem is small and deep, so its MRI signal is weak\nSpecialized 7T scanners help, but most hospitals and research centers have 3T\n\n\n\nThe fix: multi-echo fMRI\n\nStandard fMRI uses one “exposure” setting, tuned for the cortex\nMulti-echo captures several exposures and combines them, like HDR on your phone camera\nEach brain region gets the exposure that suits it, and noise (breathing, head motion) is easier to remove\n\n\n\nStudy: 14 adults listened to 10 minutes of pop music; 3 returned for many repeat sessions\n\n\n\n\n\nDartmouth BIC\n\n\n\n\n\nSo far, everything I’ve shown used 7 Tesla MRI. 7T is becoming more common (Siemens Terra is FDA-approved), but 3T is what most clinics have.\n\nMulti-echo fMRI acquisition (UMinn CMRR)\n\nEcho times = 13.40/39.5/65.6 ms\nRepetition time = 2.2 s\nMultiband factor = 2\nVoxel size = 1.731×1.731×4 mm3\nWhole-brain coverage (44 slices, FOV=180mm)\n\nMulti-echo optimal combination + ICA noise removal (tedana)\n\n\n\nMedina et al. (2026 Hearing Research)"
+  },
+  {
+    "objectID": "talk.html#multi-echo-finds-more-auditory-activity-across-the-group",
+    "href": "talk.html#multi-echo-finds-more-auditory-activity-across-the-group",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Multi-echo finds more auditory activity across the group",
+    "text": "Multi-echo finds more auditory activity across the group\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStronger responses in auditory cortex and brainstem, on a standard 3T scanner\n\n\n\n\n\n\nMedina et al. (2026 Hearing Research)"
+  },
+  {
+    "objectID": "talk.html#mapping-one-persons-auditory-brainstem-in-less-scan-time",
+    "href": "talk.html#mapping-one-persons-auditory-brainstem-in-less-scan-time",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Mapping one person’s auditory brainstem in less scan time",
+    "text": "Mapping one person’s auditory brainstem in less scan time\n\n\n\nMulti-echo needs less scan time to find the auditory brainstem\n\n\n\n\n\n\nStronger brainstem responses in each individual\n\n\n\n\n\n\n\n\nWhy it matters: individual maps are the first step toward clinical use, for example in hearing loss or before cochlear implants. Companion paper: how to run valid statistics on one person’s repeated scans (Medina et al., 2026 bioRxiv)\n\n\nMedina et al. (2026 Hearing Research); Medina et al. (2026 bioRxiv, in review)"
+  },
+  {
+    "objectID": "talk.html#speech-in-noise-systems-are-still-developing-in-adolescents",
+    "href": "talk.html#speech-in-noise-systems-are-still-developing-in-adolescents",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Speech-in-noise systems are still developing in adolescents",
+    "text": "Speech-in-noise systems are still developing in adolescents\n\n\n\n\nKids activate auditory and language regions more strongly for clear than for noisy speech\nBut no sign yet of the extra motor and prefrontal “helper” regions adults use in noise\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure: speech-in-quiet vs. -6 dB SNR.\nNext: investigating task-relevant representations in development.\n\n\nSitek et al. (in prep.; SNL 2025); Hampton-Wray R01DC019904"
+  },
+  {
+    "objectID": "talk.html#research-directions-at-ut-dallas",
+    "href": "talk.html#research-directions-at-ut-dallas",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Research directions at UT Dallas",
+    "text": "Research directions at UT Dallas\n\n\n\nSensory and motor speech learning: striatal mechanisms across speech perception and production (K01 → R01)\nHearing our own speech: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)\nClinical translation: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss\nTODO: Callier Center collaborations and UTD-specific directions\n\n\n\n\n\n\n\n\n\nTODO: UTD SLH-specific plans"
+  },
+  {
+    "objectID": "talk.html#how-do-kids-learn-to-hear-in-noisy-environments",
+    "href": "talk.html#how-do-kids-learn-to-hear-in-noisy-environments",
+    "title": "Neural systems underlying human speech communication",
+    "section": "How do kids learn to hear in noisy environments?",
+    "text": "How do kids learn to hear in noisy environments?\n\n\n\n\nAdults listening in noise rely on speech networks plus extra motor and prefrontal “helper” regions1\nIn children, speech networks are still fine-tuning, and frontal networks are still developing\nStudy: 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)\n\n\n\n\n\n\nvia The Telegraph\n\n\n\n\n\n\n\nDesign: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.\n\n\nSitek et al. (in prep.; SNL 2025)\nDu et al. (2014); Vaden et al. (2013); Eckert et al. (2016)"
   }
 ]

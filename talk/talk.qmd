@@ -62,7 +62,7 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ::: {.column .fragment}
 ### Behavior of the human auditory system
 - **Auditory–motor interactions** across the auditory pathway (**Laura Raiff**, **Gabby Butler**; Raiff & Butler et al., 2026 *bioRxiv*; EAM2 led by Laura Raiff)
-- **Auditory categorization** in the human brain (Sitek et al., in re-review; Llanos & Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)
+- **Auditory categorization** in the human brain (Sitek et al., in revision; Deschamps, Sitek, et al., in prep.)
 - **Bayesian spatial mapping** of learning-task fMRI (Moya et al., 2026 *arXiv*)
 - **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
 - **Speech-in-noise processing** in the developing brain (Sitek et al., SNL 2025; in prep.)
@@ -376,6 +376,181 @@ Chandra* and Sitek* et al. (2024 *Imaging Neuro*)
 Speaker notes go here.
 :::
 
+## Seeing the auditory brainstem on everyday MRI scanners
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column width="55%"}
+::: {.fragment}
+#### The problem
+- The auditory brainstem is small and deep, so its MRI signal is weak
+- Specialized 7T scanners help, but most hospitals and research centers have 3T
+:::
+
+::: {.fragment}
+#### The fix: multi-echo fMRI
+- Standard fMRI uses one "exposure" setting, tuned for the cortex
+- Multi-echo captures several exposures and combines them, **like HDR on your phone camera**
+- Each brain region gets the exposure that suits it, and noise (breathing, head motion) is easier to remove
+:::
+
+::: {.fragment}
+**Study:** 14 adults listened to 10 minutes of pop music; 3 returned for many repeat sessions
+:::
+:::
+
+::: {.column width="45%"}
+![Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
+:::
+
+::::
+
+::: aside
+Medina et al. (2026 *Hearing Research*)
+:::
+
+::: {.notes}
+So far, everything I've shown used 7 Tesla MRI. 7T is becoming more common (Siemens Terra is FDA-approved), but 3T is what most clinics have.
+
+- Multi-echo fMRI acquisition (UMinn CMRR)
+  - Echo times = 13.40/39.5/65.6 ms
+  - Repetition time = 2.2 s
+  - Multiband factor = 2
+  - Voxel size = 1.731×1.731×4 mm^3^
+  - Whole-brain coverage (44 slices, FOV=180mm)
+- Multi-echo optimal combination + ICA noise removal (`tedana`)
+:::
+
+## Multi-echo finds more auditory activity across the group
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {.columns}
+::: {.column}
+![](images/Medina2025/Medina_cortex.png){.fragment fig-align="center"}
+:::
+::: {.column}
+![](images/Medina2025/Medina_overview.png){.fragment fig-align="center"}
+:::
+::::
+
+::: {.fragment}
+#### Stronger responses in auditory cortex *and* brainstem, on a standard 3T scanner
+:::
+
+::: aside
+Medina et al. (2026 *Hearing Research*)
+:::
+
+::: {.notes}
+:::
+
+## Mapping one person's auditory brainstem in less scan time
+
+![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column width="55%" .fragment}
+#### Multi-echo needs less scan time to find the auditory brainstem
+![](images/Medina2025/Medina_Figure4b_bstem.png){fig-align="center" height="650"}
+:::
+
+::: {.column width="45%" .fragment}
+#### Stronger brainstem responses in each individual
+![](images/Medina2025/Medina_Figure4a.png){fig-align="center"}
+:::
+
+::::
+
+::: aside
+Medina et al. (2026 *Hearing Research*); Medina et al. (2026 *bioRxiv*, in review)
+:::
+
+::: {.notes}
+**Why it matters:** individual maps are the first step toward clinical use, for example in hearing loss or before cochlear implants. Companion paper: how to run valid statistics on one person's repeated scans (Medina et al., 2026 *bioRxiv*)
+:::
+
+# Open tools for the frequency-following response: FFRPrep
+
+::: {.notes}
+Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.
+
+TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).
+:::
+
+## Studying the human subcortical auditory system with EEG
+
+#### The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding
+![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
+
+::: aside
+Coffey et al. (2018)
+:::
+
+::: {.notes}
+:::
+
+## FFRPrep: Standardized, reproducible FFR preprocessing
+
+![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column}
+- FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing -->
+- **FFRPrep**: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm -->
+- **TODO**: inputs, outputs, and quality-control reports
+:::
+
+::: {.column}
+*TODO: pipeline diagram*
+:::
+
+::::
+
+::: aside
+Sitek, Herholz, Chen, ... (in prep.) <!-- TODO: confirm citation and add GitHub link -->
+:::
+
+::: {.notes}
+Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
+:::
+
+## FFRPrep: Group validation on a large multi-site FFR dataset
+
+![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column}
+::: {.incremental}
+- **Musicianship EEG Dataset**: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)
+- Converted to **BIDS** and shared openly ([Zenodo](https://doi.org/10.5281/zenodo.22967621))
+- **TODO**: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)
+:::
+:::
+
+::: {.column}
+*TODO: group FFR waveform / spectrum figure from FFRPrep*
+:::
+
+::::
+
+::: aside
+Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al. (2025) *Nature Communications* 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)
+:::
+
+::: {.notes}
+Same /da/ syllable we use in the auditory–motor studies coming up next, so FFRPrep applies directly to our own data. (Good transition line.)
+
+Dataset license: CC BY-NC 4.0.
+:::
+
 # 
 
 # Auditory–motor interactions across the auditory pathway
@@ -434,24 +609,10 @@ This work is actively supported by R21-DC022906 (PI: Sitek).
 Speaker notes go here.
 :::
 
-## Studying the human subcortical auditory system with EEG
-
-#### The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding
-![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
-
-::: aside
-Coffey et al. (2018)
-:::
-
-::: {.notes}
-:::
-
 ## *Where* are motor signals integrated? Subcortically? 
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
 
 :::: {layout="[60,40]"}
 
@@ -460,7 +621,7 @@ Coffey et al. (2018)
   - Expect to see **FFR** differences between *self-generated* and *passive* sound
 - Recorded FFRs to /da/ stimulus
   - *Active* condition: press a button to generate a sound
-  - *Passive* condion: passive presentation of the sound
+  - *Passive* condition: passive presentation of the sound
 - Collected data from 33 normal-hearing adults
 :::
 
@@ -483,9 +644,7 @@ Raiff & Butler et al. (2026 *bioRxiv*)
 ## Active and passive evoked responses
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
 
 :::: {.columns}
 
@@ -514,9 +673,7 @@ All of which *do* vary in cortical responses
 ## Active and passive spectrograms {visibility="hidden"}
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
 
 
 :::: {.columns}
@@ -543,9 +700,7 @@ Raiff & Butler et al. (2026 *bioRxiv*)
 ## Active and passive pitch tracking {visibility="hidden"}
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
 
 ![](images/Butler_etal_2025/Butler_FFR_pitchtracking.png){.fragment height="750" fig-align="center"}
 
@@ -559,9 +714,7 @@ Raiff & Butler et al. (2026 *bioRxiv*)
 ## *Where* are motor signals integrated? Subcortically?
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
 
 #### Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented
 
@@ -583,9 +736,7 @@ If integration is subcortical, would expect to see FFR differences between self-
 
 ## Auditory–motor interactions, part 2 (EAM2)
 
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 :::: {.columns}
 
@@ -611,9 +762,7 @@ EAM2 is led by Laura Raiff.
 
 ## EAM2: Preliminary results
 
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
+![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 *TODO: results figure*
 
@@ -629,252 +778,6 @@ Raiff, ..., Sitek (in prep.)
 ::: {.notes}
 :::
 
-# Open tools for the frequency-following response: FFRPrep
-
-::: {.notes}
-Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.
-
-TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).
-:::
-
-## FFRPrep: Standardized, reproducible FFR preprocessing
-
-<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
-![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
-
-:::: {.columns}
-
-::: {.column}
-- FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing -->
-- **FFRPrep**: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm -->
-- **TODO**: inputs, outputs, and quality-control reports
-:::
-
-::: {.column}
-*TODO: pipeline diagram*
-:::
-
-::::
-
-::: aside
-Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation and add GitHub link -->
-:::
-
-::: {.notes}
-Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
-:::
-
-## FFRPrep: Group validation on a large multi-site FFR dataset
-
-<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
-![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
-
-:::: {.columns}
-
-::: {.column}
-::: {.incremental}
-- **Musicianship EEG Dataset**: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)
-- Converted to **BIDS** and shared openly ([Zenodo](https://doi.org/10.5281/zenodo.22967621))
-- **TODO**: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)
-:::
-:::
-
-::: {.column}
-*TODO: group FFR waveform / spectrum figure from FFRPrep*
-:::
-
-::::
-
-::: aside
-Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al. (2025) *Nature Communications* 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)
-:::
-
-::: {.notes}
-Same /da/ syllable as EAM1, so FFRPrep applies directly to our own data.
-
-Dataset license: CC BY-NC 4.0.
-:::
-
-# 
-
-# Improving subcortical sensitivity at 3T with multi-echo fMRI
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Improving clinical translation at 3T with multi-echo fMRI 
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column}
-
-::: {.fragment}
-#### Multi-echo fMRI improves subcortical (and cortical!) fMRI sensitivity
-- Typical fMRI uses one readout ("echo")
-- But optimal echo time (TE) isn't consistent across the brain
-- Multi-echo fMRI allows *optimal combination* of different TEs across the brain
-:::
-
-::: {.fragment}
-#### Listening task in 3T fMRI
-- 14 participants
-- 10 minutes of pop-song listening
-- 3 participants returned for precision-mapping session
-- Multi-echo fMRI acquisition from UMinn CMRR
-:::
-:::
-
-::: {.column}
-![Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
-:::
-
-::::
-
-
-::: aside
-Medina et al. (2026 *Hearing Research*)
-
-:::
-
-::: {.notes}
-So far, each of the results I've shown have used 7 Tesla MRI. 
-These are becoming more prevalent, especially now that the Siemens Terra is approved by the FDA. 
-But they're still much less common than 3 Tesla MRIs. 
-Fortunately, data acquisition protocols have improved sensitivty even at 3T, 
-so that we can reliably identify auditory midbrain and thalamus.
-
-- Multi-echo fMRI acquisition
-  - Echo times = 13.40/39.5/65.6 ms
-  - Repetition time = 2.2 s
-  - Multiband factor = 2
-  - Voxel size = 1.731×1.731×4 mm^3^
-  - Whole-brain coverage (44 slices, FOV=180mm)
-- Multi-echo optimal combination + ICA noise removal (`tedana`)
-:::
-
-## Improving brainstem sensitivity at 3T with multi-echo fMRI
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column}
-### Listening task in 3T fMRI
-::: {.fragment}
-- 14 participants
-- 10 minutes of pop-song listening
-- 3 participants returned for precision-mapping session
-- Multi-echo fMRI acquisition from UMinn CMRR
-:::
-:::
-
-::: {.column  .fragment}
-![](images/Medina2025/Medina_task.png){fig-align="center" height=700}
-:::
-
-::::
-
-::: aside
-Medina et al. (2026 *Hearing Research*)
-
-:::
-
-::: {.notes}
-- Multi-echo fMRI acquisition
-  - Echo times = 13.40/39.5/65.6 ms
-  - Repetition time = 2.2 s
-  - Multiband factor = 2
-  - Voxel size = 1.731×1.731×4 mm^3^
-  - Whole-brain coverage (44 slices, FOV=180mm)
-- Multi-echo optimal combination + ICA noise removal (`tedana`)
-:::
-
-## Multi-echo fMRI improves group-level sensitivity at 3T
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-:::: {.columns}
-
-::: {.column}
-![](images/Medina2025/Medina_cortex.png){.fragment fig-align="center"}
-:::
-
-::: {.column}
-![](images/Medina2025/Medina_overview.png){.fragment fig-align="center"}
-:::
-
-::::
-
-::: aside
-Medina et al. (2026 *Hearing Research*)
-
-:::
-
-::: {.notes}
-:::
-
-## Improved precision mapping with multi-echo fMRI
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-
-:::: {.columns}
-
-::: {.column width="55%" .fragment}
-#### Multi-echo requires less scan time to identify auditory brainstem
-![](images/Medina2025/Medina_Figure4b_bstem.png){fig-align="center"  height="750"}
-:::
-
-::: {.column width="45%" .fragment}
-#### Subcortical activations are stronger with multi-echo than single-echo fMRI
-![](images/Medina2025/Medina_Figure4a.png){fig-align="center"}
-:::
-
-::::
-
-::: aside
-Medina et al. (2026 *Hearing Research*)
-
-:::
-
-::: {.notes}
-:::
-
-## Inference testing for densely sampled single-subject fMRI
-
-![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-
-:::: {.columns}
-
-::: {.column}
-- **TODO**: question — how should we test for effects in densely sampled single-subject task fMRI?
-- **TODO**: approaches compared
-- **TODO**: key finding
-:::
-
-::: {.column}
-*TODO: figure*
-:::
-
-::::
-
-::: aside
-Medina et al. (2026 *bioRxiv*, in review)
-:::
-
-::: {.notes}
-Medina, Reddy, Bright & Sitek: Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data.
-:::
-
 # 
 
 # Auditory categorization in the human brain
@@ -888,13 +791,13 @@ Speaker notes go here.
 ::: {layout="[70,30]"}
 
 ::: {.incremental}
-- **Dorsal striatum** contribute to learning new categories thanks to its many-to-one projections from **distributed cortical networks** that subserve:
+- **Dorsal striatum** contributes to learning new categories thanks to its projections from **distributed cortical networks** that perform:
   - motor planning
   - **task-relevant sensory processing**
   - **feedback processing**
   - decision-making
 - Dorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)
-  - What **anatomical pathways** that connect the human auditory system to the striatum?
+  - What **anatomical pathways** connect the human auditory system to the striatum?
   - How do *subdivisions* of dorsal striatum **functionally contribute** to category learning?
 :::
 
@@ -941,7 +844,7 @@ Speaker notes go here.
 
 ![Macaque (Yeterian & Pandya 1998)](images/YeterianPandya1997.png){fig-align="center" height="600" .fragment}
 
-![Human (Sitek et al. 2022 preprint, in revision)](images/Sitek_corticostriatal_endpoints.png){fig-align="center" height="600" .fragment}
+![Human (Sitek et al., in revision)](images/Sitek_corticostriatal_endpoints.png){fig-align="center" height="600" .fragment}
 
 :::
 :::
@@ -960,7 +863,7 @@ Speaker notes go here.
 ::: {.incremental}
 - Auditory category learning task with Mandarin tone stimuli^[Yi 2016; Reetzke 2018; Feng 2019; …]
 - 12 **non**-Mandarin-speaking participants (18–30 years old)
-- 7 Tesla high resolution functional MRI (1.5 mm isotropic vixels) 
+- 7 Tesla high resolution functional MRI (1.5 mm isotropic voxels) 
 
 :::
 
@@ -999,16 +902,6 @@ Sitek et al. (in revision)
 Speaker notes go here.
 :::
 
-## Successful learning of new auditory categories in MRI {visibility="uncounted"}
-
-![](images/Sitek2025_categorization/Sitek_beh_learning-stage.svg){height="900"}
-
-::: aside
-Sitek et al. (in revision)
-:::
-::: {.notes}
-Speaker notes go here.
-:::
 
 ## Auditory fMRI responses to sound presentation 
 
@@ -1123,60 +1016,19 @@ Sitek et al. (in revision)
 Speaker notes go here.
 :::
 
-## Same data, new statistics: Mapping finger representations with Bayesian random partition models
-
-- New Bayesian hidden Markov random partition model maps how an effect's pattern *and* size vary locally across the brain
-- Applied to button presses during the 7T auditory category-learning task (1 participant, 6 runs)
-- Finger-specific representations across sensorimotor cortex, cerebellum, and dorsal striatum
-
-
-::: {layout-ncol=3}
-![](images/Moya_etal_2025/dmncADL.png)
-
-![](images/Moya_etal_2025/dmncADR.png)
-
-![](images/Moya_etal_2025/dmncPVR.png)
-:::
-
-Posterior mean dominance greater than 25% across voxels for the [right index  (red)]{style="color:red;"}, [left index (blue)]{style="color:blue;"}, and [middle fingers (green)]{style="color:green;"}. 
-
-![](images/people/BlakeMoya.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/AbhraSarkar.png){.absolute bottom=10 right=220 width="200" height="200"}
-
-::: aside
-Moya et al. (2026 *arXiv*: [2609.13319](https://doi.org/10.48550/arXiv.2609.13319))
-:::
-
-::: {.notes}
-Collaboration with Abhra Sarkar (UT Austin) and Blake Moya (former UT Austin PhD student), using the striatal learning dataset to develop a new statistical technique.
-
-Results for the fingertip mapping study:     
-Fingertip dominance across the investigated regions. Posterior mean dominance greater than $25\%$ is shown across voxels for the right index finger (red), left index (blue), and middle fingers (green) based on the estimated partition structures and the estimated effect intensities.     
-Colors blend when two or more fingers exhibit greater than $25\%$ dominance probabilities at the same location,     showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).
-:::
 
 # 
 
 # Speech-in-noise processing in the developing brain
 
-::: {.notes}
-Speaker notes go here.
-:::
-
-## The developing auditory system
-
-
-#### How do we learn to hear in noisy environments?
+## How do kids learn to hear in noisy environments?
 
 ::: {layout-ncol=2  layout-valign="bottom"}
 
 ::: {.incremental}
-
-- Adults: maturation of speech network^[Du et al. (2014)] + compensatory networks^[Vaden et al. (2013); Eckert et al. (2016)]
-- Children: fine-tuning speech network + undeveloped frontal networks
-- Collected syllable-in-noise task fMRI at 3T in 35 typically developing kids 
-  - 5 speech-shaped noise contexts: Quiet and SNR = +8, 0, -2, and -6
-  - Task: identify which of 4 syllables were presented
+- Adults listening in noise rely on speech networks *plus* extra motor and prefrontal "helper" regions^[Du et al. (2014); Vaden et al. (2013); Eckert et al. (2016)]
+- In children, speech networks are still fine-tuning, and frontal networks are still developing
+- **Study:** 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)
 :::
 
 ![via The Telegraph](images/Cocktail-party.jpg){fig-align="center"}
@@ -1188,102 +1040,54 @@ Sitek et al. (in prep.; SNL 2025)
 :::
 
 ::: {.notes}
-SSP
+Design: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.
 :::
 
-## The developing auditory system: Speech-in-quiet vs. baseline fMRI contrast {visibility="uncounted"}
-
-
-![](images/Sitek_SSP_quiet-gt-baseline.png){fig-align="center" .fragment}
-
-::: aside
-Sitek et al. (in prep.; SNL 2025)
-:::
-
-::: {.notes}
-SSP
-:::
-
-## The developing auditory system: Speech-in-quiet vs. -6 dB SNR
-
-
-![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
-
-::: aside
-Sitek et al. (in prep.; SNL 2025)
-:::
-
-::: {.notes}
-SSP
-:::
-
-## Systems for speech-in-noise processing are actively developing in adolescents
-
+## Speech-in-noise systems are still developing in adolescents
 
 ::: {layout="[40,60]"   layout-valign="bottom"}
 ::: {.incremental}
-- Children activate broad canonical auditory and language regions more strongly in clear speech compared to noisy stimuli
-- No evidence that they utilize compensatory motor and prefrontal regions seen in adults
-- Investigating task-relevant *representations* in development
-- Currently collecting data in **children who stutter**
+- Kids activate auditory and language regions more strongly for clear than for noisy speech
+- But no sign yet of the extra motor and prefrontal "helper" regions adults use in noise
 :::
 
 ![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
 :::
 
 ::: aside
-Sitek et al. (in prep.; SNL 2025); 
-
-Hampton-Wray R01DC019904
+Sitek et al. (in prep.; SNL 2025); Hampton-Wray R01DC019904
 :::
 
 ::: {.notes}
-SSP
-:::
+Figure: speech-in-quiet vs. -6 dB SNR.
 
-# 
-
-# Communicating science
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Science is not a silo
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-Communicating our science:
-
-- builds community
-- strengthens impact
-- increases resilience
-
-::: {.fragment}
-- **OHBM Communications Committee** (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube
-- Taught *Communicating Science* to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience
-:::
-:::
-
-::: {.column width="50%"}
-*TODO: image (e.g., OHBM Time Machine YouTube page or paper figure)*
-:::
-
-::::
-
-::: aside
-Sitek, Wearn & DuPre (2025 *Aperture Neuro*); Wearn, Sitek, et al. (2025 *Aperture Neuro*)
-:::
-
-::: {.notes}
-Thank the Communicating Science students for their engagement.
+Next: investigating task-relevant *representations* in development.
 :::
 
 # 
 
 # Next: UT Dallas Speech, Language, and Hearing
+
+## Research directions at UT Dallas
+
+:::: {.columns}
+
+::: {.column width="55%"}
+- **Sensory and motor speech learning**: striatal mechanisms across speech perception and production (K01 → R01)
+- **Hearing our own speech**: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)
+- **Clinical translation**: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss
+- **TODO**: Callier Center collaborations and UTD-specific directions
+:::
+
+::: {.column width="45%"}
+![](images/calliercenter-768x513.jpg){fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+TODO: UTD SLH-specific plans
+:::
 
 ## Future research directions {visibility="hidden"}
 
@@ -1515,7 +1319,7 @@ Behroozmand (2015) discussion para 2:
 - Reproducible---same cortical depth effects in two acquisitions in the same participant
 :::
 
-## Greater self-generated vs. passive fMRI responses in a single participant across replications
+## Greater self-generated vs. passive fMRI responses in a single participant across replications {visibility="hidden"}
 
 :::: {.columns}
 ::: {.column .fragment}
@@ -1535,7 +1339,7 @@ Sitek et al. (OHBM 2025)
 Speaker notes go here.
 :::
 
-## Stronger self-generated (vs. passive) sound responses in superficial auditory cortex
+## Stronger self-generated (vs. passive) sound responses in superficial auditory cortex {visibility="hidden"}
 
 
 ![](images/7T_replication.png)
@@ -1548,7 +1352,7 @@ Sitek et al. (OHBM 2025)
 Speaker notes go here.
 :::
 
-## Future directions: Auditory processing across the lifespan
+## Future directions: Auditory processing across the lifespan {visibility="hidden"}
 
 ### Future applications: Auditory processing across the lifespan
 
@@ -1578,29 +1382,6 @@ Moser et al. (2025): https://doi.org/10.1162/imag_a_00426
 "The sample consists of one adult (PA001) and two children (PC001 and PC002; age 10) enrolled at the University of Minnesota (UMN), and one adult (PA002) and three healthy neonates enrolled at Washington University in St. Louis (WashU), ages 28 days (43 weeks postmenstrual age (wPMA); PB004), 12 days (41 wPMA; PB005), and 13 days (41 wPMA; PB001)"
 :::
 
-## Next: Communication neuroscience at UT Dallas
-
-:::: {.columns}
-
-::: {.column width="55%"}
-::: {.incremental}
-- **Sensory and motor speech learning**: striatal mechanisms across speech perception and production (K01 → R01)
-- **Hearing our own speech**: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)
-- **Clinical translation**: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss
-- **TODO**: Callier Center collaborations and UTD-specific directions
-:::
-:::
-
-::: {.column width="45%"}
-![](images/calliercenter-768x513.jpg){fig-align="center"}
-:::
-
-::::
-
-::: {.notes}
-TODO: UTD SLH-specific plans
-:::
-
 ## Enhancing clinical precision with stronger human neuroscience {visibility="hidden"}
 
 ### Established collaborations
@@ -1613,6 +1394,40 @@ TODO: UTD SLH-specific plans
 - *Basic neuroscience*: Quantify the relationship between noise exposure, hearing-in-noise difficulty, and structural changes to the cochlea, nerve, and cortex (in an animal model; Aravind Parthasarathy, Pitt)
 - *Human neuroscience*: Identify structural, metabolic, and brain network relationships with noise exposure and speech-in-noise challenges (**Kevin Sitek**, imaging center TBD)
 - *Translational neuroscience*: Develop speech-in-noise metrics and clinically applicable EEG to identify early hidden loss and provide therapeutic opportunities (Bharath Chandrasekaran, Northwestern Center for Speech, Hearing, and Language Learning)
+
+## Science is not a silo
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+Communicating our science:
+
+- builds community
+- strengthens impact
+- increases resilience
+:::
+
+::: {.fragment}
+- **OHBM Communications Committee** (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube
+- Taught *Communicating Science* to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience
+:::
+:::
+
+::: {.column width="50%"}
+![](images/OHBM-Time-Machine.jpg){fig-align="center"}
+:::
+
+::::
+
+::: aside
+Sitek, Wearn & DuPre (2025 *Aperture Neuro*); Wearn, Sitek, et al. (2025 *Aperture Neuro*)
+:::
+
+::: {.notes}
+Thank the Communicating Science students for their engagement.
+:::
 
 ## A systems-level approach to human auditory neuroscience
 ![](images/Sitek_overview/Slide3.png){fig-align="center" height='900'}
@@ -1630,14 +1445,14 @@ TODO: UTD SLH-specific plans
 - **Thank you, Northwestern Communication Sciences and Disorders!**
 
 #### SoundBrain Lab
-- **Bharath Chandrasekaran**, Jacie McHaney, Kailyn McFarlane
-- Nike Gnanateja (now UW Madison CSD)
-- Casey Roark (now U New Hampshire Psychology)
+- **Bharath Chandrasekaran**, Jacie McHaney (*UT Austin*), Kailyn McFarlane
+- Nike Gnanateja (*UW Madison CSD*)
+- Casey Roark (*U New Hampshire Psychology*)
 
 :::
 
 ::: {.column width=50%"}
-**UT Austin**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*former UT Austin PhD student*)
+**UT Austin**: Abhra Sarkar, Noirrit Chandra (*UT Dallas*), Blake Moya (*statistician/data scientist*)
 
 **Pitt**: Jay Bohland, Mandy Hampton Wray
 
@@ -1667,20 +1482,53 @@ Speaker notes go here.
 
 ## References {.smaller visibility="uncounted"}
 
-- Medina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. *Hearing Research* (2026).
-- Medina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. *bioRxiv* (2026 preprint; in review).
+- Chandra, N.K.\*, Sitek, K.R.\*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. *Imaging Neuroscience* (2024). [doi:10.1162/imag_a_00258](https://doi.org/10.1162/imag_a_00258)
+- [Medina, M.C.]{.underline}, Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. *Hearing Research* (2026).
+- [Medina, M.C.]{.underline}, Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. *bioRxiv* (2026 preprint; in review).
 - Moya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. *arXiv* (2026 preprint). [doi:10.48550/arXiv.2609.13319](https://doi.org/10.48550/arXiv.2609.13319)
-- Raiff, L.\*, Butler, G.\*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. *bioRxiv* (2026 preprint).
+- [Raiff, L.]{.underline}\*, [Butler, G.]{.underline}\*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. *bioRxiv* (2026 preprint; in re-review).
 - Sitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. *Aperture Neuro* (2025).
 - Wearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. *Aperture Neuro* (2025).
 
-\*co-first authors
+\*co-first authors; [mentees]{.underline} are underlined
 
 # Extra slides {visibility="uncounted"}
 
 
 ::: {.notes}
 Speaker notes go here.
+:::
+
+## Same data, new statistics: Mapping finger representations with Bayesian random partition models
+
+- New Bayesian hidden Markov random partition model maps how an effect's pattern *and* size vary locally across the brain
+- Applied to button presses during the 7T auditory category-learning task (1 participant, 6 runs)
+- Finger-specific representations across sensorimotor cortex, cerebellum, and dorsal striatum
+
+
+::: {layout-ncol=3}
+![](images/Moya_etal_2025/dmncADL.png)
+
+![](images/Moya_etal_2025/dmncADR.png)
+
+![](images/Moya_etal_2025/dmncPVR.png)
+:::
+
+Posterior mean dominance greater than 25% across voxels for the [right index  (red)]{style="color:red;"}, [left index (blue)]{style="color:blue;"}, and [middle fingers (green)]{style="color:green;"}. 
+
+![](images/people/BlakeMoya.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/AbhraSarkar.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+::: aside
+Moya et al. (2026 *arXiv*: [2609.13319](https://doi.org/10.48550/arXiv.2609.13319))
+:::
+
+::: {.notes}
+Collaboration with Abhra Sarkar (UT Austin) and Blake Moya (former UT Austin PhD student), using the striatal learning dataset to develop a new statistical technique.
+
+Results for the fingertip mapping study:     
+Fingertip dominance across the investigated regions. Posterior mean dominance greater than $25\%$ is shown across voxels for the right index finger (red), left index (blue), and middle fingers (green) based on the estimated partition structures and the estimated effect intensities.     
+Colors blend when two or more fingers exhibit greater than $25\%$ dominance probabilities at the same location,     showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).
 :::
 
 ## How is the brainstem supplied oxygen? {visibility="uncounted"}

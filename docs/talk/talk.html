@@ -190,7 +190,7 @@ Kevin R. Sitek, Ph.D.
 <h3 id="behavior-of-the-human-auditory-system">Behavior of the human auditory system</h3>
 <ul>
 <li><strong>Auditory–motor interactions</strong> across the auditory pathway (<strong>Laura Raiff</strong>, <strong>Gabby Butler</strong>; Raiff &amp; Butler et al., 2026 <em>bioRxiv</em>; EAM2 led by Laura Raiff)</li>
-<li><strong>Auditory categorization</strong> in the human brain (Sitek et al., in re-review; Llanos &amp; Sitek et al., in re-review; Deschamps, Sitek, et al., in prep.)</li>
+<li><strong>Auditory categorization</strong> in the human brain (Sitek et al., in revision; Deschamps, Sitek, et al., in prep.)</li>
 <li><strong>Bayesian spatial mapping</strong> of learning-task fMRI (Moya et al., 2026 <em>arXiv</em>)</li>
 <li><strong>Top–down modulation of predicted sound processing</strong> across the auditory pathway (Ara et al., 2024)</li>
 <li><strong>Speech-in-noise processing</strong> in the developing brain (Sitek et al., SNL 2025; in prep.)</li>
@@ -358,6 +358,242 @@ Kevin R. Sitek, Ph.D.
       }</style></aside>
 <aside><div>
 <p>Chandra* and Sitek* et al.&nbsp;(2024 <em>Imaging Neuro</em>)</p>
+</div></aside></section>
+<section id="seeing-the-auditory-brainstem-on-everyday-mri-scanners" class="slide level2">
+<h2>Seeing the auditory brainstem on everyday MRI scanners</h2>
+<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="fragment">
+<h4 id="the-problem">The problem</h4>
+<ul>
+<li>The auditory brainstem is small and deep, so its MRI signal is weak</li>
+<li>Specialized 7T scanners help, but most hospitals and research centers have 3T</li>
+</ul>
+</div>
+<div class="fragment">
+<h4 id="the-fix-multi-echo-fmri">The fix: multi-echo fMRI</h4>
+<ul>
+<li>Standard fMRI uses one “exposure” setting, tuned for the cortex</li>
+<li>Multi-echo captures several exposures and combines them, <strong>like HDR on your phone camera</strong></li>
+<li>Each brain region gets the exposure that suits it, and noise (breathing, head motion) is easier to remove</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Study:</strong> 14 adults listened to 10 minutes of pop music; 3 returned for many repeat sessions</p>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/multiecho-vs-singleecho.png"></p>
+<figcaption>Dartmouth BIC</figcaption>
+</figure>
+</div>
+</div></div>
+
+<aside class="notes">
+<p>So far, everything I’ve shown used 7 Tesla MRI. 7T is becoming more common (Siemens Terra is FDA-approved), but 3T is what most clinics have.</p>
+<ul>
+<li>Multi-echo fMRI acquisition (UMinn CMRR)
+<ul>
+<li>Echo times = 13.40/39.5/65.6 ms</li>
+<li>Repetition time = 2.2 s</li>
+<li>Multiband factor = 2</li>
+<li>Voxel size = 1.731×1.731×4 mm<sup>3</sup></li>
+<li>Whole-brain coverage (44 slices, FOV=180mm)</li>
+</ul></li>
+<li>Multi-echo optimal combination + ICA noise removal (<code>tedana</code>)</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>)</p>
+</div></aside></section>
+<section id="multi-echo-finds-more-auditory-activity-across-the-group" class="slide level2">
+<h2>Multi-echo finds more auditory activity across the group</h2>
+<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Medina2025/Medina_cortex.png" class="fragment quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Medina2025/Medina_overview.png" class="fragment quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<h4 id="stronger-responses-in-auditory-cortex-and-brainstem-on-a-standard-3t-scanner">Stronger responses in auditory cortex <em>and</em> brainstem, on a standard 3T scanner</h4>
+</div>
+
+<aside class="notes">
+
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>)</p>
+</div></aside></section>
+<section id="mapping-one-persons-auditory-brainstem-in-less-scan-time" class="slide level2">
+<h2>Mapping one person’s auditory brainstem in less scan time</h2>
+<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
+<div class="columns">
+<div class="column fragment" style="width:55%;">
+<h4 id="multi-echo-needs-less-scan-time-to-find-the-auditory-brainstem">Multi-echo needs less scan time to find the auditory brainstem</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Medina2025/Medina_Figure4b_bstem.png" class="quarto-figure quarto-figure-center" height="650"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:45%;">
+<h4 id="stronger-brainstem-responses-in-each-individual">Stronger brainstem responses in each individual</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Medina2025/Medina_Figure4a.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+
+<aside class="notes">
+<p><strong>Why it matters:</strong> individual maps are the first step toward clinical use, for example in hearing loss or before cochlear implants. Companion paper: how to run valid statistics on one person’s repeated scans (Medina et al., 2026 <em>bioRxiv</em>)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>); Medina et al.&nbsp;(2026 <em>bioRxiv</em>, in review)</p>
+</div></aside></section></section>
+<section>
+<section id="open-tools-for-the-frequency-following-response-ffrprep" class="title-slide slide level1 center">
+<h1>Open tools for the frequency-following response: FFRPrep</h1>
+<aside class="notes">
+<p>Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.</p>
+<p>TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="studying-the-human-subcortical-auditory-system-with-eeg" class="slide level2">
+<h2>Studying the human subcortical auditory system with EEG</h2>
+<h4 id="the-scalp-recorded-frequency-following-response-ffr-shows-the-fidelity-of-incoming-sound-encoding">The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Coffey2018_Fig1a.png" class="fragment quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside class="notes">
+
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Coffey et al.&nbsp;(2018)</p>
+</div></aside></section>
+<section id="ffrprep-standardized-reproducible-ffr-preprocessing" class="slide level2">
+<h2>FFRPrep: Standardized, reproducible FFR preprocessing</h2>
+<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li>FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing --></li>
+<li><strong>FFRPrep</strong>: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm --></li>
+<li><strong>TODO</strong>: inputs, outputs, and quality-control reports</li>
+</ul>
+</div><div class="column">
+<p><em>TODO: pipeline diagram</em></p>
+</div></div>
+
+<aside class="notes">
+<p>Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Sitek, Herholz, Chen, … (in prep.) <!-- TODO: confirm citation and add GitHub link --></p>
+</div></aside></section>
+<section id="ffrprep-group-validation-on-a-large-multi-site-ffr-dataset" class="slide level2">
+<h2>FFRPrep: Group validation on a large multi-site FFR dataset</h2>
+<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
+<div class="columns">
+<div class="column">
+<ul>
+<li class="fragment"><strong>Musicianship EEG Dataset</strong>: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)</li>
+<li class="fragment">Converted to <strong>BIDS</strong> and shared openly (<a href="https://doi.org/10.5281/zenodo.22967621">Zenodo</a>)</li>
+<li class="fragment"><strong>TODO</strong>: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)</li>
+</ul>
+</div><div class="column">
+<p><em>TODO: group FFR waveform / spectrum figure from FFRPrep</em></p>
+</div></div>
+
+<aside class="notes">
+<p>Same /da/ syllable we use in the auditory–motor studies coming up next, so FFRPrep applies directly to our own data. (Good transition line.)</p>
+<p>Dataset license: CC BY-NC 4.0.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Chen, Herholz, …, Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al.&nbsp;(2025) <em>Nature Communications</em> 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)</p>
 </div></aside></section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
@@ -448,36 +684,9 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Eliades &amp; Wang (2005)</p></li><li id="fn2"><p>Singla et al.&nbsp;(2017)</p></li></ol></aside></section>
-<section id="studying-the-human-subcortical-auditory-system-with-eeg" class="slide level2">
-<h2>Studying the human subcortical auditory system with EEG</h2>
-<h4 id="the-scalp-recorded-frequency-following-response-ffr-shows-the-fidelity-of-incoming-sound-encoding">The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Coffey2018_Fig1a.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Coffey et al.&nbsp;(2018)</p>
-</div></aside></section>
 <section id="where-are-motor-signals-integrated-subcortically" class="slide level2">
 <h2><em>Where</em> are motor signals integrated? Subcortically?</h2>
-<p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
---></p>
+<p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
 <div class="quarto-layout-panel" data-layout="[60,40]">
 <div class="quarto-layout-row">
 <div class="column fragment quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
@@ -489,7 +698,7 @@ Kevin R. Sitek, Ph.D.
 <li>Recorded FFRs to /da/ stimulus
 <ul>
 <li><em>Active</em> condition: press a button to generate a sound</li>
-<li><em>Passive</em> condion: passive presentation of the sound</li>
+<li><em>Passive</em> condition: passive presentation of the sound</li>
 </ul></li>
 <li>Collected data from 33 normal-hearing adults</li>
 </ul>
@@ -525,9 +734,7 @@ Kevin R. Sitek, Ph.D.
 </div></aside></section>
 <section id="active-and-passive-evoked-responses" class="slide level2">
 <h2>Active and passive evoked responses</h2>
-<p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
---></p>
+<p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
 <div class="columns">
 <div class="column fragment">
 <h4 id="brainstem-frequency-following-response">Brainstem frequency-following response</h4>
@@ -558,9 +765,7 @@ Kevin R. Sitek, Ph.D.
 
 <section id="where-are-motor-signals-integrated-subcortically-1" class="slide level2">
 <h2><em>Where</em> are motor signals integrated? Subcortically?</h2>
-<p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
---></p>
+<p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
 <h4 id="brainstem-frequency-following-response-ffr-shows-the-same-sound-encoding-when-a-sound-is-self-generated-or-passively-presented">Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented</h4>
 <ul>
 <li class="fragment">No <strong>brainstem FFR</strong> differences, despite <strong>cortical</strong> evoked response differences</li>
@@ -590,9 +795,7 @@ Kevin R. Sitek, Ph.D.
 </div></aside></section>
 <section id="auditorymotor-interactions-part-2-eam2" class="slide level2">
 <h2>Auditory–motor interactions, part 2 (EAM2)</h2>
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
+<p><img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
 <div class="columns">
 <div class="column">
 <ul>
@@ -622,9 +825,7 @@ Kevin R. Sitek, Ph.D.
 </div></aside></section>
 <section id="eam2-preliminary-results" class="slide level2">
 <h2>EAM2: Preliminary results</h2>
-<!-- TODO: add images/people/LauraRaiff.jpg, then uncomment:
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
+<p><img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
 <p><em>TODO: results figure</em></p>
 <ul>
 <li class="fragment"><strong>TODO</strong>: main finding</li>
@@ -647,320 +848,7 @@ Kevin R. Sitek, Ph.D.
 <aside><div>
 <p>Raiff, …, Sitek (in prep.)</p>
 </div></aside></section></section>
-<section>
-<section id="open-tools-for-the-frequency-following-response-ffrprep" class="title-slide slide level1 center">
-<h1>Open tools for the frequency-following response: FFRPrep</h1>
-<aside class="notes">
-<p>Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.</p>
-<p>TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="ffrprep-standardized-reproducible-ffr-preprocessing" class="slide level2">
-<h2>FFRPrep: Standardized, reproducible FFR preprocessing</h2>
-<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
-![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
-<div class="columns">
-<div class="column">
-<ul>
-<li>FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing --></li>
-<li><strong>FFRPrep</strong>: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm --></li>
-<li><strong>TODO</strong>: inputs, outputs, and quality-control reports</li>
-</ul>
-</div><div class="column">
-<p><em>TODO: pipeline diagram</em></p>
-</div></div>
-
-<aside class="notes">
-<p>Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Chen, Herholz, …, Sitek (in prep.) <!-- TODO: confirm citation and add GitHub link --></p>
-</div></aside></section>
-<section id="ffrprep-group-validation-on-a-large-multi-site-ffr-dataset" class="slide level2">
-<h2>FFRPrep: Group validation on a large multi-site FFR dataset</h2>
-<!-- TODO: add images/people/MaxChen.jpg and images/people/PeerHerholz.jpg, then uncomment:
-![](images/people/MaxChen.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.jpg){.absolute bottom=10 right=220 width="200" height="200"}
--->
-<div class="columns">
-<div class="column">
-<ul>
-<li class="fragment"><strong>Musicianship EEG Dataset</strong>: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)</li>
-<li class="fragment">Converted to <strong>BIDS</strong> and shared openly (<a href="https://doi.org/10.5281/zenodo.22967621">Zenodo</a>)</li>
-<li class="fragment"><strong>TODO</strong>: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)</li>
-</ul>
-</div><div class="column">
-<p><em>TODO: group FFR waveform / spectrum figure from FFRPrep</em></p>
-</div></div>
-
-<aside class="notes">
-<p>Same /da/ syllable as EAM1, so FFRPrep applies directly to our own data.</p>
-<p>Dataset license: CC BY-NC 4.0.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Chen, Herholz, …, Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al.&nbsp;(2025) <em>Nature Communications</em> 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)</p>
-</div></aside></section></section>
 <section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
-
-</section>
-
-<section>
-<section id="improving-subcortical-sensitivity-at-3t-with-multi-echo-fmri" class="title-slide slide level1 center">
-<h1>Improving subcortical sensitivity at 3T with multi-echo fMRI</h1>
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="improving-clinical-translation-at-3t-with-multi-echo-fmri" class="slide level2">
-<h2>Improving clinical translation at 3T with multi-echo fMRI</h2>
-<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column">
-<div class="fragment">
-<h4 id="multi-echo-fmri-improves-subcortical-and-cortical-fmri-sensitivity">Multi-echo fMRI improves subcortical (and cortical!) fMRI sensitivity</h4>
-<ul>
-<li>Typical fMRI uses one readout (“echo”)</li>
-<li>But optimal echo time (TE) isn’t consistent across the brain</li>
-<li>Multi-echo fMRI allows <em>optimal combination</em> of different TEs across the brain</li>
-</ul>
-</div>
-<div class="fragment">
-<h4 id="listening-task-in-3t-fmri">Listening task in 3T fMRI</h4>
-<ul>
-<li>14 participants</li>
-<li>10 minutes of pop-song listening</li>
-<li>3 participants returned for precision-mapping session</li>
-<li>Multi-echo fMRI acquisition from UMinn CMRR</li>
-</ul>
-</div>
-</div><div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/multiecho-vs-singleecho.png"></p>
-<figcaption>Dartmouth BIC</figcaption>
-</figure>
-</div>
-</div></div>
-
-<aside class="notes">
-<p>So far, each of the results I’ve shown have used 7 Tesla MRI. These are becoming more prevalent, especially now that the Siemens Terra is approved by the FDA. But they’re still much less common than 3 Tesla MRIs. Fortunately, data acquisition protocols have improved sensitivty even at 3T, so that we can reliably identify auditory midbrain and thalamus.</p>
-<ul>
-<li>Multi-echo fMRI acquisition
-<ul>
-<li>Echo times = 13.40/39.5/65.6 ms</li>
-<li>Repetition time = 2.2 s</li>
-<li>Multiband factor = 2</li>
-<li>Voxel size = 1.731×1.731×4 mm<sup>3</sup></li>
-<li>Whole-brain coverage (44 slices, FOV=180mm)</li>
-</ul></li>
-<li>Multi-echo optimal combination + ICA noise removal (<code>tedana</code>)</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>)</p>
-</div></aside></section>
-<section id="improving-brainstem-sensitivity-at-3t-with-multi-echo-fmri" class="slide level2">
-<h2>Improving brainstem sensitivity at 3T with multi-echo fMRI</h2>
-<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column">
-<h3 id="listening-task-in-3t-fmri-1">Listening task in 3T fMRI</h3>
-<div class="fragment">
-<ul>
-<li>14 participants</li>
-<li>10 minutes of pop-song listening</li>
-<li>3 participants returned for precision-mapping session</li>
-<li>Multi-echo fMRI acquisition from UMinn CMRR</li>
-</ul>
-</div>
-</div><div class="column fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Medina2025/Medina_task.png" class="quarto-figure quarto-figure-center" height="700"></p>
-</figure>
-</div>
-</div></div>
-
-<aside class="notes">
-<ul>
-<li>Multi-echo fMRI acquisition
-<ul>
-<li>Echo times = 13.40/39.5/65.6 ms</li>
-<li>Repetition time = 2.2 s</li>
-<li>Multiband factor = 2</li>
-<li>Voxel size = 1.731×1.731×4 mm<sup>3</sup></li>
-<li>Whole-brain coverage (44 slices, FOV=180mm)</li>
-</ul></li>
-<li>Multi-echo optimal combination + ICA noise removal (<code>tedana</code>)</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>)</p>
-</div></aside></section>
-<section id="multi-echo-fmri-improves-group-level-sensitivity-at-3t" class="slide level2">
-<h2>Multi-echo fMRI improves group-level sensitivity at 3T</h2>
-<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Medina2025/Medina_cortex.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Medina2025/Medina_overview.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>)</p>
-</div></aside></section>
-<section id="improved-precision-mapping-with-multi-echo-fmri" class="slide level2">
-<h2>Improved precision mapping with multi-echo fMRI</h2>
-<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column fragment" style="width:55%;">
-<h4 id="multi-echo-requires-less-scan-time-to-identify-auditory-brainstem">Multi-echo requires less scan time to identify auditory brainstem</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Medina2025/Medina_Figure4b_bstem.png" class="quarto-figure quarto-figure-center" height="750"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:45%;">
-<h4 id="subcortical-activations-are-stronger-with-multi-echo-than-single-echo-fmri">Subcortical activations are stronger with multi-echo than single-echo fMRI</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Medina2025/Medina_Figure4a.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>)</p>
-</div></aside></section>
-<section id="inference-testing-for-densely-sampled-single-subject-fmri" class="slide level2">
-<h2>Inference testing for densely sampled single-subject fMRI</h2>
-<p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column">
-<ul>
-<li><strong>TODO</strong>: question — how should we test for effects in densely sampled single-subject task fMRI?</li>
-<li><strong>TODO</strong>: approaches compared</li>
-<li><strong>TODO</strong>: key finding</li>
-</ul>
-</div><div class="column">
-<p><em>TODO: figure</em></p>
-</div></div>
-
-<aside class="notes">
-<p>Medina, Reddy, Bright &amp; Sitek: Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Medina et al.&nbsp;(2026 <em>bioRxiv</em>, in review)</p>
-</div></aside></section></section>
-<section id="section-2" class="title-slide slide level1 center">
 <h1></h1>
 
 </section>
@@ -988,7 +876,7 @@ Kevin R. Sitek, Ph.D.
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
 <ul>
-<li class="fragment"><strong>Dorsal striatum</strong> contribute to learning new categories thanks to its many-to-one projections from <strong>distributed cortical networks</strong> that subserve:
+<li class="fragment"><strong>Dorsal striatum</strong> contributes to learning new categories thanks to its projections from <strong>distributed cortical networks</strong> that perform:
 <ul>
 <li class="fragment">motor planning</li>
 <li class="fragment"><strong>task-relevant sensory processing</strong></li>
@@ -997,7 +885,7 @@ Kevin R. Sitek, Ph.D.
 </ul></li>
 <li class="fragment">Dorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)
 <ul>
-<li class="fragment">What <strong>anatomical pathways</strong> that connect the human auditory system to the striatum?</li>
+<li class="fragment">What <strong>anatomical pathways</strong> connect the human auditory system to the striatum?</li>
 <li class="fragment">How do <em>subdivisions</em> of dorsal striatum <strong>functionally contribute</strong> to category learning?</li>
 </ul></li>
 </ul>
@@ -1050,7 +938,7 @@ Kevin R. Sitek, Ph.D.
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/Sitek_corticostriatal_endpoints.png" height="600"></p>
-<figcaption>Human (Sitek et al.&nbsp;2022 preprint, in revision)</figcaption>
+<figcaption>Human (Sitek et al., in revision)</figcaption>
 </figure>
 </div>
 </div>
@@ -1082,7 +970,7 @@ Kevin R. Sitek, Ph.D.
 <ul>
 <li class="fragment">Auditory category learning task with Mandarin tone stimuli<sup>1</sup></li>
 <li class="fragment">12 <strong>non</strong>-Mandarin-speaking participants (18–30 years old)</li>
-<li class="fragment">7 Tesla high resolution functional MRI (1.5 mm isotropic vixels)</li>
+<li class="fragment">7 Tesla high resolution functional MRI (1.5 mm isotropic voxels)</li>
 </ul>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 35.0%;justify-content: center;">
@@ -1141,26 +1029,6 @@ Kevin R. Sitek, Ph.D.
 <section id="successful-learning-of-new-auditory-categories-in-mri-1" class="slide level2" data-visibility="uncounted">
 <h2>Successful learning of new auditory categories in MRI</h2>
 <p><img data-src="images/Sitek2025_categorization/behav_learning-stage_subp-1-2.svg" height="900"></p>
-
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in revision)</p>
-</div></aside></section>
-<section id="successful-learning-of-new-auditory-categories-in-mri-2" class="slide level2" data-visibility="uncounted">
-<h2>Successful learning of new auditory categories in MRI</h2>
-<p><img data-src="images/Sitek2025_categorization/Sitek_beh_learning-stage.svg" height="900"></p>
 
 <aside class="notes">
 <p>Speaker notes go here.</p>
@@ -1278,50 +1146,8 @@ Kevin R. Sitek, Ph.D.
       }</style></aside>
 <aside><div>
 <p>Sitek et al.&nbsp;(in revision)</p>
-</div></aside></section>
-<section id="same-data-new-statistics-mapping-finger-representations-with-bayesian-random-partition-models" class="slide level2">
-<h2>Same data, new statistics: Mapping finger representations with Bayesian random partition models</h2>
-<ul>
-<li>New Bayesian hidden Markov random partition model maps how an effect’s pattern <em>and</em> size vary locally across the brain</li>
-<li>Applied to button presses during the 7T auditory category-learning task (1 participant, 6 runs)</li>
-<li>Finger-specific representations across sensorimotor cortex, cerebellum, and dorsal striatum</li>
-</ul>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/Moya_etal_2025/dmncADL.png"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/Moya_etal_2025/dmncADR.png"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/Moya_etal_2025/dmncPVR.png"></p>
-</div>
-</div>
-</div>
-<p>Posterior mean dominance greater than 25% across voxels for the <span style="color:red;">right index (red)</span>, <span style="color:blue;">left index (blue)</span>, and <span style="color:green;">middle fingers (green)</span>.</p>
-<p><img data-src="images/people/BlakeMoya.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/AbhraSarkar.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
-
-<aside class="notes">
-<p>Collaboration with Abhra Sarkar (UT Austin) and Blake Moya (former UT Austin PhD student), using the striatal learning dataset to develop a new statistical technique.</p>
-<p>Results for the fingertip mapping study:<br>
-Fingertip dominance across the investigated regions. Posterior mean dominance greater than <span class="math inline">\(25\%\)</span> is shown across voxels for the right index finger (red), left index (blue), and middle fingers (green) based on the estimated partition structures and the estimated effect intensities.<br>
-Colors blend when two or more fingers exhibit greater than <span class="math inline">\(25\%\)</span> dominance probabilities at the same location, showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Moya et al.&nbsp;(2026 <em>arXiv</em>: <a href="https://doi.org/10.48550/arXiv.2609.13319">2609.13319</a>)</p>
 </div></aside></section></section>
-<section id="section-3" class="title-slide slide level1 center">
+<section id="section-2" class="title-slide slide level1 center">
 <h1></h1>
 
 </section>
@@ -1329,34 +1155,17 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 <section>
 <section id="speech-in-noise-processing-in-the-developing-brain" class="title-slide slide level1 center">
 <h1>Speech-in-noise processing in the developing brain</h1>
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+
 </section>
-<section id="the-developing-auditory-system" class="slide level2">
-<h2>The developing auditory system</h2>
-<h4 id="how-do-we-learn-to-hear-in-noisy-environments">How do we learn to hear in noisy environments?</h4>
+<section id="how-do-kids-learn-to-hear-in-noisy-environments" class="slide level2">
+<h2>How do kids learn to hear in noisy environments?</h2>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <ul>
-<li class="fragment">Adults: maturation of speech network<sup>1</sup> + compensatory networks<sup>2</sup></li>
-<li class="fragment">Children: fine-tuning speech network + undeveloped frontal networks</li>
-<li class="fragment">Collected syllable-in-noise task fMRI at 3T in 35 typically developing kids
-<ul>
-<li class="fragment">5 speech-shaped noise contexts: Quiet and SNR = +8, 0, -2, and -6</li>
-<li class="fragment">Task: identify which of 4 syllables were presented</li>
-</ul></li>
+<li class="fragment">Adults listening in noise rely on speech networks <em>plus</em> extra motor and prefrontal “helper” regions<sup>1</sup></li>
+<li class="fragment">In children, speech networks are still fine-tuning, and frontal networks are still developing</li>
+<li class="fragment"><strong>Study:</strong> 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)</li>
 </ul>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
@@ -1371,7 +1180,7 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 </div>
 
 <aside class="notes">
-<p>SSP</p>
+<p>Design: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1385,65 +1194,15 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
       }</style></aside>
 <aside><div>
 <p>Sitek et al.&nbsp;(in prep.; SNL 2025)</p>
-</div><ol class="aside-footnotes"><li id="fn4"><p>Du et al.&nbsp;(2014)</p></li><li id="fn5"><p>Vaden et al.&nbsp;(2013); Eckert et al.&nbsp;(2016)</p></li></ol></aside></section>
-<section id="the-developing-auditory-system-speech-in-quiet-vs.-baseline-fmri-contrast" class="slide level2" data-visibility="uncounted">
-<h2>The developing auditory system: Speech-in-quiet vs.&nbsp;baseline fMRI contrast</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Sitek_SSP_quiet-gt-baseline.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-
-<aside class="notes">
-<p>SSP</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in prep.; SNL 2025)</p>
-</div></aside></section>
-<section id="the-developing-auditory-system-speech-in-quiet-vs.--6-db-snr" class="slide level2">
-<h2>The developing auditory system: Speech-in-quiet vs.&nbsp;-6 dB SNR</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Sitek_SSP_quiet-gt-n6.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-
-<aside class="notes">
-<p>SSP</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in prep.; SNL 2025)</p>
-</div></aside></section>
-<section id="systems-for-speech-in-noise-processing-are-actively-developing-in-adolescents" class="slide level2">
-<h2>Systems for speech-in-noise processing are actively developing in adolescents</h2>
+</div><ol class="aside-footnotes"><li id="fn4"><p>Du et al.&nbsp;(2014); Vaden et al.&nbsp;(2013); Eckert et al.&nbsp;(2016)</p></li></ol></aside></section>
+<section id="speech-in-noise-systems-are-still-developing-in-adolescents" class="slide level2">
+<h2>Speech-in-noise systems are still developing in adolescents</h2>
 <div class="quarto-layout-panel" data-layout="[40,60]">
 <div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
 <ul>
-<li class="fragment">Children activate broad canonical auditory and language regions more strongly in clear speech compared to noisy stimuli</li>
-<li class="fragment">No evidence that they utilize compensatory motor and prefrontal regions seen in adults</li>
-<li class="fragment">Investigating task-relevant <em>representations</em> in development</li>
-<li class="fragment">Currently collecting data in <strong>children who stutter</strong></li>
+<li class="fragment">Kids activate auditory and language regions more strongly for clear than for noisy speech</li>
+<li class="fragment">But no sign yet of the extra motor and prefrontal “helper” regions adults use in noise</li>
 </ul>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
@@ -1457,7 +1216,8 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 </div>
 
 <aside class="notes">
-<p>SSP</p>
+<p>Figure: speech-in-quiet vs.&nbsp;-6 dB SNR.</p>
+<p>Next: investigating task-relevant <em>representations</em> in development.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1470,68 +1230,9 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Sitek et al.&nbsp;(in prep.; SNL 2025);</p>
-<p>Hampton-Wray R01DC019904</p>
+<p>Sitek et al.&nbsp;(in prep.; SNL 2025); Hampton-Wray R01DC019904</p>
 </div></aside></section></section>
-<section id="section-4" class="title-slide slide level1 center">
-<h1></h1>
-
-</section>
-
-<section>
-<section id="communicating-science" class="title-slide slide level1 center">
-<h1>Communicating science</h1>
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="science-is-not-a-silo" class="slide level2">
-<h2>Science is not a silo</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Communicating our science:</p>
-<ul>
-<li>builds community</li>
-<li>strengthens impact</li>
-<li>increases resilience</li>
-</ul>
-<div class="fragment">
-<ul>
-<li><strong>OHBM Communications Committee</strong> (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube</li>
-<li>Taught <em>Communicating Science</em> to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<p><em>TODO: image (e.g., OHBM Time Machine YouTube page or paper figure)</em></p>
-</div></div>
-
-<aside class="notes">
-<p>Thank the Communicating Science students for their engagement.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek, Wearn &amp; DuPre (2025 <em>Aperture Neuro</em>); Wearn, Sitek, et al.&nbsp;(2025 <em>Aperture Neuro</em>)</p>
-</div></aside></section></section>
-<section id="section-5" class="title-slide slide level1 center">
+<section id="section-3" class="title-slide slide level1 center">
 <h1></h1>
 
 </section>
@@ -1540,6 +1241,37 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 <section id="next-ut-dallas-speech-language-and-hearing" class="title-slide slide level1 center">
 <h1>Next: UT Dallas Speech, Language, and Hearing</h1>
 
+</section>
+<section id="research-directions-at-ut-dallas" class="slide level2">
+<h2>Research directions at UT Dallas</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li><strong>Sensory and motor speech learning</strong>: striatal mechanisms across speech perception and production (K01 → R01)</li>
+<li><strong>Hearing our own speech</strong>: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)</li>
+<li><strong>Clinical translation</strong>: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss</li>
+<li><strong>TODO</strong>: Callier Center collaborations and UTD-specific directions</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/calliercenter-768x513.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<aside class="notes">
+<p>TODO: UTD SLH-specific plans</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 
 
@@ -1673,122 +1405,52 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 <aside><div>
 
 </div></aside></section>
-<section id="greater-self-generated-vs.-passive-fmri-responses-in-a-single-participant-across-replications" class="slide level2">
-<h2>Greater self-generated vs.&nbsp;passive fMRI responses in a single participant across replications</h2>
-<div class="columns">
-<div class="column fragment">
-<p><img data-src="images/Sitek_MIS_slices_contrast-listen.png"></p>
-</div><div class="column fragment">
-<p><img data-src="images/Sitek_MIS_slices_contrast-selfgen-vs-listen.png"></p>
-</div></div>
 
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(OHBM 2025)</p>
-</div></aside></section>
-<section id="stronger-self-generated-vs.-passive-sound-responses-in-superficial-auditory-cortex" class="slide level2">
-<h2>Stronger self-generated (vs.&nbsp;passive) sound responses in superficial auditory cortex</h2>
-<p><img data-src="images/7T_replication.png"></p>
 
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(OHBM 2025)</p>
-</div></aside></section>
-<section id="future-directions-auditory-processing-across-the-lifespan" class="slide level2">
-<h2>Future directions: Auditory processing across the lifespan</h2>
-<h3 id="future-applications-auditory-processing-across-the-lifespan">Future applications: Auditory processing across the lifespan</h3>
+
+
+<section id="science-is-not-a-silo" class="slide level2">
+<h2>Science is not a silo</h2>
 <div class="columns">
-<div class="column fragment" style="width:60%;">
-<h4 id="auditory-processing-changes-throughout-adulthood">Auditory processing changes throughout adulthood</h4>
-<ul>
-<li>How does speech-in-noise processing change in middle age and beyond?</li>
-<li>What neural patterns predict later cochlear implant success?</li>
-</ul>
+<div class="column" style="width:50%;">
 <div class="fragment">
-<h4 id="speech-processing-in-the-developing-brain">Speech processing in the developing brain</h4>
+<p>Communicating our science:</p>
 <ul>
-<li>How do children make auditory category decisions, and how are they affected by noise?</li>
-<li>What compensatory neural pathways are available to children with developmental communication differences?</li>
+<li>builds community</li>
+<li>strengthens impact</li>
+<li>increases resilience</li>
 </ul>
 </div>
-</div><div class="column" style="width:40%;">
+<div class="fragment">
+<ul>
+<li><strong>OHBM Communications Committee</strong> (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube</li>
+<li>Taught <em>Communicating Science</em> to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/imag_a_00426_fig4.jpeg" height="800"></p>
-<figcaption>Moser et al.&nbsp;(2025)</figcaption>
+<p><img data-src="images/OHBM-Time-Machine.jpg" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div></div>
-<aside class="notes">
-<p>Moser et al.&nbsp;(2025): https://doi.org/10.1162/imag_a_00426 “The sample consists of one adult (PA001) and two children (PC001 and PC002; age 10) enrolled at the University of Minnesota (UMN), and one adult (PA002) and three healthy neonates enrolled at Washington University in St.&nbsp;Louis (WashU), ages 28 days (43 weeks postmenstrual age (wPMA); PB004), 12 days (41 wPMA; PB005), and 13 days (41 wPMA; PB001)”</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="next-communication-neuroscience-at-ut-dallas" class="slide level2">
-<h2>Next: Communication neuroscience at UT Dallas</h2>
-<div class="columns">
-<div class="column" style="width:55%;">
-<ul>
-<li class="fragment"><strong>Sensory and motor speech learning</strong>: striatal mechanisms across speech perception and production (K01 → R01)</li>
-<li class="fragment"><strong>Hearing our own speech</strong>: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)</li>
-<li class="fragment"><strong>Clinical translation</strong>: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter)</li>
-<li class="fragment"><strong>TODO</strong>: Callier Center collaborations and UTD-specific directions</li>
-</ul>
-</div><div class="column" style="width:45%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/calliercenter-768x513.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<aside class="notes">
-<p>TODO: UTD SLH-specific plans</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
 
+<aside class="notes">
+<p>Thank the Communicating Science students for their engagement.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Sitek, Wearn &amp; DuPre (2025 <em>Aperture Neuro</em>); Wearn, Sitek, et al.&nbsp;(2025 <em>Aperture Neuro</em>)</p>
+</div></aside></section>
 <section id="a-systems-level-approach-to-human-auditory-neuroscience-3" class="slide level2">
 <h2>A systems-level approach to human auditory neuroscience</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -1810,12 +1472,12 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 </ul>
 <h4 id="soundbrain-lab">SoundBrain Lab</h4>
 <ul>
-<li><strong>Bharath Chandrasekaran</strong>, Jacie McHaney, Kailyn McFarlane</li>
-<li>Nike Gnanateja (now UW Madison CSD)</li>
-<li>Casey Roark (now U New Hampshire Psychology)</li>
+<li><strong>Bharath Chandrasekaran</strong>, Jacie McHaney (<em>UT Austin</em>), Kailyn McFarlane</li>
+<li>Nike Gnanateja (<em>UW Madison CSD</em>)</li>
+<li>Casey Roark (<em>U New Hampshire Psychology</em>)</li>
 </ul>
 </div><div class="column" style="width:50%&quot;;">
-<p><strong>UT Austin</strong>: Abhra Sarkar, Noirrit Chandra (<em>UT Dallas</em>), Blake Moya (<em>former UT Austin PhD student</em>)</p>
+<p><strong>UT Austin</strong>: Abhra Sarkar, Noirrit Chandra (<em>UT Dallas</em>), Blake Moya (<em>statistician/data scientist</em>)</p>
 <p><strong>Pitt</strong>: Jay Bohland, Mandy Hampton Wray</p>
 <p><strong>Harvard/MIT</strong>: Satra Ghosh (<em>PhD advisor</em>)</p>
 <p><strong>Maastricht University</strong>: O. Faruk Gulban, Federico De Martino</p>
@@ -1854,14 +1516,15 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 <section id="references" class="slide level2 smaller" data-visibility="uncounted">
 <h2>References</h2>
 <ul>
-<li>Medina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. <em>Hearing Research</em> (2026).</li>
-<li>Medina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. <em>bioRxiv</em> (2026 preprint; in review).</li>
+<li>Chandra, N.K.*, Sitek, K.R.*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. <em>Imaging Neuroscience</em> (2024). <a href="https://doi.org/10.1162/imag_a_00258">doi:10.1162/imag_a_00258</a></li>
+<li><u>Medina, M.C.</u>, Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. <em>Hearing Research</em> (2026).</li>
+<li><u>Medina, M.C.</u>, Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. <em>bioRxiv</em> (2026 preprint; in review).</li>
 <li>Moya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. <em>arXiv</em> (2026 preprint). <a href="https://doi.org/10.48550/arXiv.2609.13319">doi:10.48550/arXiv.2609.13319</a></li>
-<li>Raiff, L.*, Butler, G.*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. <em>bioRxiv</em> (2026 preprint).</li>
+<li><u>Raiff, L.</u>*, <u>Butler, G.</u>*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. <em>bioRxiv</em> (2026 preprint; in re-review).</li>
 <li>Sitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. <em>Aperture Neuro</em> (2025).</li>
 <li>Wearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. <em>Aperture Neuro</em> (2025).</li>
 </ul>
-<p>*co-first authors</p>
+<p>*co-first authors; <u>mentees</u> are underlined</p>
 </section></section>
 <section>
 <section id="extra-slides" class="title-slide slide level1 center" data-visibility="uncounted">
@@ -1880,6 +1543,48 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
           display:block!important;
       }</style></aside>
 </section>
+<section id="same-data-new-statistics-mapping-finger-representations-with-bayesian-random-partition-models" class="slide level2">
+<h2>Same data, new statistics: Mapping finger representations with Bayesian random partition models</h2>
+<ul>
+<li>New Bayesian hidden Markov random partition model maps how an effect’s pattern <em>and</em> size vary locally across the brain</li>
+<li>Applied to button presses during the 7T auditory category-learning task (1 participant, 6 runs)</li>
+<li>Finger-specific representations across sensorimotor cortex, cerebellum, and dorsal striatum</li>
+</ul>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="images/Moya_etal_2025/dmncADL.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="images/Moya_etal_2025/dmncADR.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="images/Moya_etal_2025/dmncPVR.png"></p>
+</div>
+</div>
+</div>
+<p>Posterior mean dominance greater than 25% across voxels for the <span style="color:red;">right index (red)</span>, <span style="color:blue;">left index (blue)</span>, and <span style="color:green;">middle fingers (green)</span>.</p>
+<p><img data-src="images/people/BlakeMoya.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/AbhraSarkar.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
+
+<aside class="notes">
+<p>Collaboration with Abhra Sarkar (UT Austin) and Blake Moya (former UT Austin PhD student), using the striatal learning dataset to develop a new statistical technique.</p>
+<p>Results for the fingertip mapping study:<br>
+Fingertip dominance across the investigated regions. Posterior mean dominance greater than <span class="math inline">\(25\%\)</span> is shown across voxels for the right index finger (red), left index (blue), and middle fingers (green) based on the estimated partition structures and the estimated effect intensities.<br>
+Colors blend when two or more fingers exhibit greater than <span class="math inline">\(25\%\)</span> dominance probabilities at the same location, showing areas of competing dominance for the right index and either middle finger (yellow), left index and either middle finger (cyan), and the two index fingers (purple).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Moya et al.&nbsp;(2026 <em>arXiv</em>: <a href="https://doi.org/10.48550/arXiv.2609.13319">2609.13319</a>)</p>
+</div></aside></section>
 <section id="how-is-the-brainstem-supplied-oxygen" class="slide level2" data-visibility="uncounted">
 <h2>How is the brainstem supplied oxygen?</h2>
 <p><img data-src="images/Xu2025/vasculature_T2w.png" class="absolute" style="top: 10px; right: 10px; width: 300px; height: 300px; "></p>
@@ -1928,7 +1633,7 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 <h2>How is the brainstem supplied oxygen?</h2>
 <video id="video_shortcode_videojs_video5" width="1920" height="1088" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4"></video>
 </section>
-<section id="multi-echo-fmri-improves-group-level-sensitivity-at-3t-1" class="slide level2" data-visibility="uncounted">
+<section id="multi-echo-fmri-improves-group-level-sensitivity-at-3t" class="slide level2" data-visibility="uncounted">
 <h2>Multi-echo fMRI improves group-level sensitivity at 3T</h2>
 <p><img data-src="images/people/MichelleMedina.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
 <div class="quarto-figure quarto-figure-center">
