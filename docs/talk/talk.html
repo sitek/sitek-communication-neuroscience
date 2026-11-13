@@ -181,16 +181,17 @@ Kevin R. Sitek, Ph.D.
 <div class="column fragment">
 <h3 id="mapping-the-human-subcortical-auditory-system">Mapping the human subcortical auditory system</h3>
 <ul>
-<li><strong>Structural and functional connectivity</strong> (Chandra &amp; Sitek et al., 2024)</li>
+<li><strong>Functional connectivity</strong> (Chandra* &amp; Sitek* et al., 2024)</li>
 <li><strong>Multi-echo fMRI</strong> improves subcortical sensitivity at 3T (<strong>Michelle Medina</strong>, Molly Bright; Medina et al., 2026 <em>Hearing Research</em>; Medina et al., 2026 <em>bioRxiv</em>)</li>
-<li><strong>FFRPrep</strong>: open, standardized FFR preprocessing (<strong>Max Chen</strong>, Peer Herholz)</li>
-<li><strong>Neurovascular organization</strong> (Xu et al., ISMRM 2025; Xu, …, S. Bollmann<em>, Sitek</em>, in prep.)</li>
+<li><strong>FFRPrep</strong>: open, standardized FFR preprocessing (<strong>Max Chen</strong>, Peer Herholz; Sitek et al., OHBM 2026; in prep.)</li>
+<li><strong>Neurovascular organization</strong> (Xu et al., ISMRM 2025; Xu, …, S. Bollmann*, Sitek*, in prep.)</li>
+<li><strong>Corticostriatal pathways</strong> in humans (Sitek et al., in revision)</li>
 </ul>
 </div><div class="column fragment">
 <h3 id="behavior-of-the-human-auditory-system">Behavior of the human auditory system</h3>
 <ul>
-<li><strong>Auditory–motor interactions</strong> across the auditory pathway (<strong>Laura Raiff</strong>, <strong>Gabby Butler</strong>; Raiff &amp; Butler et al., 2026 <em>bioRxiv</em>; EAM2 led by Laura Raiff)</li>
-<li><strong>Auditory categorization</strong> in the human brain (Sitek et al., in revision; Deschamps, Sitek, et al., in prep.)</li>
+<li><strong>Auditory–motor interactions</strong> across the auditory pathway (<strong>Laura Raiff</strong>, <strong>Gabby Butler</strong>; Raiff* &amp; Butler* et al., 2026 <em>bioRxiv</em>; Raiff et al., in prep.)</li>
+<li><strong>Auditory category learning</strong> (Sitek et al., in revision; Deschamps, et al., in prep.)</li>
 <li><strong>Bayesian spatial mapping</strong> of learning-task fMRI (Moya et al., 2026 <em>arXiv</em>)</li>
 <li><strong>Top–down modulation of predicted sound processing</strong> across the auditory pathway (Ara et al., 2024)</li>
 <li><strong>Speech-in-noise processing</strong> in the developing brain (Sitek et al., SNL 2025; in prep.)</li>
@@ -211,7 +212,7 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>This work is actively supported by K01-DC019421 and R21-DC022906.</p>
+<p>This work is actively supported by K01-DC019421 and R21-DC022906. Mentees are <strong>in bold</strong>.</p>
 </div></aside></section>
 <section>
 <section id="mapping-and-connectivity-of-the-human-subcortical-auditory-system" class="title-slide slide level1 center">
@@ -385,8 +386,7 @@ Kevin R. Sitek, Ph.D.
 </div><div class="column" style="width:45%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/multiecho-vs-singleecho.png"></p>
-<figcaption>Dartmouth BIC</figcaption>
+<p><img data-src="images/multiecho-vs-singleecho.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div></div>
@@ -491,110 +491,6 @@ Kevin R. Sitek, Ph.D.
 <aside><div>
 <p>Medina et al.&nbsp;(2026 <em>Hearing Research</em>); Medina et al.&nbsp;(2026 <em>bioRxiv</em>, in review)</p>
 </div></aside></section></section>
-<section>
-<section id="open-tools-for-the-frequency-following-response-ffrprep" class="title-slide slide level1 center">
-<h1>Open tools for the frequency-following response: FFRPrep</h1>
-<aside class="notes">
-<p>Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.</p>
-<p>TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="studying-the-human-subcortical-auditory-system-with-eeg" class="slide level2">
-<h2>Studying the human subcortical auditory system with EEG</h2>
-<h4 id="the-scalp-recorded-frequency-following-response-ffr-shows-the-fidelity-of-incoming-sound-encoding">The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Coffey2018_Fig1a.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Coffey et al.&nbsp;(2018)</p>
-</div></aside></section>
-<section id="ffrprep-standardized-reproducible-ffr-preprocessing" class="slide level2">
-<h2>FFRPrep: Standardized, reproducible FFR preprocessing</h2>
-<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column">
-<ul>
-<li>FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing --></li>
-<li><strong>FFRPrep</strong>: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm --></li>
-<li><strong>TODO</strong>: inputs, outputs, and quality-control reports</li>
-</ul>
-</div><div class="column">
-<p><em>TODO: pipeline diagram</em></p>
-</div></div>
-
-<aside class="notes">
-<p>Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek, Herholz, Chen, … (in prep.) <!-- TODO: confirm citation and add GitHub link --></p>
-</div></aside></section>
-<section id="ffrprep-group-validation-on-a-large-multi-site-ffr-dataset" class="slide level2">
-<h2>FFRPrep: Group validation on a large multi-site FFR dataset</h2>
-<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
-<div class="columns">
-<div class="column">
-<ul>
-<li class="fragment"><strong>Musicianship EEG Dataset</strong>: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)</li>
-<li class="fragment">Converted to <strong>BIDS</strong> and shared openly (<a href="https://doi.org/10.5281/zenodo.22967621">Zenodo</a>)</li>
-<li class="fragment"><strong>TODO</strong>: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)</li>
-</ul>
-</div><div class="column">
-<p><em>TODO: group FFR waveform / spectrum figure from FFRPrep</em></p>
-</div></div>
-
-<aside class="notes">
-<p>Same /da/ syllable we use in the auditory–motor studies coming up next, so FFRPrep applies directly to our own data. (Good transition line.)</p>
-<p>Dataset license: CC BY-NC 4.0.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Chen, Herholz, …, Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al.&nbsp;(2025) <em>Nature Communications</em> 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)</p>
-</div></aside></section></section>
 <section id="section" class="title-slide slide level1 center">
 <h1></h1>
 
@@ -684,12 +580,36 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Eliades &amp; Wang (2005)</p></li><li id="fn2"><p>Singla et al.&nbsp;(2017)</p></li></ol></aside></section>
+<section id="studying-the-human-subcortical-auditory-system-with-eeg" class="slide level2">
+<h2>Studying the human subcortical auditory system with EEG</h2>
+<h4 id="the-scalp-recorded-frequency-following-response-ffr-shows-the-fidelity-of-early-incoming-sound-encoding">The scalp-recorded frequency-following response (FFR) shows the fidelity of early incoming sound encoding</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Coffey2018_Fig1a.png" class="fragment quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside class="notes">
+
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Coffey et al.&nbsp;(2018)</p>
+</div></aside></section>
 <section id="where-are-motor-signals-integrated-subcortically" class="slide level2">
 <h2><em>Where</em> are motor signals integrated? Subcortically?</h2>
 <p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
-<div class="quarto-layout-panel" data-layout="[60,40]">
-<div class="quarto-layout-row">
-<div class="column fragment quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<div class="columns">
+<div class="column fragment" style="width:45%;">
 <ul>
 <li>If integration is <strong>subcortical</strong>:
 <ul>
@@ -699,22 +619,17 @@ Kevin R. Sitek, Ph.D.
 <ul>
 <li><em>Active</em> condition: press a button to generate a sound</li>
 <li><em>Passive</em> condition: passive presentation of the sound</li>
+<li><em>Motor</em> condition: button press alone, to subtract out motor activity</li>
 </ul></li>
 <li>Collected data from 33 normal-hearing adults</li>
 </ul>
-</div><div class="column fragment quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/Butler_etal_2025/Butler_EEG.png" class="quarto-figure quarto-figure-left"></p>
-</figure>
-</div>
+</div><div class="column fragment" style="width:55%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/Butler_etal_2025/Butler_stimulus.png" class="quarto-figure quarto-figure-center" height="250"></p>
+<p><img data-src="images/EAM1/EAM1_tasks-montage.png" class="quarto-figure quarto-figure-center" height="620"></p>
 </figure>
 </div>
 </div></div>
-</div>
 
 <aside class="notes">
 
@@ -730,23 +645,32 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Raiff &amp; Butler et al.&nbsp;(2026 <em>bioRxiv</em>)</p>
+<p>Raiff* &amp; Butler* et al.&nbsp;(2026 <em>bioRxiv</em>; in review)</p>
 </div></aside></section>
 <section id="active-and-passive-evoked-responses" class="slide level2">
 <h2>Active and passive evoked responses</h2>
 <p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
 <div class="columns">
 <div class="column fragment">
-<h4 id="brainstem-frequency-following-response">Brainstem frequency-following response</h4>
-<p><img data-src="images/Butler_etal_2025/Butler_FFR_waveform.png" height="700"></p>
+<h4 id="early-encoding-in-the-ffr-no-difference">Early encoding in the FFR: no difference</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/EAM1/EAM1_FFR_waveform.png" class="quarto-figure quarto-figure-center" style="width:95.0%"></p>
+</figure>
+</div>
 </div><div class="column fragment">
-<h4 id="cortical-evoked-response">Cortical evoked response</h4>
-<p><img data-src="images/Butler_etal_2025/Butler_cortical_waveform.png" height="700"></p>
+<h4 id="cortical-response-suppressed-for-self-generated-sound">Cortical response: suppressed for self-generated sound</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/EAM1/EAM1_ERP_motor-corrected.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
 </div></div>
 
 <aside class="notes">
 <p>FFR spectrograms don’t vary between conditions; neither do power or latency-to-first-peak</p>
 <p>All of which <em>do</em> vary in cortical responses</p>
+<p>Cortical: dashed line = Active minus Motor-only (button press with no sound). It stays below Passive, so the suppression isn’t just the button press.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -759,21 +683,21 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Raiff &amp; Butler et al.&nbsp;(2026 <em>bioRxiv</em>)</p>
+<p>Raiff* &amp; Butler* et al.&nbsp;(2026 <em>bioRxiv</em>; in review)</p>
 </div></aside></section>
 
 
 <section id="where-are-motor-signals-integrated-subcortically-1" class="slide level2">
 <h2><em>Where</em> are motor signals integrated? Subcortically?</h2>
 <p><img data-src="images/people/GabbyButler.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
-<h4 id="brainstem-frequency-following-response-ffr-shows-the-same-sound-encoding-when-a-sound-is-self-generated-or-passively-presented">Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented</h4>
+<h4 id="early-auditory-frequency-following-response-ffr-shows-the-same-sound-encoding-when-a-sound-is-self-generated-or-passively-presented">Early auditory frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented</h4>
 <ul>
-<li class="fragment">No <strong>brainstem FFR</strong> differences, despite <strong>cortical</strong> evoked response differences</li>
+<li class="fragment">No <strong>early auditory FFR</strong> differences, despite <strong>cortical</strong> suppression</li>
 <li class="fragment"><em>Motor signals unlikely to attenuate earliest central auditory signals</em></li>
 <li class="fragment">Next steps:
 <ul>
 <li class="fragment"><strong>Source localization</strong> of FFR generators (ECR R21 project)</li>
-<li class="fragment"><strong>Cortical layer-specific</strong> feedback localization with 7T fMRI (R21, at UT Dallas)</li>
+<li class="fragment"><strong>Cortical layer-specific</strong> feedback localization with 7T fMRI (R21, at UT Dallas; Pitt pilot data)</li>
 </ul></li>
 </ul>
 
@@ -791,20 +715,26 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Raiff &amp; Butler et al.&nbsp;(2026 <em>bioRxiv</em>)</p>
+<p>Raiff* &amp; Butler* et al.&nbsp;(2026 <em>bioRxiv</em>; in review)</p>
 </div></aside></section>
-<section id="auditorymotor-interactions-part-2-eam2" class="slide level2">
-<h2>Auditory–motor interactions, part 2 (EAM2)</h2>
+<section id="digging-deeper-into-auditorymotor-interactions-ongoing" class="slide level2">
+<h2>Digging deeper into auditory–motor interactions (ongoing)</h2>
 <p><img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
 <div class="columns">
 <div class="column">
+<h4 id="is-auditory-processing-modulated-by-expectation-of-self-generated-sound">Is auditory processing modulated by <strong>expectation</strong> of self-generated sound?</h4>
 <ul>
-<li><strong>TODO</strong>: research question — how EAM2 extends EAM1</li>
-<li><strong>TODO</strong>: design (task, conditions, EEG/FFR measures)</li>
-<li><strong>TODO</strong>: participants (N, data collection status)</li>
+<li>64-channel EEG enables <strong>source localization</strong> of FFR generators</li>
+<li>Task modulation:
+<ul>
+<li>2 stimulus <em>f0</em>s: 100 Hz and 250 Hz</li>
+<li>2 expectation conditions (80%/20%)</li>
+<li>Active and passive blocks (and motor-only control)</li>
+</ul></li>
+<li>36 participants collected with 2 sessions</li>
 </ul>
 </div><div class="column">
-<p><em>TODO: task schematic / stimulus figure</em></p>
+<video id="video_shortcode_videojs_video4" width="860" height="650" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="images/ffr-source-localization-video.mp4"></video>
 </div></div>
 
 <aside class="notes">
@@ -821,19 +751,55 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Raiff, …, Sitek (in prep.)</p>
-</div></aside></section>
-<section id="eam2-preliminary-results" class="slide level2">
-<h2>EAM2: Preliminary results</h2>
-<p><img data-src="images/people/LauraRaiff.jpg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "></p>
-<p><em>TODO: results figure</em></p>
+<p>Raiff, …, Sitek (in prep.; ARO 2027)</p>
+</div></aside></section></section>
+<section>
+<section id="open-tools-for-the-frequency-following-response-ffrprep" class="title-slide slide level1 center">
+<h1>Open tools for the frequency-following response: FFRPrep</h1>
+<aside class="notes">
+<p>Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis. That matters for comparing FFRs across labs and, eventually, clinics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ffrprep-an-open-standardized-pipeline-for-ffr-data" class="slide level2">
+<h2>FFRPrep: an open, standardized pipeline for FFR data</h2>
+<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
+<div class="fragment">
+<p>FFR studies use <strong>inconsistent analyses, file formats, and data sharing</strong>, which makes results hard to compare across labs (or clinics)</p>
+</div>
+<div class="fragment">
+<div style="display:flex; gap:14px; margin:20px 0;"><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">1. Validate</div><div style="font-size:0.75em; margin-top:6px;">Checks the dataset follows the BIDS standard</div></div><div style="align-self:center; font-size:1.6em; color:#665086;">→</div><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">2. Preprocess</div><div style="font-size:0.75em; margin-top:6px;">Filter, re-reference, epoch, reject artifacts</div></div><div style="align-self:center; font-size:1.6em; color:#665086;">→</div><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">3. Analyze</div><div style="font-size:0.75em; margin-top:6px;">Evoked responses, spectra, pitch tracking, SNR</div></div><div style="align-self:center; font-size:1.6em; color:#665086;">→</div><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">4. Report</div><div style="font-size:0.75em; margin-top:6px;">Automatic HTML report for every participant</div></div></div>
+</div>
+<div class="columns fragment">
+<div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FFRPrep/ffrprep_command.png" class="quarto-figure quarto-figure-center" style="width:95.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:55%;">
 <ul>
-<li class="fragment"><strong>TODO</strong>: main finding</li>
-<li class="fragment"><strong>TODO</strong>: how it relates to EAM1 (no FFR differences between self-generated and passive sounds)</li>
+<li><strong>One command</strong> runs the whole pipeline</li>
+<li>Containerized and versioned, so results are reproducible</li>
+<li>Runs on a laptop or scales across a computing cluster</li>
 </ul>
+</div></div>
 
 <aside class="notes">
-
+<p>Each stage is a modular Nipype workflow. Parallelizes across task/run within a subject (–n_procs); for clusters, one call per subject (e.g., slurm job arrays).</p>
+<p>Preprocessing: load BIDS M/EEG with pybids + MNE-BIDS; reference (average, Cz, or M1/M2); filter while preserving the FFR; epoch from BIDS events, with amplitude-based rejection.</p>
+<p>Analysis: combined evoked, per-trial-type evokeds (e.g., positive/negative polarity), and difference evokeds.</p>
+<p>Future: multi-channel validation, more denoising/artifact options, single-trial classification, more test datasets.</p>
+<p>Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -846,8 +812,99 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Raiff, …, Sitek (in prep.)</p>
-</div></aside></section></section>
+<p>Sitek, Chen &amp; Herholz (OHBM 2026); <a href="https://sitek.github.io/ffrprep">sitek.github.io/ffrprep</a></p>
+</div></aside></section>
+<section id="every-participant-gets-a-transparent-report-preprocessing" class="slide level2">
+<h2>Every participant gets a transparent report: preprocessing</h2>
+<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FFRPrep/panel_average.png" class="fragment quarto-figure quarto-figure-center" height="290"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FFRPrep/panel_quality.png" class="fragment quarto-figure quarto-figure-center" height="440"></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>Top: the participant’s average FFR (here, 1773 epochs) with SEM and stimulus onset.</p>
+<p>Bottom: automatic quality checks for every epoch: peak-to-peak amplitude distribution with the rejection threshold, RMS across epochs (spots noisy stretches), SNR over time, an epoch-by-epoch heatmap, and the power spectrum (line noise, etc.).</p>
+<p>The point: anyone can see exactly what happened to the data before analysis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Sitek, Chen &amp; Herholz (OHBM 2026)</p>
+</div></aside></section>
+<section id="every-participant-gets-a-transparent-report-analysis" class="slide level2">
+<h2>Every participant gets a transparent report: analysis</h2>
+<p><img data-src="images/people/MaxChen.jpeg" class="absolute" style="bottom: 10px; right: 10px; width: 200px; height: 200px; "> <img data-src="images/people/PeerHerholz.png" class="absolute" style="bottom: 10px; right: 220px; width: 200px; height: 200px; "></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FFRPrep/panel_tfr.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FFRPrep/panel_xcorr.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FFRPrep/panel_pitch.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="fragment">
+<h4 id="try-ffrprep-sitek.github.ioffrprep">Try FFRPrep: <a href="https://sitek.github.io/ffrprep">sitek.github.io/ffrprep</a></h4>
+</div>
+</div></div>
+
+<aside class="notes">
+<p>Time–frequency: energy at the stimulus f0 (~100 Hz) and harmonics during the sound.</p>
+<p>Stimulus–response cross-correlation: how faithfully the brain response follows the stimulus waveform, and at what lag (here, peak at ~23 ms, consistent with subcortical generators).</p>
+<p>Pitch tracking: f0 extracted from the response over time, colored by confidence; tracks the 100 Hz stimulus f0 during the steady-state portion.</p>
+<p>Each report also includes waveforms, spectra, autocorrelation, phase consistency, and scalar metrics (RMS SNR, spectral power), for each condition and their differences.</p>
+<p>Musicianship EEG Dataset (Whiteford et al., 2025, Nature Communications): 296 participants, 6 sites; we converted it to BIDS and shared it on Zenodo (https://doi.org/10.5281/zenodo.22967621). License: CC BY-NC 4.0.</p>
+<p>Same /da/ syllable as the auditory–motor studies we just saw, so FFRPrep applies directly to our own data.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Sitek, Chen &amp; Herholz (OHBM 2026)</p>
+</div></aside></section>
+
+
+
+
+
+
+
+
+
+
+
+</section>
 <section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 
@@ -962,36 +1019,22 @@ Kevin R. Sitek, Ph.D.
 <aside><div>
 
 </div></aside></section>
-<section id="how-do-humans-learn-new-sensory-categories" class="slide level2 smaller">
-<h2>How do humans learn new sensory categories?</h2>
-<div class="quarto-layout-panel" data-layout="[30, 35, 35]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: flex-start;">
+<section id="each-cortical-network-has-its-own-striatal-connectivity-profile" class="slide level2">
+<h2>Each cortical network has its own striatal connectivity profile</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Sitek_connectivity_network-comparison.svg" class="fragment quarto-figure quarto-figure-center" height="560"></p>
+</figure>
+</div>
 <ul>
-<li class="fragment">Auditory category learning task with Mandarin tone stimuli<sup>1</sup></li>
-<li class="fragment">12 <strong>non</strong>-Mandarin-speaking participants (18–30 years old)</li>
-<li class="fragment">7 Tesla high resolution functional MRI (1.5 mm isotropic voxels)</li>
+<li class="fragment"><strong>Auditory</strong> and <strong>visual</strong> cortices connect most strongly with the <strong>posterior putamen</strong> – but auditory is more hierarchical</li>
+<li class="fragment"><strong>Prefrontal</strong> cortex connects broadly across caudate and anterior putamen</li>
+<li class="fragment"><strong>Motor</strong> cortex favors posterior putamen and posterior caudate</li>
 </ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 35.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Sitek2025_categorization/Sitek_Fig2_spect.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 35.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Sitek2025_categorization/Sitek_Fig2_exp.png" class="fragment quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
 
 <aside class="notes">
-<p>Speaker notes go here.</p>
+<p>Diffusion tractography from each cortical network to four dorsal striatal subdivisions (aCAU, pCAU, aPUT, pPUT), both hemispheres. Note the log-scale y-axis: differences between subdivisions are often an order of magnitude.</p>
+<p>Visual cortex follows the same posterior-putamen pattern as auditory.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1004,100 +1047,169 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-
-</div><ol class="aside-footnotes"><li id="fn3"><p>Yi 2016; Reetzke 2018; Feng 2019; …</p></li></ol></aside></section>
-<section id="successful-learning-of-new-auditory-categories-in-mri" class="slide level2">
-<h2>Successful learning of new auditory categories in MRI</h2>
-<p><img data-src="images/Sitek2025_categorization/behav_learning-stage_subp-1.svg" class="fragment" height="900"></p>
-
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in revision)</p>
+<p>Sitek et al.&nbsp;(in revision); Human Connectome Project 7T diffusion-weighted MRI (n = 97)</p>
 </div></aside></section>
-<section id="successful-learning-of-new-auditory-categories-in-mri-1" class="slide level2" data-visibility="uncounted">
-<h2>Successful learning of new auditory categories in MRI</h2>
-<p><img data-src="images/Sitek2025_categorization/behav_learning-stage_subp-1-2.svg" height="900"></p>
-
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in revision)</p>
-</div></aside></section>
-<section id="auditory-fmri-responses-to-sound-presentation" class="slide level2">
-<h2>Auditory fMRI responses to sound presentation</h2>
-<p><img data-src="images/Sitek2025_categorization/Sitek_sound-vs-baseline_slice.png" class="fragment" height="750"></p>
-
-<aside class="notes">
-<p>Sound responses: everything significant except for ParsTri</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in revision)</p>
-</div></aside></section>
-
-
-<section id="fmri-responses-to-feedback-correct-vs.-wrong" class="slide level2">
-<h2>fMRI responses to feedback (“correct” vs.&nbsp;“wrong”)</h2>
+<section id="how-do-humans-learn-new-sound-categories" class="slide level2 smaller">
+<h2>How do humans learn new sound categories?</h2>
 <div class="columns">
-<div class="column fragment" style="width:50%;">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Auditory category learning task with Mandarin tone stimuli (Yi 2016; Reetzke 2018; Feng 2019; …)</li>
+<li class="fragment">12 <strong>non</strong>-Mandarin speakers and 13 native Mandarin speakers (18–30 years old)</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/Sitek2025_categorization/Sitek_feedback_striatal_all-runs.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/Sitek2026_categorization/Figure1_stimuli.png" class="fragment quarto-figure quarto-figure-center" height="550"></p>
 </figure>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment">7 Tesla high resolution functional MRI (1.5 mm isotropic voxels)</li>
+<li class="fragment">Each trial: hear a tone → choose a category → get feedback</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Sitek2026_categorization/Figure1_schematic.png" class="fragment quarto-figure quarto-figure-center" style="width:95.0%"></p>
+</figure>
+</div>
+</div></div>
+
+<aside class="notes">
+<p>Speaker notes go here.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+
+</div></aside></section>
+
+
+
+
+
+
+<section id="same-sounds-different-listeners-one-group-learns-one-already-knows" class="slide level2">
+<h2>Same sounds, different listeners: one group learns, one already knows</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li class="fragment">6 runs, grouped into <em>early</em>, <em>middle</em>, and <em>final</em> learning stages</li>
+<li class="fragment"><strong>Learners</strong> (English speakers) and <strong>native Mandarin listeners</strong> hear the same sounds and do the same task, but natives have nothing to learn</li>
+</ul>
+</div><div class="column fragment" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Sitek2026_categorization/behav_acc_two-group.svg" class="quarto-figure quarto-figure-center" height="800"></p>
+</figure>
+</div>
+</div></div>
+
+<aside class="notes">
+<p>Natives are the control for everything except learning: same sounds, same responses, same feedback, but nothing to learn.</p>
+<p>Learners rise from .38 to .82 (t(11) = 6.68). Natives are at ceiling: .95 in run 1, then ~.98.</p>
+<p>If asked whether natives improved: small gain from run 1 to 2 (p = .041). That’s getting used to the task, not learning the categories.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Group × run <em>F</em>(5, 115) = 19.1, <em>p</em> &lt; .001</p>
+</div></aside></section>
+<section id="learning-reshapes-the-caudates-response-to-feedback" class="slide level2">
+<h2>Learning reshapes the caudate’s response to feedback</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Sitek2026_categorization/striatal_trends_fbcorrect.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="fragment">
+<ul>
+<li>Learners’ anterior caudate starts <em>above</em> natives’ and converges by the final stage</li>
+</ul>
 </div>
 </div><div class="column fragment" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/Sitek2025_categorization/Sitek_feedback_striatal_final-vs-early.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/Sitek2026_categorization/group-diff_key-results_aCAU-aPUT.svg" height="650"></p>
+<figcaption>aCAU − aPUT trend: difference = −0.66, <em>t</em> = −2.52, <em>p</em> = .019</figcaption>
 </figure>
 </div>
 </div></div>
 <div class="fragment">
-<h4 id="striatum-feedback-responses">Striatum feedback responses</h4>
-<ul>
-<li>All regions showed positive responses in <em>early</em> learning stage</li>
-<li>But only <strong>anterior putamen</strong> <em>maintained</em> positive responses across all runs</li>
-<li>Only <strong>anterior caudate</strong> <em>significantly decreased</em> responses from early to final learning stages</li>
-</ul>
+<h4 id="as-learners-learn-the-anterior-caudates-feedback-response-falls-relative-to-the-anterior-putamen.-natives-show-no-such-shift.">As learners learn, the anterior caudate’s feedback response falls <em>relative to</em> the anterior putamen. Natives show no such shift.</h4>
 </div>
+<aside class="notes">
+<p>Within learners, aCAU’s response to correct vs.&nbsp;wrong feedback declines with learning. Comparing groups requires correct feedback alone, because natives rarely make errors. On that contrast, the caudate-relative-to-putamen shift separates the groups.</p>
+<p>Stage-by-stage gap (learners − natives, aCAU): +0.30, +0.15, −0.11. Present as convergence; no formal test.</p>
+<p>Be clear: it’s a <em>relative</em> difference. None of the four separate trends (aCAU and aPUT in each group) is significant, and the aCAU-only group test isn’t either (p = .13).</p>
+<p>Natives “flat”: their aCAU trend is equivalent to zero (TOST q = .024), so “flat” is a tested claim, not a missing effect.</p>
+<p>(permutation <em>p</em> = .018; holds when any one participant is dropped)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learners-treat-the-sounds-differently-frontal-deactivation-and-weaker-auditory-responses" class="slide level2">
+<h2>Learners treat the sounds differently: frontal deactivation and weaker auditory responses</h2>
+<ul>
+<li class="fragment">Both groups’ auditory cortex and putamen respond to the tones</li>
+<li class="fragment">But learners <strong>deactivate medial frontal cortex</strong> during sounds, and natives’ <strong>posterior STG</strong> responds more strongly</li>
+</ul>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<h4 id="medial-frontal-cortex-lower-in-learners">Medial frontal cortex: lower in learners</h4>
+<div class="quarto-layout-panel" data-layout="[[64,36]]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 64.0%;justify-content: center;">
+<p><img data-src="images/Sitek2026_categorization/group-diff_network-pfc_contrast-sound_stage-averaged_medial.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 36.0%;justify-content: center;">
+<p><img data-src="images/Sitek2026_categorization/group-diff_key-results_FMC.svg"></p>
+</div>
+</div>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<h4 id="posterior-stg-stronger-in-natives">Posterior STG: stronger in natives</h4>
+<div class="quarto-layout-panel" data-layout="[[64,36]]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 64.0%;justify-content: center;">
+<p><img data-src="images/Sitek2026_categorization/group-diff_network-auditory_contrast-sound_stage-averaged_lateral.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 36.0%;justify-content: center;">
+<p><img data-src="images/Sitek2026_categorization/group-diff_key-results_STGp.svg"></p>
+</div>
+</div>
+</div>
+</div></div>
 
 <aside class="notes">
-<ul>
-<li>Sound responses: everything significant except for ParsTri</li>
-<li>Stronger responses <em>overall</em> in early vs.&nbsp;final learning stages (runs)</li>
-</ul>
+<p>These differences weren’t predicted, so present them as new observations. One possibility: the frontal deactivation reflects effortful listening to unfamiliar categories.</p>
+<p>No group difference in lateralization (group × hemisphere p = .22).</p>
+<p>STGp: FLT15 is now a confirmed valid participant, so q = .036 is the result. Still, say “stronger in natives” rather than leaning on it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1110,7 +1222,7 @@ Kevin R. Sitek, Ph.D.
           display:block!important;
       }</style></aside>
 <aside><div>
-<p>Sitek et al.&nbsp;(in revision)</p>
+<p>Frontal medial cortex (FMC): <em>d</em> = −1.44, <em>q</em> = .013; posterior STG: <em>d</em> = −1.23, <em>q</em> = .036</p>
 </div></aside></section>
 <section id="auditory-categorization-in-the-human-brain-1" class="slide level2">
 <h2>Auditory categorization in the human brain</h2>
@@ -1119,14 +1231,14 @@ Kevin R. Sitek, Ph.D.
 <ul>
 <li>Primary/secondary auditory cortex connects more strongly with <em>posterior</em> dorsal striatum</li>
 <li>Non-invasive human connectivity is similar to invasive tracing in non-human primates (Yeterian &amp; Pandya 1998)</li>
+<li>Auditory connectivity is similar to visual connectivity, but more hierarchical; prefrontal connectivity is more distributed</li>
 </ul>
 </div>
 <div class="fragment">
-<h4 id="dynamics-of-learning-and-categorization-in-dorsal-striatum">Dynamics of learning and categorization in dorsal striatum</h4>
-<h4 id="when-presented-with-feedback">When presented with <strong>feedback</strong>:</h4>
+<h4 id="comparing-learners-with-native-listeners-isolates-learning">Comparing learners with native listeners isolates learning</h4>
 <ul>
-<li><strong>Anterior caudate</strong> responds highest early on</li>
-<li><strong>Anterior putamen</strong> responds across learning stages</li>
+<li>Learning shifts the <strong>anterior caudate</strong>’s feedback response relative to the <strong>anterior putamen</strong></li>
+<li>Learners deactivate <strong>medial frontal cortex</strong> during sounds; natives’ <strong>posterior STG</strong> responds more strongly</li>
 </ul>
 </div>
 <h3 class="fragment" id="putamen-and-caudate-subdivisions-have-unique-functional-and-connectivity-profiles">Putamen and caudate <em>subdivisions</em> have unique functional and connectivity profiles</h3>
@@ -1148,91 +1260,6 @@ Kevin R. Sitek, Ph.D.
 <p>Sitek et al.&nbsp;(in revision)</p>
 </div></aside></section></section>
 <section id="section-2" class="title-slide slide level1 center">
-<h1></h1>
-
-</section>
-
-<section>
-<section id="speech-in-noise-processing-in-the-developing-brain" class="title-slide slide level1 center">
-<h1>Speech-in-noise processing in the developing brain</h1>
-
-</section>
-<section id="how-do-kids-learn-to-hear-in-noisy-environments" class="slide level2">
-<h2>How do kids learn to hear in noisy environments?</h2>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row quarto-layout-valign-bottom">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<ul>
-<li class="fragment">Adults listening in noise rely on speech networks <em>plus</em> extra motor and prefrontal “helper” regions<sup>1</sup></li>
-<li class="fragment">In children, speech networks are still fine-tuning, and frontal networks are still developing</li>
-<li class="fragment"><strong>Study:</strong> 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)</li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Cocktail-party.jpg"></p>
-<figcaption>via The Telegraph</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-
-<aside class="notes">
-<p>Design: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in prep.; SNL 2025)</p>
-</div><ol class="aside-footnotes"><li id="fn4"><p>Du et al.&nbsp;(2014); Vaden et al.&nbsp;(2013); Eckert et al.&nbsp;(2016)</p></li></ol></aside></section>
-<section id="speech-in-noise-systems-are-still-developing-in-adolescents" class="slide level2">
-<h2>Speech-in-noise systems are still developing in adolescents</h2>
-<div class="quarto-layout-panel" data-layout="[40,60]">
-<div class="quarto-layout-row quarto-layout-valign-bottom">
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<ul>
-<li class="fragment">Kids activate auditory and language regions more strongly for clear than for noisy speech</li>
-<li class="fragment">But no sign yet of the extra motor and prefrontal “helper” regions adults use in noise</li>
-</ul>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/Sitek_SSP_quiet-gt-n6.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-
-<aside class="notes">
-<p>Figure: speech-in-quiet vs.&nbsp;-6 dB SNR.</p>
-<p>Next: investigating task-relevant <em>representations</em> in development.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside><div>
-<p>Sitek et al.&nbsp;(in prep.; SNL 2025); Hampton-Wray R01DC019904</p>
-</div></aside></section></section>
-<section id="section-3" class="title-slide slide level1 center">
 <h1></h1>
 
 </section>
@@ -1529,6 +1556,80 @@ Kevin R. Sitek, Ph.D.
 <section>
 <section id="extra-slides" class="title-slide slide level1 center" data-visibility="uncounted">
 <h1>Extra slides</h1>
+
+</section>
+<section id="how-do-kids-learn-to-hear-in-noisy-environments" class="slide level2" data-visibility="uncounted">
+<h2>How do kids learn to hear in noisy environments?</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ul>
+<li class="fragment">Adults listening in noise rely on speech networks <em>plus</em> extra motor and prefrontal “helper” regions<sup>1</sup></li>
+<li class="fragment">In children, speech networks are still fine-tuning, and frontal networks are still developing</li>
+<li class="fragment"><strong>Study:</strong> 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)</li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Cocktail-party.jpg"></p>
+<figcaption>via The Telegraph</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+
+<aside class="notes">
+<p>Design: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Sitek et al.&nbsp;(in prep.; SNL 2025)</p>
+</div><ol class="aside-footnotes"><li id="fn3"><p>Du et al.&nbsp;(2014); Vaden et al.&nbsp;(2013); Eckert et al.&nbsp;(2016)</p></li></ol></aside></section>
+<section id="speech-in-noise-systems-are-still-developing-in-adolescents" class="slide level2" data-visibility="uncounted">
+<h2>Speech-in-noise systems are still developing in adolescents</h2>
+<div class="quarto-layout-panel" data-layout="[40,60]">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
+<ul>
+<li class="fragment">Kids activate auditory and language regions more strongly for clear than for noisy speech</li>
+<li class="fragment">But no sign yet of the extra motor and prefrontal “helper” regions adults use in noise</li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Sitek_SSP_quiet-gt-n6.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+
+<aside class="notes">
+<p>Figure: speech-in-quiet vs.&nbsp;-6 dB SNR.</p>
+<p>Next: investigating task-relevant <em>representations</em> in development.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <aside class="notes">
 <p>Speaker notes go here.</p>
 <style type="text/css">
@@ -1542,7 +1643,9 @@ Kevin R. Sitek, Ph.D.
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
+<aside><div>
+<p>Sitek et al.&nbsp;(in prep.; SNL 2025); Hampton-Wray R01DC019904</p>
+</div></aside></section>
 <section id="same-data-new-statistics-mapping-finger-representations-with-bayesian-random-partition-models" class="slide level2">
 <h2>Same data, new statistics: Mapping finger representations with Bayesian random partition models</h2>
 <ul>
@@ -1607,7 +1710,7 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<video id="video_shortcode_videojs_video4" width="800%" height="500%" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4"></video>
+<video id="video_shortcode_videojs_video5" width="800%" height="500%" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4"></video>
 </div>
 </div>
 </div>
@@ -1631,7 +1734,7 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
 </div></aside></section>
 <section id="how-is-the-brainstem-supplied-oxygen-1" class="slide level2" data-visibility="uncounted">
 <h2>How is the brainstem supplied oxygen?</h2>
-<video id="video_shortcode_videojs_video5" width="1920" height="1088" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4"></video>
+<video id="video_shortcode_videojs_video6" width="1920" height="1088" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4"></video>
 </section>
 <section id="multi-echo-fmri-improves-group-level-sensitivity-at-3t" class="slide level2" data-visibility="uncounted">
 <h2>Multi-echo fMRI improves group-level sensitivity at 3T</h2>
@@ -2077,6 +2180,7 @@ Colors blend when two or more fingers exhibit greater than <span class="math inl
     <script>videojs(video_shortcode_videojs_video3);</script>
     <script>videojs(video_shortcode_videojs_video4);</script>
     <script>videojs(video_shortcode_videojs_video5);</script>
+    <script>videojs(video_shortcode_videojs_video6);</script>
     
 
 </body></html>

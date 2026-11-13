@@ -54,15 +54,16 @@ Sensory behavior - how we use auditory information to learn about and act in the
 
 ::: {.column .fragment}
 ### Mapping the human subcortical auditory system
-- **Structural and functional connectivity** (Chandra & Sitek et al., 2024)
+- **Functional connectivity** (Chandra\* & Sitek\* et al., 2024)
 - **Multi-echo fMRI** improves subcortical sensitivity at 3T (**Michelle Medina**, Molly Bright; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
-- **FFRPrep**: open, standardized FFR preprocessing (**Max Chen**, Peer Herholz)
-- **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann*, Sitek*, in prep.)
+- **FFRPrep**: open, standardized FFR preprocessing (**Max Chen**, Peer Herholz; Sitek et al., OHBM 2026; in prep.)
+- **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann\*, Sitek\*, in prep.)
+- **Corticostriatal pathways** in humans (Sitek et al., in revision)
 :::
 ::: {.column .fragment}
 ### Behavior of the human auditory system
-- **Auditory–motor interactions** across the auditory pathway (**Laura Raiff**, **Gabby Butler**; Raiff & Butler et al., 2026 *bioRxiv*; EAM2 led by Laura Raiff)
-- **Auditory categorization** in the human brain (Sitek et al., in revision; Deschamps, Sitek, et al., in prep.)
+- **Auditory–motor interactions** across the auditory pathway (**Laura Raiff**, **Gabby Butler**; Raiff\* & Butler\* et al., 2026 *bioRxiv*; Raiff et al., in prep.)
+- **Auditory category learning** (Sitek et al., in revision; Deschamps, et al., in prep.)
 - **Bayesian spatial mapping** of learning-task fMRI (Moya et al., 2026 *arXiv*)
 - **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
 - **Speech-in-noise processing** in the developing brain (Sitek et al., SNL 2025; in prep.)
@@ -70,7 +71,7 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ::::
 
 ::: aside
-This work is actively supported by K01-DC019421 and R21-DC022906.
+This work is actively supported by K01-DC019421 and R21-DC022906. Mentees are **in bold**.
 :::
 
 ::: {.notes}
@@ -402,7 +403,7 @@ Speaker notes go here.
 :::
 
 ::: {.column width="45%"}
-![Dartmouth BIC](images/multiecho-vs-singleecho.png){fig-align="center"}
+![](images/multiecho-vs-singleecho.png){fig-align="center"}
 :::
 
 ::::
@@ -473,84 +474,6 @@ Medina et al. (2026 *Hearing Research*); Medina et al. (2026 *bioRxiv*, in revie
 **Why it matters:** individual maps are the first step toward clinical use, for example in hearing loss or before cochlear implants. Companion paper: how to run valid statistics on one person's repeated scans (Medina et al., 2026 *bioRxiv*)
 :::
 
-# Open tools for the frequency-following response: FFRPrep
-
-::: {.notes}
-Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis.
-
-TODO: expand framing — why standardized, shareable FFR preprocessing matters for the field (and for multi-site/clinical FFR work).
-:::
-
-## Studying the human subcortical auditory system with EEG
-
-#### The scalp-recorded frequency-following response (FFR) shows the fidelity of incoming sound encoding
-![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
-
-::: aside
-Coffey et al. (2018)
-:::
-
-::: {.notes}
-:::
-
-## FFRPrep: Standardized, reproducible FFR preprocessing
-
-![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
-
-:::: {.columns}
-
-::: {.column}
-- FFR preprocessing (filtering, artifact rejection, polarity handling, averaging) varies widely across labs <!-- TODO: confirm framing -->
-- **FFRPrep**: open-source preprocessing pipeline for BIDS-formatted EEG/FFR data <!-- TODO: confirm -->
-- **TODO**: inputs, outputs, and quality-control reports
-:::
-
-::: {.column}
-*TODO: pipeline diagram*
-:::
-
-::::
-
-::: aside
-Sitek, Herholz, Chen, ... (in prep.) <!-- TODO: confirm citation and add GitHub link -->
-:::
-
-::: {.notes}
-Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
-:::
-
-## FFRPrep: Group validation on a large multi-site FFR dataset
-
-![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
-![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
-
-:::: {.columns}
-
-::: {.column}
-::: {.incremental}
-- **Musicianship EEG Dataset**: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)
-- Converted to **BIDS** and shared openly ([Zenodo](https://doi.org/10.5281/zenodo.22967621))
-- **TODO**: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)
-:::
-:::
-
-::: {.column}
-*TODO: group FFR waveform / spectrum figure from FFRPrep*
-:::
-
-::::
-
-::: aside
-Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al. (2025) *Nature Communications* 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)
-:::
-
-::: {.notes}
-Same /da/ syllable we use in the auditory–motor studies coming up next, so FFRPrep applies directly to our own data. (Good transition line.)
-
-Dataset license: CC BY-NC 4.0.
-:::
-
 # 
 
 # Auditory–motor interactions across the auditory pathway
@@ -609,33 +532,42 @@ This work is actively supported by R21-DC022906 (PI: Sitek).
 Speaker notes go here.
 :::
 
+## Studying the human subcortical auditory system with EEG
+
+#### The scalp-recorded frequency-following response (FFR) shows the fidelity of early incoming sound encoding
+![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
+
+::: aside
+Coffey et al. (2018)
+:::
+
+::: {.notes}
+:::
+
 ## *Where* are motor signals integrated? Subcortically? 
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
 
-:::: {layout="[60,40]"}
+:::: {.columns}
 
-::: {.column .fragment}
+::: {.column width="45%" .fragment}
 - If integration is **subcortical**:
   - Expect to see **FFR** differences between *self-generated* and *passive* sound
 - Recorded FFRs to /da/ stimulus
   - *Active* condition: press a button to generate a sound
   - *Passive* condition: passive presentation of the sound
+  - *Motor* condition: button press alone, to subtract out motor activity
 - Collected data from 33 normal-hearing adults
 :::
 
-::: {.column .fragment}
-
-![](images/Butler_etal_2025/Butler_EEG.png){fig-align="left" height="300"}
-
-![](images/Butler_etal_2025/Butler_stimulus.png){fig-align="center" height="250"}
-
+::: {.column width="55%" .fragment}
+![](images/EAM1/EAM1_tasks-montage.png){fig-align="center" height="620"}
 :::
 ::::
 
 ::: aside
-Raiff & Butler et al. (2026 *bioRxiv*)
+Raiff\* & Butler\* et al. (2026 *bioRxiv*; in review)
 :::
 
 ::: {.notes}
@@ -649,63 +581,52 @@ Raiff & Butler et al. (2026 *bioRxiv*)
 :::: {.columns}
 
 ::: {.column .fragment}
-#### Brainstem frequency-following response
-![](images/Butler_etal_2025/Butler_FFR_waveform.png){height=700}
+#### Early encoding in the FFR: no difference
+![](images/EAM1/EAM1_FFR_waveform.png){fig-align="center" width="95%"}
 :::
 
 ::: {.column .fragment}
-#### Cortical evoked response
-![](images/Butler_etal_2025/Butler_cortical_waveform.png){height=700}
-
+#### Cortical response: suppressed for self-generated sound
+![](images/EAM1/EAM1_ERP_motor-corrected.png){fig-align="center" width="100%"}
 :::
 ::::
 
 ::: aside
-Raiff & Butler et al. (2026 *bioRxiv*)
+Raiff\* & Butler\* et al. (2026 *bioRxiv*; in review)
 :::
 
 ::: {.notes}
 FFR spectrograms don't vary between conditions; neither do power or latency-to-first-peak
 
 All of which *do* vary in cortical responses
+
+Cortical: dashed line = Active minus Motor-only (button press with no sound). It stays below Passive, so the suppression isn't just the button press.
 :::
 
-## Active and passive spectrograms {visibility="hidden"}
+## Active and passive time–frequency responses {visibility="hidden"}
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
 
 
-:::: {.columns}
-
-::: {.column .fragment}
-#### Brainstem frequency-following response
-![](images/Butler_etal_2025/Butler_FFR_spectro.png){fig-align="center" height=450}
-:::
-
-::: {.column .fragment}
-#### Cortical evoked response
-![](images/Butler_etal_2025/Butler_cortical_spectro.png){fig-align="center" height=450}
-
-:::
-::::
+![](images/EAM1/EAM1_time-frequency.png){fig-align="center" height="780"}
 
 ::: aside
-Raiff & Butler et al. (2026 *bioRxiv*)
+Raiff\* & Butler\* et al. (2026 *bioRxiv*; in review)
 :::
 
 ::: {.notes}
 :::
 
-## Active and passive pitch tracking {visibility="hidden"}
+## Active and passive FFR pitch tracking and amplitude {visibility="hidden"}
 
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
 
-![](images/Butler_etal_2025/Butler_FFR_pitchtracking.png){.fragment height="750" fig-align="center"}
+![](images/EAM1/EAM1_FFR_pitch-amplitude.png){.fragment fig-align="center" width="100%"}
 
 ::: aside
-Raiff & Butler et al. (2026 *bioRxiv*)
+Raiff\* & Butler\* et al. (2026 *bioRxiv*; in review)
 :::
 
 ::: {.notes}
@@ -716,67 +637,236 @@ Raiff & Butler et al. (2026 *bioRxiv*)
 ![](images/people/GabbyButler.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=220 width="200" height="200"}
 
-#### Brainstem frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented
+#### Early auditory frequency-following response (FFR) shows the same sound encoding when a sound is self-generated or passively presented
 
 ::: {.incremental}
-- No **brainstem FFR** differences, despite **cortical** evoked response differences
+- No **early auditory FFR** differences, despite **cortical** suppression
 - *Motor signals unlikely to attenuate earliest central auditory signals*
 - Next steps: 
   - **Source localization** of FFR generators (ECR R21 project)
-  - **Cortical layer-specific** feedback localization with 7T fMRI (R21, at UT Dallas)
+  - **Cortical layer-specific** feedback localization with 7T fMRI (R21, at UT Dallas; Pitt pilot data)
 :::
 
 ::: aside
-Raiff & Butler et al. (2026 *bioRxiv*)
+Raiff\* & Butler\* et al. (2026 *bioRxiv*; in review)
 :::
 
 ::: {.notes}
 If integration is subcortical, would expect to see FFR differences between self-generated vs. passive sound
 :::
 
-## Auditory–motor interactions, part 2 (EAM2)
+## Digging deeper into auditory–motor interactions (ongoing)
 
 ![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 :::: {.columns}
 
 ::: {.column}
-- **TODO**: research question — how EAM2 extends EAM1
-- **TODO**: design (task, conditions, EEG/FFR measures)
-- **TODO**: participants (N, data collection status)
+#### Is auditory processing modulated by **expectation** of self-generated sound?
+- 64-channel EEG enables **source localization** of FFR generators
+- Task modulation:
+  - 2 stimulus *f0*s: 100 Hz and 250 Hz
+  - 2 expectation conditions (80%/20%)
+  - Active and passive blocks (and motor-only control)
+- 36 participants collected with 2 sessions
 :::
 
 ::: {.column}
-*TODO: task schematic / stimulus figure*
+{{< video images/ffr-source-localization-video.mp4 width="860" height="650" >}}
 :::
 
 ::::
 
 ::: aside
-Raiff, ..., Sitek (in prep.)
+Raiff, ..., Sitek (in prep.; ARO 2027)
 :::
 
 ::: {.notes}
 EAM2 is led by Laura Raiff.
 :::
 
-## EAM2: Preliminary results
+# Open tools for the frequency-following response: FFRPrep
 
-![](images/people/LauraRaiff.jpg){.absolute bottom=10 right=10 width="200" height="200"}
-
-*TODO: results figure*
-
-::: {.incremental}
-- **TODO**: main finding
-- **TODO**: how it relates to EAM1 (no FFR differences between self-generated and passive sounds)
+::: {.notes}
+Open science: BIDS-formatted data + an open pipeline means any lab can reproduce the analysis. That matters for comparing FFRs across labs and, eventually, clinics.
 :::
 
+## FFRPrep: an open, standardized pipeline for FFR data
+
+![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+::: {.fragment}
+FFR studies use **inconsistent analyses, file formats, and data sharing**, which makes results hard to compare across labs (or clinics)
+:::
+
+::: {.fragment}
+```{=html}
+<div style="display:flex; gap:14px; margin:20px 0;"><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">1. Validate</div><div style="font-size:0.75em; margin-top:6px;">Checks the dataset follows the BIDS standard</div></div><div style="align-self:center; font-size:1.6em; color:#665086;">&rarr;</div><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">2. Preprocess</div><div style="font-size:0.75em; margin-top:6px;">Filter, re-reference, epoch, reject artifacts</div></div><div style="align-self:center; font-size:1.6em; color:#665086;">&rarr;</div><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">3. Analyze</div><div style="font-size:0.75em; margin-top:6px;">Evoked responses, spectra, pitch tracking, SNR</div></div><div style="align-self:center; font-size:1.6em; color:#665086;">&rarr;</div><div style="flex:1; background:#f1eef6; border-radius:12px; padding:18px 22px;"><div style="color:#665086; font-weight:700;">4. Report</div><div style="font-size:0.75em; margin-top:6px;">Automatic HTML report for every participant</div></div></div>
+```
+
+:::
+
+:::: {.columns .fragment}
+::: {.column width="45%"}
+![](images/FFRPrep/ffrprep_command.png){fig-align="center" width="95%"}
+:::
+::: {.column width="55%"}
+- **One command** runs the whole pipeline
+- Containerized and versioned, so results are reproducible
+- Runs on a laptop or scales across a computing cluster
+:::
+::::
+
 ::: aside
-Raiff, ..., Sitek (in prep.)
+Sitek, Chen & Herholz (OHBM 2026); [sitek.github.io/ffrprep](https://sitek.github.io/ffrprep)
 :::
 
 ::: {.notes}
+Each stage is a modular Nipype workflow. Parallelizes across task/run within a subject (--n_procs); for clusters, one call per subject (e.g., slurm job arrays).
+
+Preprocessing: load BIDS M/EEG with pybids + MNE-BIDS; reference (average, Cz, or M1/M2); filter while preserving the FFR; epoch from BIDS events, with amplitude-based rejection.
+
+Analysis: combined evoked, per-trial-type evokeds (e.g., positive/negative polarity), and difference evokeds.
+
+Future: multi-channel validation, more denoising/artifact options, single-trial classification, more test datasets.
+
+Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
 :::
+
+## Every participant gets a transparent report: preprocessing
+
+![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+![](images/FFRPrep/panel_average.png){fig-align="center" height="290" .fragment}
+
+![](images/FFRPrep/panel_quality.png){fig-align="center" height="440" .fragment}
+
+::: aside
+Sitek, Chen & Herholz (OHBM 2026)
+:::
+
+::: {.notes}
+Top: the participant's average FFR (here, 1773 epochs) with SEM and stimulus onset.
+
+Bottom: automatic quality checks for every epoch: peak-to-peak amplitude distribution with the rejection threshold, RMS across epochs (spots noisy stretches), SNR over time, an epoch-by-epoch heatmap, and the power spectrum (line noise, etc.).
+
+The point: anyone can see exactly what happened to the data before analysis.
+:::
+
+## Every participant gets a transparent report: analysis
+
+![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+:::: {.columns}
+::: {.column width="55%"}
+![](images/FFRPrep/panel_tfr.png){fig-align="center" width="100%" .fragment}
+
+![](images/FFRPrep/panel_xcorr.png){fig-align="center" width="100%" .fragment}
+:::
+::: {.column width="45%"}
+![](images/FFRPrep/panel_pitch.png){fig-align="center" width="100%" .fragment}
+
+::: {.fragment}
+#### Try FFRPrep: [sitek.github.io/ffrprep](https://sitek.github.io/ffrprep)
+:::
+:::
+::::
+
+::: aside
+Sitek, Chen & Herholz (OHBM 2026)
+:::
+
+::: {.notes}
+Time–frequency: energy at the stimulus f0 (~100 Hz) and harmonics during the sound.
+
+Stimulus–response cross-correlation: how faithfully the brain response follows the stimulus waveform, and at what lag (here, peak at ~23 ms, consistent with subcortical generators).
+
+Pitch tracking: f0 extracted from the response over time, colored by confidence; tracks the 100 Hz stimulus f0 during the steady-state portion.
+
+Each report also includes waveforms, spectra, autocorrelation, phase consistency, and scalar metrics (RMS SNR, spectral power), for each condition and their differences.
+
+Musicianship EEG Dataset (Whiteford et al., 2025, Nature Communications): 296 participants, 6 sites; we converted it to BIDS and shared it on Zenodo (https://doi.org/10.5281/zenodo.22967621). License: CC BY-NC 4.0.
+
+Same /da/ syllable as the auditory–motor studies we just saw, so FFRPrep applies directly to our own data.
+:::
+
+## FFRPrep: Group validation on a large multi-site FFR dataset {visibility="hidden"}
+
+![](images/people/MaxChen.jpeg){.absolute bottom=10 right=10 width="200" height="200"}
+![](images/people/PeerHerholz.png){.absolute bottom=10 right=220 width="200" height="200"}
+
+:::: {.columns}
+
+::: {.column}
+::: {.incremental}
+- **Musicianship EEG Dataset**: 296 participants across 6 sites (74 musicians, 88 non-musicians); Cz FFRs to /da/, 6000 trials each, both polarities (Whiteford et al., 2025)
+- Converted to **BIDS** and shared openly ([Zenodo](https://doi.org/10.5281/zenodo.22967621))
+- **TODO**: validation result (e.g., FFRPrep reproduces published group FFRs and site/musicianship effects)
+:::
+:::
+
+::: {.column}
+*TODO: group FFR waveform / spectrum figure from FFRPrep*
+:::
+
+::::
+
+::: aside
+Chen, Herholz, ..., Sitek (in prep.) <!-- TODO: confirm citation -->; Whiteford et al. (2025) *Nature Communications* 16, 7152; Musicianship EEG Dataset (BIDS version), Zenodo (2026)
+:::
+
+::: {.notes}
+Same /da/ syllable as the auditory–motor studies we just saw, so FFRPrep applies directly to our own data.
+
+Dataset license: CC BY-NC 4.0.
+:::
+
+## Preprocessing report: Overview {visibility="hidden"}
+
+![](images/FFRPrep/report-preproc_overview.png){fig-align="center" height="900"}
+
+## Preprocessing report: Epoching {visibility="hidden"}
+
+![](images/FFRPrep/report-preproc_epoching.png){fig-align="center" height="900"}
+
+## Preprocessing report: Quality assessment {visibility="hidden"}
+
+![](images/FFRPrep/report-preproc_quality.png){fig-align="center" height="900"}
+
+## Preprocessing report: Average responses {visibility="hidden"}
+
+![](images/FFRPrep/report-preproc_average.png){fig-align="center" height="900"}
+
+## Preprocessing report: Drift check {visibility="hidden"}
+
+![](images/FFRPrep/report-preproc_drift.png){fig-align="center" height="900"}
+
+## Analysis report: Overview {visibility="hidden"}
+
+![](images/FFRPrep/report-analysis_overview.png){fig-align="center" height="900"}
+
+## Analysis report: Evoked response {visibility="hidden"}
+
+![](images/FFRPrep/report-analysis_evoked.png){fig-align="center" height="900"}
+
+## Analysis report: Spectral information {visibility="hidden"}
+
+![](images/FFRPrep/report-analysis_spectral.png){fig-align="center" height="900"}
+
+## Analysis report: Pitch tracking {visibility="hidden"}
+
+![](images/FFRPrep/report-analysis_pitch.png){fig-align="center" height="900"}
+
+## Analysis report: Phase consistency {visibility="hidden"}
+
+![](images/FFRPrep/report-analysis_phase.png){fig-align="center" height="900"}
+
+## Analysis report: Stimulus–response correlation {visibility="hidden"}
+
+![](images/FFRPrep/report-analysis_stim-response.png){fig-align="center" height="900"}
 
 # 
 
@@ -829,7 +919,7 @@ Speaker notes go here.
 ![Sitek et al. (in revision)](images/Sitek2025_categorization/Sitek_tractography_streamlines.png){fig-align="center" height="800" .fragment}
 
 ::: aside
-Human Connectome Project 7T diffusion-weighted MRI dataset (n = 100)
+Human Connectome Project 7T diffusion-weighted MRI dataset (n = 97)
 :::
 
 ::: {.notes}
@@ -856,21 +946,47 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
-## How do humans learn new sensory categories? {.smaller}
+## Each cortical network has its own striatal connectivity profile
 
-:::: {layout="[30, 35, 35]"}
+![](images/Sitek_connectivity_network-comparison.svg){fig-align="center" height="560" .fragment}
 
 ::: {.incremental}
-- Auditory category learning task with Mandarin tone stimuli^[Yi 2016; Reetzke 2018; Feng 2019; …]
-- 12 **non**-Mandarin-speaking participants (18–30 years old)
-- 7 Tesla high resolution functional MRI (1.5 mm isotropic voxels) 
-
+- **Auditory** and **visual** cortices connect most strongly with the **posterior putamen** – but auditory is more hierarchical
+- **Prefrontal** cortex connects broadly across caudate and anterior putamen
+- **Motor** cortex favors posterior putamen and posterior caudate
 :::
 
-![](images/Sitek2025_categorization/Sitek_Fig2_spect.png){fig-align="center" height="650" .fragment}
+::: aside
+Sitek et al. (in revision); Human Connectome Project 7T diffusion-weighted MRI (n = 97)
+:::
 
-![](images/Sitek2025_categorization/Sitek_Fig2_exp.png){fig-align="center" height="650" .fragment}
+::: {.notes}
+Diffusion tractography from each cortical network to four dorsal striatal subdivisions (aCAU, pCAU, aPUT, pPUT), both hemispheres. Note the log-scale y-axis: differences between subdivisions are often an order of magnitude.
 
+Visual cortex follows the same posterior-putamen pattern as auditory.
+:::
+
+## How do humans learn new sound categories? {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.incremental}
+- Auditory category learning task with Mandarin tone stimuli (Yi 2016; Reetzke 2018; Feng 2019; …)
+- 12 **non**-Mandarin speakers and 13 native Mandarin speakers (18–30 years old)
+:::
+
+![](images/Sitek2026_categorization/Figure1_stimuli.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.column width="50%"}
+::: {.incremental}
+- 7 Tesla high resolution functional MRI (1.5 mm isotropic voxels) 
+- Each trial: hear a tone → choose a category → get feedback
+:::
+
+![](images/Sitek2026_categorization/Figure1_schematic.png){fig-align="center" width="95%" .fragment}
+:::
 
 ::::
 
@@ -880,7 +996,7 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
-## Successful learning of new auditory categories in MRI
+## Successful learning of new auditory categories in MRI {visibility="hidden"}
 
 ![](images/Sitek2025_categorization/behav_learning-stage_subp-1.svg){height="900" .fragment}
 
@@ -891,7 +1007,7 @@ Sitek et al. (in revision)
 Speaker notes go here.
 :::
 
-## Successful learning of new auditory categories in MRI {visibility="uncounted"}
+## Successful learning of new auditory categories in MRI {visibility="hidden"}
 
 ![](images/Sitek2025_categorization/behav_learning-stage_subp-1-2.svg){height="900"}
 
@@ -903,7 +1019,7 @@ Speaker notes go here.
 :::
 
 
-## Auditory fMRI responses to sound presentation 
+## Auditory fMRI responses to sound presentation {visibility="hidden"}
 
 ![](images/Sitek2025_categorization/Sitek_sound-vs-baseline_slice.png){height="750" .fragment}
 
@@ -964,7 +1080,7 @@ Sitek et al. (in revision)
 Sound responses: everything significant except for ParsTri
 :::
 
-## fMRI responses to feedback ("correct" vs. "wrong")
+## fMRI responses to feedback ("correct" vs. "wrong") {visibility="hidden"}
 
 :::: {.columns}
 ::: {.column width="50%"  .fragment}
@@ -992,18 +1108,124 @@ Sitek et al. (in revision)
 
 :::
 
+## Same sounds, different listeners: one group learns, one already knows
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: {.incremental}
+- 6 runs, grouped into *early*, *middle*, and *final* learning stages
+- **Learners** (English speakers) and **native Mandarin listeners** hear the same sounds and do the same task, but natives have nothing to learn
+:::
+:::
+
+::: {.column width="60%" .fragment}
+![](images/Sitek2026_categorization/behav_acc_two-group.svg){fig-align="center" height="800"}
+:::
+
+::::
+
+::: aside
+Group × run *F*(5, 115) = 19.1, *p* < .001
+:::
+
+::: {.notes}
+Natives are the control for everything except learning: same sounds, same responses, same feedback, but nothing to learn.
+
+Learners rise from .38 to .82 (t(11) = 6.68). Natives are at ceiling: .95 in run 1, then ~.98.
+
+If asked whether natives improved: small gain from run 1 to 2 (p = .041). That's getting used to the task, not learning the categories.
+:::
+
+## Learning reshapes the caudate's response to feedback
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/Sitek2026_categorization/striatal_trends_fbcorrect.png){fig-align="center" width="100%"}
+
+::: {.fragment}
+- Learners' anterior caudate starts *above* natives' and converges by the final stage
+:::
+:::
+
+::: {.column width="50%" .fragment}
+![aCAU − aPUT trend: difference = −0.66, *t* = −2.52, *p* = .019](images/Sitek2026_categorization/group-diff_key-results_aCAU-aPUT.svg){fig-align="center" height="650"}
+:::
+
+::::
+
+::: {.fragment}
+#### As learners learn, the anterior caudate's feedback response falls *relative to* the anterior putamen. Natives show no such shift.
+:::
+
+
+::: {.notes}
+Within learners, aCAU's response to correct vs. wrong feedback declines with learning. Comparing groups requires correct feedback alone, because natives rarely make errors. On that contrast, the caudate-relative-to-putamen shift separates the groups.
+
+Stage-by-stage gap (learners − natives, aCAU): +0.30, +0.15, −0.11. Present as convergence; no formal test.
+
+Be clear: it's a *relative* difference. None of the four separate trends (aCAU and aPUT in each group) is significant, and the aCAU-only group test isn't either (p = .13).
+
+Natives "flat": their aCAU trend is equivalent to zero (TOST q = .024), so "flat" is a tested claim, not a missing effect.
+
+ (permutation *p* = .018; holds when any one participant is dropped)
+
+:::
+
+## Learners treat the sounds differently: frontal deactivation and weaker auditory responses
+
+::: {.incremental}
+- Both groups' auditory cortex and putamen respond to the tones
+- But learners **deactivate medial frontal cortex** during sounds, and natives' **posterior STG** responds more strongly
+:::
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+#### Medial frontal cortex: lower in learners
+::: {layout="[[64,36]]" layout-valign="center"}
+![](images/Sitek2026_categorization/group-diff_network-pfc_contrast-sound_stage-averaged_medial.png)
+
+![](images/Sitek2026_categorization/group-diff_key-results_FMC.svg)
+:::
+:::
+
+::: {.column width="50%" .fragment}
+#### Posterior STG: stronger in natives
+::: {layout="[[64,36]]" layout-valign="center"}
+![](images/Sitek2026_categorization/group-diff_network-auditory_contrast-sound_stage-averaged_lateral.png)
+
+![](images/Sitek2026_categorization/group-diff_key-results_STGp.svg)
+:::
+:::
+
+::::
+
+::: aside
+Frontal medial cortex (FMC): *d* = −1.44, *q* = .013; posterior STG: *d* = −1.23, *q* = .036
+:::
+
+::: {.notes}
+These differences weren't predicted, so present them as new observations. One possibility: the frontal deactivation reflects effortful listening to unfamiliar categories.
+
+No group difference in lateralization (group × hemisphere p = .22).
+
+STGp: FLT15 is now a confirmed valid participant, so q = .036 is the result. Still, say "stronger in natives" rather than leaning on it.
+:::
+
 ## Auditory categorization in the human brain
 
 :::  {.fragment}
 #### We identified putative cortico–striatal pathways for auditory decision-making
 - Primary/secondary auditory cortex connects more strongly with *posterior* dorsal striatum
 - Non-invasive human connectivity is similar to invasive tracing in non-human primates (Yeterian & Pandya 1998)
+- Auditory connectivity is similar to visual connectivity, but more hierarchical; prefrontal connectivity is more distributed
 :::
 ::: {.fragment}
-#### Dynamics of learning and categorization in dorsal striatum
-#### When presented with **feedback**:
-- **Anterior caudate** responds highest early on
-- **Anterior putamen** responds across learning stages
+#### Comparing learners with native listeners isolates learning
+- Learning shifts the **anterior caudate**'s feedback response relative to the **anterior putamen**
+- Learners deactivate **medial frontal cortex** during sounds; natives' **posterior STG** responds more strongly
 :::
 
 ### Putamen and caudate *subdivisions* have unique functional and connectivity profiles {.fragment}
@@ -1016,53 +1238,6 @@ Sitek et al. (in revision)
 Speaker notes go here.
 :::
 
-
-# 
-
-# Speech-in-noise processing in the developing brain
-
-## How do kids learn to hear in noisy environments?
-
-::: {layout-ncol=2  layout-valign="bottom"}
-
-::: {.incremental}
-- Adults listening in noise rely on speech networks *plus* extra motor and prefrontal "helper" regions^[Du et al. (2014); Vaden et al. (2013); Eckert et al. (2016)]
-- In children, speech networks are still fine-tuning, and frontal networks are still developing
-- **Study:** 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)
-:::
-
-![via The Telegraph](images/Cocktail-party.jpg){fig-align="center"}
-
-:::
-
-::: aside
-Sitek et al. (in prep.; SNL 2025)
-:::
-
-::: {.notes}
-Design: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.
-:::
-
-## Speech-in-noise systems are still developing in adolescents
-
-::: {layout="[40,60]"   layout-valign="bottom"}
-::: {.incremental}
-- Kids activate auditory and language regions more strongly for clear than for noisy speech
-- But no sign yet of the extra motor and prefrontal "helper" regions adults use in noise
-:::
-
-![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
-:::
-
-::: aside
-Sitek et al. (in prep.; SNL 2025); Hampton-Wray R01DC019904
-:::
-
-::: {.notes}
-Figure: speech-in-quiet vs. -6 dB SNR.
-
-Next: investigating task-relevant *representations* in development.
-:::
 
 # 
 
@@ -1494,6 +1669,48 @@ Speaker notes go here.
 
 # Extra slides {visibility="uncounted"}
 
+## How do kids learn to hear in noisy environments? {visibility="uncounted"}
+
+::: {layout-ncol=2  layout-valign="bottom"}
+
+::: {.incremental}
+- Adults listening in noise rely on speech networks *plus* extra motor and prefrontal "helper" regions^[Du et al. (2014); Vaden et al. (2013); Eckert et al. (2016)]
+- In children, speech networks are still fine-tuning, and frontal networks are still developing
+- **Study:** 35 typically developing kids identified syllables in quiet and in increasing background noise (3T fMRI)
+:::
+
+![via The Telegraph](images/Cocktail-party.jpg){fig-align="center"}
+
+:::
+
+::: aside
+Sitek et al. (in prep.; SNL 2025)
+:::
+
+::: {.notes}
+Design: 5 speech-shaped noise contexts (Quiet and SNR = +8, 0, -2, -6); identify which of 4 syllables was presented.
+:::
+
+## Speech-in-noise systems are still developing in adolescents {visibility="uncounted"}
+
+::: {layout="[40,60]"   layout-valign="bottom"}
+::: {.incremental}
+- Kids activate auditory and language regions more strongly for clear than for noisy speech
+- But no sign yet of the extra motor and prefrontal "helper" regions adults use in noise
+:::
+
+![](images/Sitek_SSP_quiet-gt-n6.png){fig-align="center"}
+:::
+
+::: aside
+Sitek et al. (in prep.; SNL 2025); Hampton-Wray R01DC019904
+:::
+
+::: {.notes}
+Figure: speech-in-quiet vs. -6 dB SNR.
+
+Next: investigating task-relevant *representations* in development.
+:::
 
 ::: {.notes}
 Speaker notes go here.
