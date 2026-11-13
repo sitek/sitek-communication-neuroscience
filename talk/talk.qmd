@@ -55,14 +55,14 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ::: {.column .fragment}
 ### Mapping the human subcortical auditory system
 - **Functional connectivity** (Chandra\* & Sitek\* et al., 2024)
-- **Multi-echo fMRI** improves subcortical sensitivity at 3T (**Michelle Medina**, Molly Bright; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
-- **FFRPrep**: open, standardized FFR preprocessing (**Max Chen**, Peer Herholz; Sitek et al., OHBM 2026; in prep.)
+- **Multi-echo fMRI** improves subcortical sensitivity at 3T ([Michelle Medina]{.underline}, Molly Bright; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
+- **FFRPrep**: open, standardized FFR preprocessing ([Max Chen]{.underline}, Peer Herholz; Sitek et al., OHBM 2026; in prep.)
 - **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann\*, Sitek\*, in prep.)
 - **Corticostriatal pathways** in humans (Sitek et al., in revision)
 :::
 ::: {.column .fragment}
 ### Behavior of the human auditory system
-- **Auditory–motor interactions** across the auditory pathway (**Laura Raiff**, **Gabby Butler**; Raiff\* & Butler\* et al., 2026 *bioRxiv*; Raiff et al., in prep.)
+- **Auditory–motor interactions** across the auditory pathway ([Laura Raiff]{.underline}, [Gabby Butler]{.underline}; Raiff\* & Butler\* et al., 2026 *bioRxiv*; Raiff et al., in prep.)
 - **Auditory category learning** (Sitek et al., in revision; Deschamps, et al., in prep.)
 - **Bayesian spatial mapping** of learning-task fMRI (Moya et al., 2026 *arXiv*)
 - **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
@@ -71,11 +71,11 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ::::
 
 ::: aside
-This work is actively supported by K01-DC019421 and R21-DC022906. Mentees are **in bold**.
+This work is actively supported by K01-DC019421 and R21-DC022906. [Mentees]{.underline} are underlined.
 :::
 
 ::: {.notes}
-Bold names = Northwestern mentees.
+Underlined names = Northwestern mentees.
 :::
 
 # Mapping and connectivity of the human subcortical auditory system
@@ -1624,9 +1624,9 @@ Thank the Communicating Science students for their engagement.
 ::: {.column width="50%"}
 
 #### Northwestern mentees and collaborators
-- Multi-echo fMRI: **Michelle Medina** (*BME PhD*) and Molly Bright
-- Auditory–motor EEG: **Laura Raiff** (*BME PhD*), **Gabby Butler** (*Cog Sci UG honors student*), **Joshua Shen** (*Neuroscience UG*), and **Vidyuth Sridhar** (*Neuroscience UG*)
-- FFRPrep: **Max Chen** (*Cog Sci/Comp Sci UG*) and Peer Herholz
+- Multi-echo fMRI: [Michelle Medina]{.underline} (*BME PhD*) and Molly Bright
+- Auditory–motor EEG: [Laura Raiff]{.underline} (*BME PhD*), [Gabby Butler]{.underline} (*Cog Sci UG honors student*), [Joshua Shen]{.underline} (*Neuroscience UG*), and [Vidyuth Sridhar]{.underline} (*Neuroscience UG*)
+- FFRPrep: [Max Chen]{.underline} (*Cog Sci/Comp Sci UG*) and Peer Herholz
 - **Thank you, Northwestern Communication Sciences and Disorders!**
 
 #### SoundBrain Lab
