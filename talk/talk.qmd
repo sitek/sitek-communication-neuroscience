@@ -744,7 +744,7 @@ Max Chen (Cog Sci/Comp Sci undergrad) and Peer Herholz.
 ![](images/FFRPrep/panel_quality.png){fig-align="center" height="440" .fragment}
 
 ::: aside
-Sitek, Chen & Herholz (OHBM 2026)
+Sitek, Chen & Herholz (OHBM 2026); [sitek.github.io/ffrprep](https://sitek.github.io/ffrprep)
 :::
 
 ::: {.notes}
@@ -770,13 +770,13 @@ The point: anyone can see exactly what happened to the data before analysis.
 ![](images/FFRPrep/panel_pitch.png){fig-align="center" width="100%" .fragment}
 
 ::: {.fragment}
-#### Try FFRPrep: [sitek.github.io/ffrprep](https://sitek.github.io/ffrprep)
+#### Try FFRPrep and let us know what you think!
 :::
 :::
 ::::
 
 ::: aside
-Sitek, Chen & Herholz (OHBM 2026)
+Sitek, Chen & Herholz (OHBM 2026); [sitek.github.io/ffrprep](https://sitek.github.io/ffrprep)
 :::
 
 ::: {.notes}
@@ -1115,7 +1115,7 @@ Sitek et al. (in revision)
 ::: {.column width="40%"}
 ::: {.incremental}
 - 6 runs, grouped into *early*, *middle*, and *final* learning stages
-- **Learners** (English speakers) and **native Mandarin listeners** hear the same sounds and do the same task, but natives have nothing to learn
+- **Learners** (non-Mandarin speakers) and **native Mandarin multilinguallisteners** hear the same sounds and do the same task, but natives have nothing to learn
 :::
 :::
 
@@ -1250,12 +1250,17 @@ Speaker notes go here.
 ::: {.column width="55%"}
 - **Sensory and motor speech learning**: striatal mechanisms across speech perception and production (K01 → R01)
 - **Hearing our own speech**: layer-specific auditory–motor processing with UTD 7T fMRI (R21 → R01)
-- **Clinical translation**: multi-echo 3T fMRI and FFRPrep in clinical populations (hearing loss, children who stutter); auditory brainstem circuit mapping in hearing loss
-- **TODO**: Callier Center collaborations and UTD-specific directions
+- **Cerebellar contributions** to speech perception and auditory prediction (Joe Lau @ NU, Anila D'Mello @ UTSW)
+- **Clinical translation**: 
+  - Multi-echo 3T fMRI in clinical populations (Parkinson's)
+  - 7T auditory brainstem circuit mapping in hearing loss
+  - Expanding FFRPrep's open pipeline to clinical datasets
 :::
 
 ::: {.column width="45%"}
-![](images/calliercenter-768x513.jpg){fig-align="center"}
+![](images/callier-center-dallas.jpg){fig-align="center"}
+
+![](images/UTSW-AIRC-MRI.png){fig-align="center"}
 :::
 
 ::::
@@ -1430,14 +1435,12 @@ Speech as a biomarker for basal ganglia learning capacity
 :::: {.columns}
 
 ::: {.column width="50%"}
-::: {.incremental}
 - Auditory cortex is a hub for motor integration
 - But fMRI often shows *increased* BOLD to self-generated sounds, vs. *suppressed* M/EEG
 - Are different **laminar** responses the explanation? 
 
 #### We can look at intra-cortical circuits with ultra-high field **7T fMRI** {.fragment}
 
-:::
 :::
 
 ::: {.column width="50%"}
@@ -1588,10 +1591,17 @@ Communicating our science:
 - **OHBM Communications Committee** (Chair): the OHBM Time Machine, a freely accessible archive of Annual Meeting talks on YouTube
 - Taught *Communicating Science* to CSD first-year PhD students (2 years): tailoring written, oral, and visual presentations to your audience
 :::
+
+::: {.fragment}
+#### Communication is part of the science, and it expands our impact within and beyond our field
+:::
+
 :::
 
 ::: {.column width="50%"}
-![](images/OHBM-Time-Machine.jpg){fig-align="center"}
+![](images/OHBM-ComCom-logos.png){fig-align="center" width="80%"}
+
+![](images/OHBM-Time-Machine.jpg){fig-align="center" height="500"}
 :::
 
 ::::
