@@ -56,7 +56,7 @@ Sensory behavior - how we use auditory information to learn about and act in the
 ### Mapping the human subcortical auditory system
 - **Functional connectivity** (Chandra\* & Sitek\* et al., 2024)
 - **Multi-echo fMRI** improves subcortical sensitivity at 3T ([Michelle Medina]{.underline}, Molly Bright; Medina et al., 2026 *Hearing Research*; Medina et al., 2026 *bioRxiv*)
-- **FFRPrep**: open, standardized FFR preprocessing ([Max Chen]{.underline}, Peer Herholz; Sitek et al., OHBM 2026; in prep.)
+- **FFRPrep**: open, standardized FFR preprocessing ([Max Chen]{.underline}, Peer Herholz; Sitek et al., OHBM 2026)
 - **Neurovascular organization** (Xu et al., ISMRM 2025; Xu, ..., S. Bollmann\*, Sitek\*, in prep.)
 - **Corticostriatal pathways** in humans (Sitek et al., in revision)
 :::
@@ -65,7 +65,7 @@ Sensory behavior - how we use auditory information to learn about and act in the
 - **Auditory–motor interactions** across the auditory pathway ([Laura Raiff]{.underline}, [Gabby Butler]{.underline}; Raiff\* & Butler\* et al., 2026 *bioRxiv*; Raiff et al., in prep.)
 - **Auditory category learning** (Sitek et al., in revision; Deschamps, et al., in prep.)
 - **Bayesian spatial mapping** of learning-task fMRI (Moya et al., 2026 *arXiv*)
-- **Top–down modulation of predicted sound processing** across the auditory pathway (Ara et al., 2024)
+- **Top–down modulation** of predicted sound processing (Ara et al., 2024)
 - **Speech-in-noise processing** in the developing brain (Sitek et al., SNL 2025; in prep.)
 :::
 ::::
@@ -128,7 +128,7 @@ BUT THE VAST MAJORITY OF OUR KNOWLEDGE COMES FROM ANIMAL STUDIES
 ::::
 
 ::: {.fragment}
-### But: small, deep brain structures are challenging to image.
+### But: small, deep brain structures are challenging to image noninvasively.
 :::
 
 ::: {.notes}
@@ -186,7 +186,7 @@ Speaker notes go here.
   - Collected over 2 sessions
 :::
 
-## Post mortem anatomical localization {visibility="hidden"}
+## *Where* are the auditory structures: Post mortem anatomy
 
 ::: {layout-ncol=2}
 ![](images/SitekGulban2019_postmortem-1_labeled.png){height="420" .fragment}
@@ -222,21 +222,23 @@ Sitek and Gulban et al. (2019 *eLife*)
 Speaker notes go here.
 :::
 
-## In vivo functional MRI mapping {visibility="hidden"}
-:::: {.columns}
-::: {.column width="27%" .fragment}
+## *Where* are the auditory structures: In vivo functional MRI
+
 ### 7 Tesla functional MRI (1.1 mm voxels)
+
+:::: {.columns .fragment}
+::: {.column width="55%"}
 - 168 natural sounds (1 s each): speech, voice, nature, tools, music, animals and monkey calls
 - Sound > baseline contrast
-- 10 healthy participants
-- 2 hours per session
-- Collected over 2 sessions
 :::
-
-::: {.column width="73%" .fragment}
-![](images/SitekGulban2019/fig_invivo_statmaps_and_exvivo_vasculature.png){fig-align="center" height=900}
+::: {.column width="45%"}
+- 10 healthy participants
+- 2 sessions, 2 hours each
 :::
 ::::
+
+![](images/SitekGulban2019/fig_invivo_statmaps_left-column_horizontal.png){fig-align="center" height="450" .fragment}
+
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
 ::: aside
@@ -249,11 +251,7 @@ Participants listened to 168 natural sounds (1 s long) coming from seven categor
 
 ## *Where* are the auditory structures: Three public atlases 
 
-::: {.r-stack}
-{{< video images/SitekGulban2019/elife-48932-fig9-video1.mp4 width="1278" height="568">}}
-
-![](images/SitekGulban2019/fig_MNI-videos_bigbrain_postmortem_invivo_statmap_invivo_overlap.png){.fragment fig-align="center"}
-:::
+![](images/ChandraSitek/FAC_subcortical-3D.png){fig-align="center" height="800"}
 
 ![](images/people/Omer-Faruk-Gulban.jpg){.absolute bottom=10 right=10 width="200" height="200"}
 
@@ -402,7 +400,7 @@ Speaker notes go here.
 :::
 :::
 
-::: {.column width="45%"}
+::: {.column width="45%" .fragment}
 ![](images/multiecho-vs-singleecho.png){fig-align="center"}
 :::
 
@@ -538,10 +536,13 @@ Speaker notes go here.
 ![](images/Coffey2018_Fig1a.png){fig-align="center" .fragment}
 
 ::: aside
-Coffey et al. (2018)
+Coffey, Nicol, White-Schwoch, Chandrasekaran, Krizman, Skoe, Zatorre & Kraus (2019 *Nature Communications*)
 :::
 
 ::: {.notes}
+This framing comes from a paper with Nina Kraus, Jen Krizman, Travis White-Schwoch, Trent Nicol, Erika Skoe, and Bharath.
+
+Much of what we know about the speech-evoked FFR, including the /da/ syllable I'll use in a moment, was developed here at Northwestern.
 :::
 
 ## *Where* are motor signals integrated? Subcortically? 
@@ -878,21 +879,26 @@ Speaker notes go here.
 
 ## How do we learn new sensory categories?
 
-::: {layout="[70,30]"}
-
-::: {.incremental}
+:::: {.columns}
+::: {.column width="70%"}
+::: {.fragment}
 - **Dorsal striatum** contributes to learning new categories thanks to its projections from **distributed cortical networks** that perform:
   - motor planning
   - **task-relevant sensory processing**
   - **feedback processing**
   - decision-making
+:::
+::: {.fragment}
 - Dorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)
   - What **anatomical pathways** connect the human auditory system to the striatum?
   - How do *subdivisions* of dorsal striatum **functionally contribute** to category learning?
 :::
+:::
 
+::: {.column width="30%"}
 ![Lim et al., 2014](images/Lim_striatum-schematic.jpg){fig-align="center"}
 :::
+::::
 
 ::: aside
 This work is actively supported by K01-DC019421 (PI: Sitek)
@@ -950,7 +956,7 @@ Speaker notes go here.
 
 ![](images/Sitek_connectivity_network-comparison.svg){fig-align="center" height="560" .fragment}
 
-::: {.incremental}
+::: {.fragment}
 - **Auditory** and **visual** cortices connect most strongly with the **posterior putamen** – but auditory is more hierarchical
 - **Prefrontal** cortex connects broadly across caudate and anterior putamen
 - **Motor** cortex favors posterior putamen and posterior caudate
@@ -1108,14 +1114,15 @@ Sitek et al. (in revision)
 
 :::
 
-## Same sounds, different listeners: one group learns, one already knows
+## Same sounds, different listeners
 
 :::: {.columns}
 
 ::: {.column width="40%"}
-::: {.incremental}
+::: {.fragment}
 - 6 runs, grouped into *early*, *middle*, and *final* learning stages
-- **Learners** (non-Mandarin speakers) and **native Mandarin multilinguallisteners** hear the same sounds and do the same task, but natives have nothing to learn
+- **Learners** (non-Mandarin speakers) and **native Mandarin** multilingual listeners hear the same sounds and do the same task
+- but natives have nothing to learn
 :::
 :::
 
@@ -1137,7 +1144,7 @@ Learners rise from .38 to .82 (t(11) = 6.68). Natives are at ceiling: .95 in run
 If asked whether natives improved: small gain from run 1 to 2 (p = .041). That's getting used to the task, not learning the categories.
 :::
 
-## Learning reshapes the caudate's response to feedback
+## Learning reshapes the caudate's response to correct feedback
 
 :::: {.columns}
 
@@ -1625,8 +1632,8 @@ Thank the Communicating Science students for their engagement.
 
 #### Northwestern mentees and collaborators
 - Multi-echo fMRI: [Michelle Medina]{.underline} (*BME PhD*) and Molly Bright
-- Auditory–motor EEG: [Laura Raiff]{.underline} (*BME PhD*), [Gabby Butler]{.underline} (*Cog Sci UG honors student*), [Joshua Shen]{.underline} (*Neuroscience UG*), and [Vidyuth Sridhar]{.underline} (*Neuroscience UG*)
-- FFRPrep: [Max Chen]{.underline} (*Cog Sci/Comp Sci UG*) and Peer Herholz
+- Auditory–motor EEG: [Laura Raiff]{.underline} (*BME PhD*), [Gabby Butler]{.underline} (*Cog Sci honors*), [Joshua Shen]{.underline} and [Vidyuth Sridhar]{.underline}(*Neuroscience*)
+- FFRPrep: [Max Chen]{.underline} (*Cog Sci/Comp Sci*) and Peer Herholz
 - **Thank you, Northwestern Communication Sciences and Disorders!**
 
 #### SoundBrain Lab
@@ -1644,8 +1651,6 @@ Thank the Communicating Science students for their engagement.
 **Harvard/MIT**: Satra Ghosh (*PhD advisor*)
 
 **Maastricht University**: O. Faruk Gulban, Federico De Martino
-
-**OHBM Communications Committee**
 
 ### Active funding and support
 - K01 DC019421 (2023–2027)
@@ -1667,10 +1672,10 @@ Speaker notes go here.
 
 ## References {.smaller visibility="uncounted"}
 
-- Chandra, N.K.\*, Sitek, K.R.\*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. *Imaging Neuroscience* (2024). [doi:10.1162/imag_a_00258](https://doi.org/10.1162/imag_a_00258)
+- Chandra, N.K.\*, Sitek, K.R.\*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. *Imaging Neuroscience* (2024).
 - [Medina, M.C.]{.underline}, Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. *Hearing Research* (2026).
 - [Medina, M.C.]{.underline}, Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. *bioRxiv* (2026 preprint; in review).
-- Moya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. *arXiv* (2026 preprint). [doi:10.48550/arXiv.2609.13319](https://doi.org/10.48550/arXiv.2609.13319)
+- Moya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. *arXiv* (2026 preprint).
 - [Raiff, L.]{.underline}\*, [Butler, G.]{.underline}\*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. *bioRxiv* (2026 preprint; in re-review).
 - Sitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. *Aperture Neuro* (2025).
 - Wearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. *Aperture Neuro* (2025).
@@ -1784,7 +1789,7 @@ Video: 1920x1088
 ## How is the brainstem supplied oxygen? {visibility="uncounted"}
 {{< video images/Xu2025/S64520_m0_SLA_booster_result_bg-white.mp4  width="1920" height="1088" >}}
 
-## Multi-echo fMRI improves group-level sensitivity at 3T {visibility="uncounted"}
+## Multi-echo fMRI improves group-level sensitivity at 3T {visibility="hidden"}
 
 
 ![](images/people/MichelleMedina.jpeg){.absolute bottom=10 right=10 width="200" height="200"}

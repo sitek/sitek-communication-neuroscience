@@ -123,12 +123,12 @@
     "href": "talk.html#the-human-subcortical-auditory-system",
     "title": "Neural systems underlying human speech communication",
     "section": "The human subcortical auditory system",
-    "text": "The human subcortical auditory system\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBut: small, deep brain structures are challenging to image.\n\n\nAcross human behaviors, studying the brainstem is challenging. - In vivo MRI limited by: - high resolution needed for small structures - decreased signal as voxels get smaller - decreased signal in brainstem - Limited spatial information from EEG, MEG - Some human histology studies (nuclei) - Tracer studies (connections) only in animal models"
+    "text": "The human subcortical auditory system\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBut: small, deep brain structures are challenging to image noninvasively.\n\n\nAcross human behaviors, studying the brainstem is challenging. - In vivo MRI limited by: - high resolution needed for small structures - decreased signal as voxels get smaller - decreased signal in brainstem - Limited spatial information from EEG, MEG - Some human histology studies (nuclei) - Tracer studies (connections) only in animal models"
   },
   {
     "objectID": "talk.html#post-mortem-anatomical-localization",
     "href": "talk.html#post-mortem-anatomical-localization",
-    "title": "Imaging the neural systems underlying human communication",
+    "title": "Neural systems underlying human speech communication",
     "section": "Post mortem anatomical localization",
     "text": "Post mortem anatomical localization\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
@@ -142,7 +142,7 @@
   {
     "objectID": "talk.html#in-vivo-functional-mri-mapping",
     "href": "talk.html#in-vivo-functional-mri-mapping",
-    "title": "Imaging the neural systems underlying human communication",
+    "title": "Neural systems underlying human speech communication",
     "section": "In vivo functional MRI mapping",
     "text": "In vivo functional MRI mapping\n\n\n7 Tesla functional MRI (1.1 mm voxels)\n\n168 natural sounds (1 s each): speech, voice, nature, tools, music, animals and monkey calls\nSound &gt; baseline contrast\n10 healthy participants\n2 hours per session\nCollected over 2 sessions\n\n\n\n\n\n\n\n\n\n\n\nParticipants listened to 168 natural sounds (1 s long) coming from seven categories (speech, voice, nature, tools, music, animals and monkey calls) presented in silent gaps in between the acquisition of functional volumes and were asked to press a button every time the same sound was repeated. The experimental paradigm followed a rapid-eventrelated design in which sounds were presented with a mean inter stimulus interval of four volumes (minimum three maximum five volumes). The two sessions were identical and each session consisted of twelve functional runs and across the 12 runs each sound was presented three times (i.e. each sounds was presented six times across the two sessions). The 168 sounds were divided in four sets of 42 sounds, each set was presented in three (non consecutive) runs. As a result, the 12 functional runs of each session formed four cross validation sets each one consisting of nine training runs and three testing runs (i.e. 126 training and 42 testing sounds). Note that the testing runs were non overlapping across the cross validations. Catch trials (i.e. sound repetitions) were added to each run, and were excluded from all analyses.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
@@ -151,7 +151,7 @@
     "href": "talk.html#where-are-the-auditory-structures-three-public-atlases",
     "title": "Neural systems underlying human speech communication",
     "section": "Where are the auditory structures: Three public atlases",
-    "text": "Where are the auditory structures: Three public atlases\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
+    "text": "Where are the auditory structures: Three public atlases\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
   },
   {
     "objectID": "talk.html#how-are-the-auditory-structures-connected-anatomically",
@@ -179,7 +179,7 @@
     "href": "talk.html#how-do-we-learn-new-sensory-categories",
     "title": "Neural systems underlying human speech communication",
     "section": "How do we learn new sensory categories?",
-    "text": "How do we learn new sensory categories?\n\n\n\n\nDorsal striatum contributes to learning new categories thanks to its projections from distributed cortical networks that perform:\n\nmotor planning\ntask-relevant sensory processing\nfeedback processing\ndecision-making\n\nDorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)\n\nWhat anatomical pathways connect the human auditory system to the striatum?\nHow do subdivisions of dorsal striatum functionally contribute to category learning?\n\n\n\n\n\n\n\nLim et al., 2014\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 (PI: Sitek)"
+    "text": "How do we learn new sensory categories?\n\n\n\n\nDorsal striatum contributes to learning new categories thanks to its projections from distributed cortical networks that perform:\n\nmotor planning\ntask-relevant sensory processing\nfeedback processing\ndecision-making\n\n\n\n\n\nDorsal striatum involved in auditory category learning tasks using fMRI (Feng et al., 2019; Lim et al., 2019; Yi et al., 2016)\n\nWhat anatomical pathways connect the human auditory system to the striatum?\nHow do subdivisions of dorsal striatum functionally contribute to category learning?\n\n\n\n\n\n\n\nLim et al., 2014\n\n\n\n\n\nSpeaker notes go here.\n\n\nThis work is actively supported by K01-DC019421 (PI: Sitek)"
   },
   {
     "objectID": "talk.html#auditory-striatal-pathways-in-non-human-primates",
@@ -263,7 +263,7 @@
     "href": "talk.html#studying-the-human-subcortical-auditory-system-with-eeg",
     "title": "Neural systems underlying human speech communication",
     "section": "Studying the human subcortical auditory system with EEG",
-    "text": "Studying the human subcortical auditory system with EEG\nThe scalp-recorded frequency-following response (FFR) shows the fidelity of early incoming sound encoding\n\n\n\n\n\n\n\n\n\n\nCoffey et al. (2018)"
+    "text": "Studying the human subcortical auditory system with EEG\nThe scalp-recorded frequency-following response (FFR) shows the fidelity of early incoming sound encoding\n\n\n\n\n\n\n\nThis framing comes from a paper with Nina Kraus, Jen Krizman, Travis White-Schwoch, Trent Nicol, Erika Skoe, and Bharath.\nMuch of what we know about the speech-evoked FFR, including the /da/ syllable I’ll use in a moment, was developed here at Northwestern.\n\n\nCoffey, Nicol, White-Schwoch, Chandrasekaran, Krizman, Skoe, Zatorre & Kraus (2019 Nature Communications)"
   },
   {
     "objectID": "talk.html#where-are-motor-signals-integrated-subcortically",
@@ -368,7 +368,7 @@
     "href": "talk.html#acknowledgments",
     "title": "Neural systems underlying human speech communication",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\n\n\nNorthwestern mentees and collaborators\n\nMulti-echo fMRI: Michelle Medina (BME PhD) and Molly Bright\nAuditory–motor EEG: Laura Raiff (BME PhD), Gabby Butler (Cog Sci UG honors student), Joshua Shen (Neuroscience UG), and Vidyuth Sridhar (Neuroscience UG)\nFFRPrep: Max Chen (Cog Sci/Comp Sci UG) and Peer Herholz\nThank you, Northwestern Communication Sciences and Disorders!\n\nSoundBrain Lab\n\nBharath Chandrasekaran, Jacie McHaney (UT Austin), Kailyn McFarlane\nNike Gnanateja (UW Madison CSD)\nCasey Roark (U New Hampshire Psychology)\n\n\nUT Austin: Abhra Sarkar, Noirrit Chandra (UT Dallas), Blake Moya (statistician/data scientist)\nPitt: Jay Bohland, Mandy Hampton Wray\nHarvard/MIT: Satra Ghosh (PhD advisor)\nMaastricht University: O. Faruk Gulban, Federico De Martino\nOHBM Communications Committee\nActive funding and support\n\nK01 DC019421 (2023–2027)\nR21 DC022906 (2025–2028)\nR01 DC020963 (2024–2028; PI: Bohland)\n\n\n\n\n\n\n\n\nSpeaker notes go here."
+    "text": "Acknowledgments\n\n\nNorthwestern mentees and collaborators\n\nMulti-echo fMRI: Michelle Medina (BME PhD) and Molly Bright\nAuditory–motor EEG: Laura Raiff (BME PhD), Gabby Butler (Cog Sci honors), Joshua Shen and Vidyuth Sridhar(Neuroscience)\nFFRPrep: Max Chen (Cog Sci/Comp Sci) and Peer Herholz\nThank you, Northwestern Communication Sciences and Disorders!\n\nSoundBrain Lab\n\nBharath Chandrasekaran, Jacie McHaney (UT Austin), Kailyn McFarlane\nNike Gnanateja (UW Madison CSD)\nCasey Roark (U New Hampshire Psychology)\n\n\nUT Austin: Abhra Sarkar, Noirrit Chandra (UT Dallas), Blake Moya (statistician/data scientist)\nPitt: Jay Bohland, Mandy Hampton Wray\nHarvard/MIT: Satra Ghosh (PhD advisor)\nMaastricht University: O. Faruk Gulban, Federico De Martino\nActive funding and support\n\nK01 DC019421 (2023–2027)\nR21 DC022906 (2025–2028)\nR01 DC020963 (2024–2028; PI: Bohland)\n\n\n\n\n\n\n\n\nSpeaker notes go here."
   },
   {
     "objectID": "talk.html#how-is-the-brainstem-supplied-oxygen",
@@ -480,7 +480,7 @@
     "href": "talk.html#communication-neuroscience-at-northwestern-2023now",
     "title": "Neural systems underlying human speech communication",
     "section": "Communication neuroscience at Northwestern (2023–now)",
-    "text": "Communication neuroscience at Northwestern (2023–now)\n\n\nMapping the human subcortical auditory system\n\nFunctional connectivity (Chandra* & Sitek* et al., 2024)\nMulti-echo fMRI improves subcortical sensitivity at 3T (Michelle Medina, Molly Bright; Medina et al., 2026 Hearing Research; Medina et al., 2026 bioRxiv)\nFFRPrep: open, standardized FFR preprocessing (Max Chen, Peer Herholz; Sitek et al., OHBM 2026; in prep.)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann*, Sitek*, in prep.)\nCorticostriatal pathways in humans (Sitek et al., in revision)\n\n\nBehavior of the human auditory system\n\nAuditory–motor interactions across the auditory pathway (Laura Raiff, Gabby Butler; Raiff* & Butler* et al., 2026 bioRxiv; Raiff et al., in prep.)\nAuditory category learning (Sitek et al., in revision; Deschamps, et al., in prep.)\nBayesian spatial mapping of learning-task fMRI (Moya et al., 2026 arXiv)\nTop–down modulation of predicted sound processing across the auditory pathway (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nUnderlined names = Northwestern mentees.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906. Mentees are underlined."
+    "text": "Communication neuroscience at Northwestern (2023–now)\n\n\nMapping the human subcortical auditory system\n\nFunctional connectivity (Chandra* & Sitek* et al., 2024)\nMulti-echo fMRI improves subcortical sensitivity at 3T (Michelle Medina, Molly Bright; Medina et al., 2026 Hearing Research; Medina et al., 2026 bioRxiv)\nFFRPrep: open, standardized FFR preprocessing (Max Chen, Peer Herholz; Sitek et al., OHBM 2026)\nNeurovascular organization (Xu et al., ISMRM 2025; Xu, …, S. Bollmann*, Sitek*, in prep.)\nCorticostriatal pathways in humans (Sitek et al., in revision)\n\n\nBehavior of the human auditory system\n\nAuditory–motor interactions across the auditory pathway (Laura Raiff, Gabby Butler; Raiff* & Butler* et al., 2026 bioRxiv; Raiff et al., in prep.)\nAuditory category learning (Sitek et al., in revision; Deschamps, et al., in prep.)\nBayesian spatial mapping of learning-task fMRI (Moya et al., 2026 arXiv)\nTop–down modulation of predicted sound processing (Ara et al., 2024)\nSpeech-in-noise processing in the developing brain (Sitek et al., SNL 2025; in prep.)\n\n\n\n\nUnderlined names = Northwestern mentees.\n\n\nThis work is actively supported by K01-DC019421 and R21-DC022906. Mentees are underlined."
   },
   {
     "objectID": "talk.html#auditorymotor-interactions-part-2-eam2",
@@ -564,7 +564,7 @@
     "href": "talk.html#references",
     "title": "Neural systems underlying human speech communication",
     "section": "References",
-    "text": "References\n\nChandra, N.K.*, Sitek, K.R.*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. Imaging Neuroscience (2024). doi:10.1162/imag_a_00258\nMedina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. Hearing Research (2026).\nMedina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. bioRxiv (2026 preprint; in review).\nMoya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. arXiv (2026 preprint). doi:10.48550/arXiv.2609.13319\nRaiff, L.*, Butler, G.*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. bioRxiv (2026 preprint; in re-review).\nSitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. Aperture Neuro (2025).\nWearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. Aperture Neuro (2025).\n\n*co-first authors; mentees are underlined"
+    "text": "References\n\nChandra, N.K.*, Sitek, K.R.*, Chandrasekaran, B., Sarkar, A. Functional connectivity across the human subcortical auditory system using an autoregressive matrix-Gaussian copula graphical model approach with partial correlations. Imaging Neuroscience (2024).\nMedina, M.C., Reddy, N.H., Sitek, K.R., Bright, M.G. Mapping Whole-Brain Auditory Activation with 3T Multi-Echo fMRI at the Group and Individual-Subject Level. Hearing Research (2026).\nMedina, M.C., Reddy, N.H., Bright, M.G., Sitek, K.R. Evaluating Approaches for Inference Testing of Whole-Brain Densely Sampled Single-Subject Task fMRI Data. bioRxiv (2026 preprint; in review).\nMoya, B., Sitek, K.R., Roy, A., Chandrasekaran, B., Sarkar, A. Bayesian Semiparametric Hidden Markov Random Partition Fields for Factor Collapse on Graphs: A Study of Cortical Mapping of Fingertips. arXiv (2026 preprint).\nRaiff, L.*, Butler, G.*, McFarlane, K., Chandrasekaran, B., Sitek, K.R. Motor signals modulate cortical but not subcortical processing of self-initiated sounds. bioRxiv (2026 preprint; in re-review).\nSitek, K.R., Wearn, A., DuPre, E.M. Communication is the foundation of an impactful and resilient scientific community. Aperture Neuro (2025).\nWearn, A., Sitek, K.R., Valk, S.L., Forkel, S.J. The Organization for Human Brain Mapping Time Machine: A freely accessible archive of Annual Meeting talks on YouTube. Aperture Neuro (2025).\n\n*co-first authors; mentees are underlined"
   },
   {
     "objectID": "talk.html#science-is-not-a-silo",
@@ -627,7 +627,7 @@
     "href": "talk.html#same-sounds-different-listeners-one-group-learns-one-already-knows",
     "title": "Neural systems underlying human speech communication",
     "section": "Same sounds, different listeners: one group learns, one already knows",
-    "text": "Same sounds, different listeners: one group learns, one already knows\n\n\n\n6 runs, grouped into early, middle, and final learning stages\nLearners (non-Mandarin speakers) and native Mandarin multilinguallisteners hear the same sounds and do the same task, but natives have nothing to learn\n\n\n\n\n\n\n\n\n\n\nNatives are the control for everything except learning: same sounds, same responses, same feedback, but nothing to learn.\nLearners rise from .38 to .82 (t(11) = 6.68). Natives are at ceiling: .95 in run 1, then ~.98.\nIf asked whether natives improved: small gain from run 1 to 2 (p = .041). That’s getting used to the task, not learning the categories.\n\n\nGroup × run F(5, 115) = 19.1, p &lt; .001"
+    "text": "Same sounds, different listeners: one group learns, one already knows\n\n\n\n\n6 runs, grouped into early, middle, and final learning stages\nLearners (non-Mandarin speakers) and native Mandarin multilingual listeners hear the same sounds and do the same task\nbut natives have nothing to learn\n\n\n\n\n\n\n\n\n\n\n\nNatives are the control for everything except learning: same sounds, same responses, same feedback, but nothing to learn.\nLearners rise from .38 to .82 (t(11) = 6.68). Natives are at ceiling: .95 in run 1, then ~.98.\nIf asked whether natives improved: small gain from run 1 to 2 (p = .041). That’s getting used to the task, not learning the categories.\n\n\nGroup × run F(5, 115) = 19.1, p &lt; .001"
   },
   {
     "objectID": "talk.html#learning-reshapes-the-caudates-response-to-feedback",
@@ -648,7 +648,7 @@
     "href": "talk.html#each-cortical-network-has-its-own-striatal-connectivity-profile",
     "title": "Neural systems underlying human speech communication",
     "section": "Each cortical network has its own striatal connectivity profile",
-    "text": "Each cortical network has its own striatal connectivity profile\n\n\n\n\n\n\nAuditory and visual cortices connect most strongly with the posterior putamen – but auditory is more hierarchical\nPrefrontal cortex connects broadly across caudate and anterior putamen\nMotor cortex favors posterior putamen and posterior caudate\n\n\n\nDiffusion tractography from each cortical network to four dorsal striatal subdivisions (aCAU, pCAU, aPUT, pPUT), both hemispheres. Note the log-scale y-axis: differences between subdivisions are often an order of magnitude.\nVisual cortex follows the same posterior-putamen pattern as auditory.\n\n\nSitek et al. (in revision); Human Connectome Project 7T diffusion-weighted MRI (n = 97)"
+    "text": "Each cortical network has its own striatal connectivity profile\n\n\n\n\n\n\n\nAuditory and visual cortices connect most strongly with the posterior putamen – but auditory is more hierarchical\nPrefrontal cortex connects broadly across caudate and anterior putamen\nMotor cortex favors posterior putamen and posterior caudate\n\n\n\n\nDiffusion tractography from each cortical network to four dorsal striatal subdivisions (aCAU, pCAU, aPUT, pPUT), both hemispheres. Note the log-scale y-axis: differences between subdivisions are often an order of magnitude.\nVisual cortex follows the same posterior-putamen pattern as auditory.\n\n\nSitek et al. (in revision); Human Connectome Project 7T diffusion-weighted MRI (n = 97)"
   },
   {
     "objectID": "talk.html#digging-deeper-into-auditorymotor-interactions",
@@ -691,5 +691,40 @@
     "title": "Neural systems underlying human speech communication",
     "section": "Every participant gets a transparent report: analysis",
     "text": "Every participant gets a transparent report: analysis\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTry FFRPrep and let us know what you think!\n\n\n\n\nTime–frequency: energy at the stimulus f0 (~100 Hz) and harmonics during the sound.\nStimulus–response cross-correlation: how faithfully the brain response follows the stimulus waveform, and at what lag (here, peak at ~23 ms, consistent with subcortical generators).\nPitch tracking: f0 extracted from the response over time, colored by confidence; tracks the 100 Hz stimulus f0 during the steady-state portion.\nEach report also includes waveforms, spectra, autocorrelation, phase consistency, and scalar metrics (RMS SNR, spectral power), for each condition and their differences.\nMusicianship EEG Dataset (Whiteford et al., 2025, Nature Communications): 296 participants, 6 sites; we converted it to BIDS and shared it on Zenodo (https://doi.org/10.5281/zenodo.22967621). License: CC BY-NC 4.0.\nSame /da/ syllable as the auditory–motor studies we just saw, so FFRPrep applies directly to our own data.\n\n\nSitek, Chen & Herholz (OHBM 2026); sitek.github.io/ffrprep"
+  },
+  {
+    "objectID": "talk.html#where-are-the-auditory-structures-post-mortem-anatomy",
+    "href": "talk.html#where-are-the-auditory-structures-post-mortem-anatomy",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Where are the auditory structures: Post mortem anatomy",
+    "text": "Where are the auditory structures: Post mortem anatomy\n\n\n\n\n\n\n\n\n\n\n\n\nSpeaker notes go here.\n\n\nSitek and Gulban et al. (2019 eLife)"
+  },
+  {
+    "objectID": "talk.html#where-are-the-auditory-structures-in-vivo-functional-mri-mapping",
+    "href": "talk.html#where-are-the-auditory-structures-in-vivo-functional-mri-mapping",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Where are the auditory structures: In vivo functional MRI mapping",
+    "text": "Where are the auditory structures: In vivo functional MRI mapping\n\n\n7 Tesla functional MRI (1.1 mm voxels)\n\n168 natural sounds (1 s each): speech, voice, nature, tools, music, animals and monkey calls\nSound &gt; baseline contrast\n10 healthy participants\n2 hours per session\nCollected over 2 sessions\n\n\n\n\n\n\n\n\n\n\n\nParticipants listened to 168 natural sounds (1 s long) coming from seven categories (speech, voice, nature, tools, music, animals and monkey calls) presented in silent gaps in between the acquisition of functional volumes and were asked to press a button every time the same sound was repeated. The experimental paradigm followed a rapid-eventrelated design in which sounds were presented with a mean inter stimulus interval of four volumes (minimum three maximum five volumes). The two sessions were identical and each session consisted of twelve functional runs and across the 12 runs each sound was presented three times (i.e. each sounds was presented six times across the two sessions). The 168 sounds were divided in four sets of 42 sounds, each set was presented in three (non consecutive) runs. As a result, the 12 functional runs of each session formed four cross validation sets each one consisting of nine training runs and three testing runs (i.e. 126 training and 42 testing sounds). Note that the testing runs were non overlapping across the cross validations. Catch trials (i.e. sound repetitions) were added to each run, and were excluded from all analyses.\n\n\nSitek and Gulban et al. (2019 eLife)"
+  },
+  {
+    "objectID": "talk.html#where-are-the-auditory-structures-in-vivo-functional-mri",
+    "href": "talk.html#where-are-the-auditory-structures-in-vivo-functional-mri",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Where are the auditory structures: In vivo functional MRI",
+    "text": "Where are the auditory structures: In vivo functional MRI\n7 Tesla functional MRI (1.1 mm voxels)\n\n\n\n168 natural sounds (1 s each): speech, voice, nature, tools, music, animals and monkey calls\nSound &gt; baseline contrast\n\n\n\n10 healthy participants\n2 sessions, 2 hours each\n\n\n\n\n\n\n\n\n\n\nParticipants listened to 168 natural sounds (1 s long) coming from seven categories (speech, voice, nature, tools, music, animals and monkey calls) presented in silent gaps in between the acquisition of functional volumes and were asked to press a button every time the same sound was repeated. The experimental paradigm followed a rapid-eventrelated design in which sounds were presented with a mean inter stimulus interval of four volumes (minimum three maximum five volumes). The two sessions were identical and each session consisted of twelve functional runs and across the 12 runs each sound was presented three times (i.e. each sounds was presented six times across the two sessions). The 168 sounds were divided in four sets of 42 sounds, each set was presented in three (non consecutive) runs. As a result, the 12 functional runs of each session formed four cross validation sets each one consisting of nine training runs and three testing runs (i.e. 126 training and 42 testing sounds). Note that the testing runs were non overlapping across the cross validations. Catch trials (i.e. sound repetitions) were added to each run, and were excluded from all analyses.\n\n\nSitek and Gulban et al. (2019 eLife)"
+  },
+  {
+    "objectID": "talk.html#same-sounds-different-listeners",
+    "href": "talk.html#same-sounds-different-listeners",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Same sounds, different listeners",
+    "text": "Same sounds, different listeners\n\n\n\n\n6 runs, grouped into early, middle, and final learning stages\nLearners (non-Mandarin speakers) and native Mandarin multilingual listeners hear the same sounds and do the same task\nbut natives have nothing to learn\n\n\n\n\n\n\n\n\n\n\n\nNatives are the control for everything except learning: same sounds, same responses, same feedback, but nothing to learn.\nLearners rise from .38 to .82 (t(11) = 6.68). Natives are at ceiling: .95 in run 1, then ~.98.\nIf asked whether natives improved: small gain from run 1 to 2 (p = .041). That’s getting used to the task, not learning the categories.\n\n\nGroup × run F(5, 115) = 19.1, p &lt; .001"
+  },
+  {
+    "objectID": "talk.html#learning-reshapes-the-caudates-response-to-correct-feedback",
+    "href": "talk.html#learning-reshapes-the-caudates-response-to-correct-feedback",
+    "title": "Neural systems underlying human speech communication",
+    "section": "Learning reshapes the caudate’s response to correct feedback",
+    "text": "Learning reshapes the caudate’s response to correct feedback\n\n\n\n\n\n\n\n\n\nLearners’ anterior caudate starts above natives’ and converges by the final stage\n\n\n\n\n\n\naCAU − aPUT trend: difference = −0.66, t = −2.52, p = .019\n\n\n\n\nAs learners learn, the anterior caudate’s feedback response falls relative to the anterior putamen. Natives show no such shift.\n\n\nWithin learners, aCAU’s response to correct vs. wrong feedback declines with learning. Comparing groups requires correct feedback alone, because natives rarely make errors. On that contrast, the caudate-relative-to-putamen shift separates the groups.\nStage-by-stage gap (learners − natives, aCAU): +0.30, +0.15, −0.11. Present as convergence; no formal test.\nBe clear: it’s a relative difference. None of the four separate trends (aCAU and aPUT in each group) is significant, and the aCAU-only group test isn’t either (p = .13).\nNatives “flat”: their aCAU trend is equivalent to zero (TOST q = .024), so “flat” is a tested claim, not a missing effect.\n(permutation p = .018; holds when any one participant is dropped)"
   }
 ]
