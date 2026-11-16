@@ -102,3 +102,34 @@ h1 {
 .reveal pre code {
   max-height: 1000px;
 }
+.reveal .section-question {
+  font-size: 1.1em;
+  color: #665086;
+  margin-top: 0.6em;
+}
+
+.reveal .covered {
+  color: #665086;
+}
+
+.reveal section.references li,
+.reveal section.references p {
+  font-size: 0.8em;
+}
+
+.reveal #title-slide .quarto-title-author-name {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.reveal #title-slide .quarto-title-affiliation {
+  font-size: 1.05em;
+}
+
+.reveal .uncovered {
+  color: #8a8a8a;
+}
+
+.reveal figcaption {
+  text-align: center;
+}
